@@ -48,7 +48,9 @@ void ID_LIVRO(void){ // Menu Livros --> lista --> ID LIVRO , após inserir o ID d
 	system("cls"); // limpa o ecrã
 	
 	printf("\n\t\tTítulo:");
+	return (); // ADICIONAR O QUE É PARA DEVOLVER , OU SEJA, O TITULO
 	printf("\n\t\t Disponibilidade:");
+	return (); // DEVOLVER - DISPONIBILIDADE
 // falta fazer como aparecer as informações relativas ao ID do Livro, deverá aparecer o Título e a Disponibilidade
 
 	int op; // variavel a "entrar" - op
