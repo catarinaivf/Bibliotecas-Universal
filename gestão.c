@@ -27,3 +27,18 @@ void GESTAO(void){ // Menu Gestão
 		
 	}
 }
+
+void GESTAO_LIVROS(void){ // Gestão - Livros mais Requisitados
+
+}
+
+
+
+void GESTAO_UTILI(void){ // Gestão - Utilizadores mais Frequentes
+
+}
+
+
+void GESTAO_FAIXAS(void){ // Gestão - Faixas Etárias
+
+}
