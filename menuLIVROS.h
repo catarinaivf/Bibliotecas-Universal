@@ -21,7 +21,7 @@ void LISTA_LIVROS(void){ // Menu Livros -> Lista
       	{
       	
       	}
-	return(0);
+	return;
 	
 	
 }
@@ -99,26 +99,29 @@ void ID_LIVRO(void){ // Menu Livros --> lista --> ID LIVRO , após inserir o ID d
 
 
 void LIVROS(void){ // menu LIVROS
+		int op; // variável a "entrar" - op
 
-	system("cls"); //limpa o ecrã
-	int op; // variável a "entrar" - op
-	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-	printf("\n\n \t\t 1. LISTA");
-	printf("\n\t\t 2. ADICIONAR NOVO LIVRO");
-	printf("\n\t\t 0. VOLTAR");
-	scanf("%d", &op);	
-	
-switch(op){
-	
-		case '1': // Se 1, vai para menu LISTA
-			LISTA_LIVROS();
-			break;
-		case '2': // Se 2, vai para ADICIONAR NOVO LIVRO
-			NOVO_LIVRO();
-			break;
-		case '0': // Volta para o menu principal
-			return;
-			break;
+	do{
+		system("cls"); //limpa o ecrã
+		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+		printf("\n\n \t\t 1. LISTA");
+		printf("\n\t\t 2. ADICIONAR NOVO LIVRO");
+			printf("\n\t\t 0. VOLTAR");
+			scanf("%d", &op);	
+			
+		switch(op){
+			
+				case 1: // Se 1, vai para menu LISTA
+					LISTA_LIVROS();
+					break;
+				case 2: // Se 2, vai para ADICIONAR NOVO LIVRO
+					NOVO_LIVRO();
+					break;
+				case 0: // Volta para o menu principal
+					return;
+					break;
+			}
+			
 	}while (op !=0);
 	
 }
