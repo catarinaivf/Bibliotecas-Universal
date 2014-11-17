@@ -6,6 +6,7 @@
 #include<ctype.h>                   //contains toupper(), tolower(),etc
 #include<dos.h>                     //contains _dos_getdate
 #include<time.h>
+#include"menuLIVROS.h"
 //lista das bibliotecas
 
 #define RETURNTIME 15
