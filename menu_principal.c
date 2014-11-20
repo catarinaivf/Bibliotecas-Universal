@@ -7,7 +7,6 @@
 #include<dos.h>                     //contains _dos_getdate
 #include<time.h>
 #include"menuLIVROS.h"
-#include"utilizadores.h"
 //lista das bibliotecas
 
 #define RETURNTIME 15
@@ -119,6 +118,7 @@ void UTILIZADORES(){
 }
 
 void MENU_PRINCIPAL(){
+	
 int op;//variavel opcao
 	do{
 	//parte visual do menu*inicio

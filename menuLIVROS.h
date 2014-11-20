@@ -121,8 +121,8 @@ void LIVROS(void){ // menu LIVROS
 					return;
 					break;
 			}
-			
+		
 	}while (op !=0);
-	
+	system ("cls");
 }
 
