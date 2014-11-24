@@ -29,7 +29,11 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=1
 CompilerSettings=0000000000000000001000000
+<<<<<<< HEAD
 UnitCount=3
+=======
+UnitCount=4
+>>>>>>> origin/LIVROS
 
 [VersionInfo]
 Major=1
@@ -53,7 +57,7 @@ SyncProduct=1
 [Unit1]
 FileName=menu_principal.c
 CompileCpp=1
-Folder=Projeto1
+Folder=
 Compile=1
 Link=1
 Priority=1000
@@ -63,7 +67,7 @@ BuildCmd=
 [Unit2]
 FileName=menuLIVROS.h
 CompileCpp=1
-Folder=Projeto1
+Folder=
 Compile=1
 Link=1
 Priority=1000
@@ -71,7 +75,27 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=estruturas.c
+FileName=menuREQUISICOES.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=menuGESTAO.h
+CompileCpp=1
+Folder=Projeto1
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=menuGESTAO.h
 CompileCpp=1
 Folder=Projeto1
 Compile=1

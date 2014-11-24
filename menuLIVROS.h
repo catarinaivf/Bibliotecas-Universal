@@ -33,13 +33,16 @@ void NOVO_LIVRO(void)  // Menu Livros -> Adicionar Novo Livro
 	char tit, aut, ed, gen; // variaveis a entrar: titulo , autor, editora, género ; char porque vamos guardar caracteres
 	int op;
 	printf("\t\t Título do Livro:");
-	scanf("%c", &tit); // %c por ser do tipo char, falta saber se é suposto usar o &
+	scanf("%d", &tit); // %c por ser do tipo char, falta saber se é suposto usar o &
+	fflush(stdin); 
 	printf("\n\t\t Autor:");
-	scanf("%c", &aut);
+	scanf("%d", &aut);
+	fflush(stdin); 
 	printf("\n\t\t Editora:");
-	scanf("%c", &ed);
+	scanf("%d", &ed);
+	fflush(stdin); 
 	printf("\n\t\t Género:");
-	scanf("%c", &gen);
+	scanf("%d", &gen);
 	
 	// FALTA SABER COMO GUARDAR AS INFORMAÇÕES
 	// Falta saber como e que o sistema atribui um ID de Livro
