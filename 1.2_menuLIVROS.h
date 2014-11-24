@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-
-
+#define M 100
 
 void LISTA_LIVROS(void){ // Menu Livros -> Lista
 
@@ -30,30 +26,20 @@ void LISTA_LIVROS(void){ // Menu Livros -> Lista
 void NOVO_LIVRO(void)  // Menu Livros -> Adicionar Novo Livro
 {
 	system ("cls"); // Limpa o ecrã
-	char tit, aut, ed, gen; // variaveis a entrar: titulo , autor, editora, género ; char porque vamos guardar caracteres
-	int op;
-	printf("\t\t Título do Livro:");
-	scanf("%d", &tit); // %c por ser do tipo char, falta saber se é suposto usar o &
-	fflush(stdin); 
+	char tit[M], aut[M], ed[M], gen[M]; // variaveis a entrar: titulo , autor, editora, género ; char porque vamos guardar caracteres
+	printf("\t\t Titulo do Livro:");
+	fflush(stdin);
+	gets(tit); // 
 	printf("\n\t\t Autor:");
-	scanf("%d", &aut);
-	fflush(stdin); 
+	gets(aut);
 	printf("\n\t\t Editora:");
-	scanf("%d", &ed);
-	fflush(stdin); 
-	printf("\n\t\t Género:");
-	scanf("%d", &gen);
-	
+	gets(ed);
+	printf("\n\t\t Genero:");
+	gets(gen);
+	return;
 	// FALTA SABER COMO GUARDAR AS INFORMAÇÕES
 	// Falta saber como e que o sistema atribui um ID de Livro
 	
-	printf("\n\n\t\t0. Voltar");
-	scanf("%d", &op);
-		switch(op){
-		case '0':
-			return;
-			break;
-	}while (op !=0);
 }
 
 
@@ -106,11 +92,15 @@ void LIVROS(void){ // menu LIVROS
 
 	do{
 		system("cls"); //limpa o ecrã
+		//parte visual do menu*inicio
 		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-		printf("\n\n \t\t 1. LISTA");
+		printf("\n\n\t\t 1. LISTA");
 		printf("\n\t\t 2. ADICIONAR NOVO LIVRO");
-			printf("\n\t\t 0. VOLTAR");
-			scanf("%d", &op);	
+		printf("\n\t\t 0. VOLTAR");
+		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+		printf("\n\t\t\t:");
+		//*fim
+		scanf("%d", &op);	
 			
 		switch(op){
 			
@@ -124,8 +114,8 @@ void LIVROS(void){ // menu LIVROS
 					return;
 					break;
 			}
-		
+			
 	}while (op !=0);
-	system ("cls");
+	
 }
 

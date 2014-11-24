@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 void Livro(){
 int ID_Livro;//variavel do livro	
 	//parte visual do menu*inicio

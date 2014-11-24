@@ -1,27 +1,41 @@
-#include <windows.h>
 #include<stdio.h>                   //contains printf,scanf etc
 #include<conio.h>                   //contains delay(),getch(),gotoxy(),etc.
-#include <stdlib.h>
+#include<stdlib.h>
 #include<string.h>                  //contains strcmp(),strcpy(),strlen(),etc
 #include<ctype.h>                   //contains toupper(), tolower(),etc
 #include<dos.h>                     //contains _dos_getdate
 #include<time.h>
-#include"menuLIVROS.h"
-<<<<<<< HEAD
-=======
-#include"Utilizadores.h"
-#include"menuREQUISICOES.h"
-#include"menuGESTAO.h"
->>>>>>> origin/LIVROS
-//lista das bibliotecas
+//lista das bibliotecas principais
+
+#include"1.1_menuUTILIZADORES.h"
+#include"1.1.1_ad_u.h"//adicionar o utilizador
+#include"1.1.2_ap_u.h"//apagar o utilizador
+#include"1.1.3_ed_u.h"//editar o utilizador
+#include"1.1.4_pr_u.h"//procurar o utilizador
+
+#include"1.2_menuLIVROS.h"
+#include"1.2.1_ad_l.h"//adicionar o livro
+#include"1.2.2_ap_l.h"//apagar o livro
+#include"1.2.3_ed_l.h"//editar o livro
+#include"1.2.4_pr_l.h"//procurar o livro
+
+#include"1.3_menuREQUISICOES.h"
+#include"1.3.1_f_req.h"//fazer requisicao
+
+#include"1.4_menuGESTAO.h"
+
+#include"relogio.h"
+//lista das bibliotecas de utilizador
 
 #define RETURNTIME 15
 
+
 void MENU_PRINCIPAL(){
-	
 int op;//variavel opcao
 	do{
 	//parte visual do menu*inicio
+	system ("cls");
+	t();
 	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  MENU PRINCPIAL \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 	printf("\n");
 	printf("\n\t1. UTILIZADORES");
