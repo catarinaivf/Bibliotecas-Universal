@@ -33,7 +33,7 @@ void NOVO_UTILIZADOR(void)  // Menu utilizador -> Adicionar Novo utilizador
 	int dn[M], tel[M]; // variaveis a entrar:  Data Nascimento, Telefone; int porque vamos guardar numeros 
 	printf("\t\t Utilizador:");
 	fflush(stdin);
-	gets(nome); // 
+	gets(nome); 
 	printf("\n\t\t Data Nascimento:");
 	scanf("%d", &dn);
 	printf("\n\t\t Telefone:");
@@ -55,7 +55,7 @@ void EDITAR_UTILIZADOR(void){ // Menu UTILIZADOR -> Lista -> ID UTILIZADOR -> Ed
 void LISTA_UTILIZADOR(void){ // Menu UTILIZADOR --> lista --> ID UTILIZADOR , após inserir o ID do UTILIZADOR
 	system("cls"); // limpa o ecrã
 	
-	printf("\n\t\tUTILIZADOR:");
+	printf("\n\t\t UTILIZADOR:");
 	// AIDICONAR PROGRAMAÇAO PARA DEVOLVER A "INFORMAÇÃO"
 	printf("\n\t\t DATA NASCIMENTO:");
 	printf("\n\t\t TELEFONE:");
