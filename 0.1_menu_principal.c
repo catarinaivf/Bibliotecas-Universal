@@ -8,19 +8,13 @@
 //lista das bibliotecas principais
 
 #include"1.1_menuUTILIZADORES.h"
-#include"1.1.1_ad_u.h"//adicionar o utilizador
-#include"1.1.2_ap_u.h"//apagar o utilizador
-#include"1.1.3_ed_u.h"//editar o utilizador
-#include"1.1.4_pr_u.h"//procurar o utilizador
+
 
 #include"1.2_menuLIVROS.h"
-#include"1.2.1_ad_l.h"//adicionar o livro
-#include"1.2.2_ap_l.h"//apagar o livro
-#include"1.2.3_ed_l.h"//editar o livro
-#include"1.2.4_pr_l.h"//procurar o livro
+
 
 #include"1.3_menuREQUISICOES.h"
-#include"1.3.1_f_req.h"//fazer requisicao
+
 
 #include"1.4_menuGESTAO.h"
 
