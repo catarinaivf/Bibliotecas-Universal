@@ -11,12 +11,6 @@
 #define RETURNTIME 15
 
 char catagories[][15]={"Computer","Electronics","Electrical","Civil","Mechnnical","Architecture"};
-
-void delay(unsigned int mseconds)
-{
-    clock_t goal = mseconds + clock();
-    while (goal > clock());
-}
 //list of global files that can be acceed form anywhere in program
 FILE *fp,*ft,*fs;
 
@@ -71,7 +65,7 @@ void addbooks(void)    //funtion that add books
 
 	addbooks() ;
 	system("cls");
-	fp=fopen("Bibek.dat","ab+");
+	fp=fopen("Bibek.txt","at+");
 	if(getdata()==1)
 	{
 	a.cat=catagories[s-1];
@@ -88,18 +82,6 @@ void addbooks(void)    //funtion that add books
 	}
 }
 
-
-void returnfunc(void)
-{
-    {
-	printf(" Press ENTER to return to main menu");
-    }
-    a:
-    if(getch()==13) //allow only use of enter
-    addbooks();
-    else
-    goto a;
-}
 int getdata()
 {
 	int t;
