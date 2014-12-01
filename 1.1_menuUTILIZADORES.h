@@ -1,4 +1,63 @@
-#define M 100
+#define NR 100
+
+typedef struct 
+{
+long int id_uti;   // 1 variavel da identidade do utilizador
+char nome_uti[60],// 2 variavel do nome 
+	 mail[60];	 // 4 variavel correio electronico
+int dnd,dnm,dna,// 3 variaveis data nascimento dia, mes e ano
+	tele,	   // 5 variavel contacto telefonico
+	estado;	  // 6 variavel do estado 0=livra 1=ocupado
+}utilizador;
+
+
+void ler (utilizador *x)
+{
+	FILE *u;
+	int n;
+	if (!(u=fopen("arquivos/utilizador.txt","rt")))
+	{
+		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		getch();
+		return;
+	}
+	for(n=1;n<=NR;n++)
+	{
+		fscanf(u,"%ld\n",&x[n].id_uti);
+		fscanf(u,"%[^\n]s\n",x[n].nome_uti);
+		fscanf(u,"%d %d %d\n",&x[n].dnd,&x[n].dnm,&x[n].dna);
+		fscanf(u,"%[^\n]s\n",x[n].mail);
+		fscanf(u,"%d\n",&x[n].tele);
+		fscanf(u,"%d\n\n",&x[n].estado);
+	}
+	fclose(u);
+	printf("Ficheiro lido <Enter para continuar>");
+	getch();
+}
+
+void gravar (utilizador *x)
+{
+	FILE *u;
+	int n;
+	if (!(u=fopen("arquivos/utilizador.txt","rt")))
+	{
+		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		getch();
+		return;
+	}
+	for(n=1;n<=NR;n++)
+	{
+		fprintf(u,"%ld\n",x[n].id_uti);
+		fprintf(u,"%s\n",x[n].nome_uti);
+		fprintf(u,"%d %d %d\n",x[n].dnd,x[n].dnm,x[n].dna);
+		fprintf(u,"%s\n",x[n].mail);
+		fprintf(u,"%d\n",x[n].tele);
+		fprintf(u,"%d\n\n",x[n].estado);
+	}
+	fclose(u);
+	printf("Ficheiro lido <Enter para continuar>");
+	getch();
+}
 
 void ELIMINAR (void){
 }
@@ -29,8 +88,8 @@ void LISTA_Utilizadores(void){ // Menu utilizadores -> Lista
 void NOVO_UTILIZADOR(void)  // Menu utilizador -> Adicionar Novo utilizador
 {
 	system ("cls"); // Limpa o ecrã
-	char nome[M], mail[M]; // variaveis a entrar: nome , email ; char porque vamos guardar caracteres
-	int dn[M], tel[M]; // variaveis a entrar:  Data Nascimento, Telefone; int porque vamos guardar numeros 
+	char nome[NR], mail[NR]; // variaveis a entrar: nome , email ; char porque vamos guardar caracteres
+	int dn[NR], tel[NR]; // variaveis a entrar:  Data Nascimento, Telefone; int porque vamos guardar numeros 
 	printf("\t\t Utilizador:");
 	fflush(stdin);
 	gets(nome); 
@@ -53,33 +112,34 @@ void EDITAR_UTILIZADOR(void){ // Menu UTILIZADOR -> Lista -> ID UTILIZADOR -> Ed
 
 
 void LISTA_UTILIZADOR(void){ // Menu UTILIZADOR --> lista --> ID UTILIZADOR , após inserir o ID do UTILIZADOR
-	system("cls"); // limpa o ecrã
-	
-	printf("\n\t\t UTILIZADOR:");
-	// AIDICONAR PROGRAMAÇAO PARA DEVOLVER A "INFORMAÇÃO"
-	printf("\n\t\t DATA NASCIMENTO:");
-	printf("\n\t\t TELEFONE:");
-	printf("\n\t\t EMAIL:");
-	// DEVOLVER A "INFORMAÇÃO"
-// falta fazer como aparecer as informações relativas ao ID do utilizador, deverá aparecer o utilizador, data nascimento,telefone e email
 
-	int op; // variavel a "entrar" - op
-	printf("\n\n\t\t 1. EDITAR");
-	printf("\n\n\t\t 2. ELIMINAR");
-	printf("\n\n\t\t 0. Voltar");
-	scanf("%d", &op);
+	system("cls"); // limpa o ecrã
+	void ler (utilizador *x)
 	
-	switch(op){
-		case '1': // Se 1, vai para menu utilizador 
-			EDITAR_UTILIZADOR();
-			break;
-		case '2': // Se 2, vai para o menu eliminar
-			ELIMINAR();
-			break;
-		case '0': // Volta para o menu Lista
-			return;
-			break;
-	}while (op !=0);
+{
+		
+	FILE *u;
+	int n;
+	if (!(u=fopen("arquivos/utilizador.txt","rt")))
+	{
+		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		getch();
+		return;
+	}
+	for(n=1;n<=NR;n++)
+	{
+		fscanf(u,"%ld\n",&x[n].id_uti);
+		fscanf(u,"%[^\n]s\n",x[n].nome_uti);
+		fscanf(u,"%d %d %d\n",&x[n].dnd,&x[n].dnm,&x[n].dna);
+		fscanf(u,"%[^\n]s\n",x[n].mail);
+		fscanf(u,"%d\n",&x[n].tele);
+		fscanf(u,"%d\n\n",&x[n].estado);
+	}
+	fclose(u);
+	printf("Ficheiro lido <Enter para continuar>");
+	getch();
+	}
+
 }
 
 
@@ -93,13 +153,13 @@ void UTILIZADORES(void){ // menu UTILIZADORES
 		printf("\n\n\t\t 1. LISTA");
 		printf("\n\t\t 2. ADICIONAR NOVO UTILIZADOR");
 		printf("\n\t\t 0. VOLTAR");
+		printf("\n\t\t l. ler");
 		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
 		//*fim
 		scanf("%d", &op);	
 			
 		switch(op){
-			
 				case 1: // Se 1, vai para menu LISTA
 					LISTA_UTILIZADOR();
 					break;
