@@ -111,37 +111,15 @@ void EDITAR_UTILIZADOR(void){ // Menu UTILIZADOR -> Lista -> ID UTILIZADOR -> Ed
 }
 
 
-void LISTA_UTILIZADOR(void){ // Menu UTILIZADOR --> lista --> ID UTILIZADOR , após inserir o ID do UTILIZADOR
-
+void LER_UTILIZADOR(void){ // Menu UTILIZADOR --> lista --> ID UTILIZADOR , após inserir o ID do UTILIZADOR
+	utilizador x;
 	system("cls"); // limpa o ecrã
-	void ler (utilizador *x)
-	
-{
-		
-	FILE *u;
-	int n;
-	if (!(u=fopen("arquivos/utilizador.txt","rt")))
-	{
-		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
-		getch();
-		return;
-	}
-	for(n=1;n<=NR;n++)
-	{
-		fscanf(u,"%ld\n",&x[n].id_uti);
-		fscanf(u,"%[^\n]s\n",x[n].nome_uti);
-		fscanf(u,"%d %d %d\n",&x[n].dnd,&x[n].dnm,&x[n].dna);
-		fscanf(u,"%[^\n]s\n",x[n].mail);
-		fscanf(u,"%d\n",&x[n].tele);
-		fscanf(u,"%d\n\n",&x[n].estado);
-	}
-	fclose(u);
-	printf("Ficheiro lido <Enter para continuar>");
-	getch();
-	}
-
+	ler(&x);
 }
 
+void LISTA_UTILIZADOR(void){
+	// Codigo para mostrar a lista de utilizadores
+}
 
 void UTILIZADORES(void){ // menu UTILIZADORES
 		int op; // variável a "entrar" - op
@@ -150,20 +128,23 @@ void UTILIZADORES(void){ // menu UTILIZADORES
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
 		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD UTILIZADORES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-		printf("\n\n\t\t 1. LISTA");
-		printf("\n\t\t 2. ADICIONAR NOVO UTILIZADOR");
+		printf("\n\n\t\t 1. LER");
+		printf("\n\t\t 2. LISTA");
+		printf("\n\t\t 3. ADICIONAR NOVO UTILIZADOR");
 		printf("\n\t\t 0. VOLTAR");
-		printf("\n\t\t l. ler");
 		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
 		//*fim
 		scanf("%d", &op);	
 			
 		switch(op){
-				case 1: // Se 1, vai para menu LISTA
+				case 1:
+					LER_UTILIZADOR();
+					break;
+				case 2: // Se 1, vai para menu LISTA
 					LISTA_UTILIZADOR();
 					break;
-				case 2: // Se 2, vai para ADICIONAR NOVO utilizador
+				case 3: // Se 2, vai para ADICIONAR NOVO utilizador
 					NOVO_UTILIZADOR();
 					break;
 				case 0: // Volta para o menu principal
