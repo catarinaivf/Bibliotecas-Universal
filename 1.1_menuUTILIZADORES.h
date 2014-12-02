@@ -11,7 +11,7 @@ int	tele,	   // 5 variavel contacto telefonico
 }utilizador;
 
 
-void ler (utilizador *x)
+void ler (utilizador *x)//funcao para ler arquivo utilizador
 {
 	FILE *u;
 	int n;
@@ -35,7 +35,7 @@ void ler (utilizador *x)
 	getch();
 }
 
-void gravar (utilizador *x)
+void gravar (utilizador *x)//funcao para guardar arquivo utilizador
 {
 	FILE *u;
 	int n;
@@ -59,13 +59,23 @@ void gravar (utilizador *x)
 	getch();
 }
 
-void incerir(utilizador *x)
+void incerir(utilizador *x)//funcao para adicionar utilizador
 {
 	int n;
 	long int inser;
 	system ("cls");
 	printf("ID do utilizador: ");
 	scanf("%ld%*c",&inser);
+	for(n=1;n<NR;n++){//funcao para verificar validade do ID
+		if(x[n].id_uti==inser){
+			system ("cls");
+			printf("\nID ja utilizado");
+			getch();
+			return;
+		}
+		else
+			break;
+	}
 	for(n=1;n<NR;n++)
 	{
 		if(x[n].estado!=1)
@@ -82,6 +92,32 @@ void incerir(utilizador *x)
 		}
 	}
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
+}
+
+int editar(utilizador *x)//funcao para editar utilizador
+{
+	char confere;
+	int n;
+	long int eli;
+	system("cls");
+	printf("Qual o Numero do utilizador que quer Eliminar? "); scanf("%ld",&eli);
+	for(n=1;n<NR;n++)
+	{
+		if(x[n].id_uti==eli)
+		{
+			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n",x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
+			printf("\n%s-->",x[n].nome_uti); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
+			printf("\n%s-->",x[n].dn); gets(x[n].dn);
+			printf("\n%s-->",x[n].mail); gets(x[n].mail);
+			printf("\n%s-->",x[n].tele); scanf("%d",&x[n].tele);
+
+
+			printf("\n\n\nRegisto eliminado <enter para continuar>");
+			getch();  return (1);
+		}
+	}
+	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
+	getch(); return(0);
 }
 
 int eliminar(utilizador *x)
@@ -101,42 +137,13 @@ int eliminar(utilizador *x)
 
 			if (confere!='S' && confere!='s')    return(0);
 
-			x[n].estado=0;
+			x[n].estado=2;
 			printf("\n\n\nRegisto eliminado <enter para continuar>");
 			getch();  return (1);
 		}
 	}
 	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
 	getch(); return(0);
-}
-
-void LISTA_Utilizadores(void)// Menu utilizadores -> Lista
-{ 
-
-	system("cls"); // Limpa o ecrã
-	int op; // variável a "entrar" - op
-	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD Utilizadores - Lista  \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-	printf("\n\n\t\t ID DO Utilizador:");
-	printf("\n\t\t 0. Voltar");
-	scanf("%d", &op); // FALTA SABER COMO INSERIR O ID DO utilizador E O PROGRAMA IR BUSCAR AO FICHEIRO COM OS ID'S DOS utilizadores 
-	
-	if (op==0) // se inserir 0, volta para o menu principal
-      	{
-      		return;
-      	}
-	else // tudo o resto, vai para o menu ListaIDu - Lista - ID utilizador - apresenta informações
-      	{
-      	
-      	}
-	return;
-	
-	
-}
-
-
-void EDITAR_UTILIZADOR(void)// Menu UTILIZADOR -> Lista -> ID UTILIZADOR -> Editar
-{ 
-// como fazer para alterar as informações novas???
 }
 
 void mostrar(utilizador *x)
@@ -149,8 +156,17 @@ void mostrar(utilizador *x)
 		{
 			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
 			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
-		}
+		}	
 	}
+	for(n=1;n<NR;n++)
+	{
+		if(x[n].estado==2)
+		{
+			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\nEliminado\n\n"
+			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
+		}	
+	}
+	
 	printf("\n\n\nListagem Concluida <Enter para Continuar>");getch();
 }
 
@@ -169,8 +185,9 @@ void UTILIZADORES(void)// menu UTILIZADORES
 		printf("\n\n\t\t 1. LER ARQUIVO");
 		printf("\n\t\t 2. ADICIONAR NOVO UTILIZADOR");
 		printf("\n\t\t 3. APAGAR UTILIZADOR");
-		printf("\n\t\t 4. LISTA");
-		printf("\n\t\t 5. GRAVAR ARQUIVO");
+		printf("\n\t\t 4. EDITAR UTILIZADOR");
+		printf("\n\t\t 5. LISTA");
+		printf("\n\t\t 6. GRAVAR ARQUIVO");
 		printf("\n\t\t 0. VOLTAR");
 		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
@@ -188,9 +205,12 @@ void UTILIZADORES(void)// menu UTILIZADORES
 					eliminar(&x);
 					break;
 				case 4:
-					mostrar(&x);
+					editar(&x);
 					break;
 				case 5:
+					mostrar(&x);
+					break;
+				case 6:
 					gravar(&x);	
 					break;
 				case 0: // Volta para o menu principal

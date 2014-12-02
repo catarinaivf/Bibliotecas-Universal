@@ -8,15 +8,10 @@
 //lista das bibliotecas principais
 
 #include"1.1_menuUTILIZADORES.h"
-
-
 #include"1.2_menuLIVROS.h"
-
-
 #include"1.3_menuREQUISICOES.h"
-
-
 #include"1.4_menuGESTAO.h"
+
 
 #include"relogio.h"
 //lista das bibliotecas de utilizador
