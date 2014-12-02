@@ -66,6 +66,8 @@ void incerir(utilizador *x)//funcao para adicionar utilizador
 	system ("cls");
 	printf("ID do utilizador: ");
 	scanf("%ld%*c",&inser);
+	if(inser==0)
+		return;
 	for(n=1;n<NR;n++){//funcao para verificar validade do ID
 		if(x[n].id_uti==inser){
 			system ("cls");
@@ -112,7 +114,7 @@ int editar(utilizador *x)//funcao para editar utilizador
 			printf("\n%s-->",x[n].tele); scanf("%d",&x[n].tele);
 
 
-			printf("\n\n\nRegisto eliminado <enter para continuar>");
+			printf("\n\n\nRegisto alterado <enter para continuar>");
 			getch();  return (1);
 		}
 	}
