@@ -5,7 +5,7 @@ typedef struct
 long int id_uti;   // 1 variavel da identidade do utilizador
 char nome_uti[60],// 2 variavel do nome 
 	 mail[60];	 // 4 variavel correio electronico
-char dn[10];		// 3 variavel data nascimento
+char dn[10];	// 3 variavel data nascimento
 int	tele,	   // 5 variavel contacto telefonico
 	estado;	  // 6 variavel do estado 0=livra 1=ocupado
 }utilizador;
@@ -24,9 +24,9 @@ void ler (utilizador *x)
 	for(n=1;n<=NR;n++)
 	{
 		fscanf(u,"%ld\n",&x[n].id_uti);
-		fscanf(u,"%[^\n]s\n",x[n].nome_uti);
-		fscanf(u,"%[^\n]s\n",&x[n].dn);
-		fscanf(u,"%[^\n]s\n",x[n].mail);
+		fscanf(u,"%s\n",&x[n].nome_uti);
+		fscanf(u,"%s\n",&x[n].dn);
+		fscanf(u,"%s\n",&x[n].mail);
 		fscanf(u,"%d\n",&x[n].tele);
 		fscanf(u,"%d\n\n",&x[n].estado);
 	}
@@ -35,17 +35,11 @@ void ler (utilizador *x)
 	getch();
 }
 
-void LER_UTILIZADOR(void){ // Menu UTILIZADOR --> lista --> ID UTILIZADOR , após inserir o ID do UTILIZADOR
-	utilizador x;
-	system("cls"); // limpa o ecrã
-	ler(&x);
-}
-
 void gravar (utilizador *x)
 {
 	FILE *u;
 	int n;
-	if (!(u=fopen("arquivos/utilizador.txt","rt")))
+	if (!(u=fopen("arquivos/utilizador.txt","wt")))
 	{
 		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
 		getch();
@@ -65,13 +59,6 @@ void gravar (utilizador *x)
 	getch();
 }
 
-void GRAVAR_UTILIZADOR(void)
-{	
-	utilizador x;
-	system("cls");
-	gravar(&x);
-}
-
 void incerir(utilizador *x)
 {
 	int n;
@@ -84,7 +71,7 @@ void incerir(utilizador *x)
 		if(x[n].estado!=1)
 		{
 			x[n].id_uti=inser;
-			printf("\nNome: "); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
+			printf("\nNome(nome_apelido): "); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\nData de nascimento(DD/MM/AAAA): "); gets(x[n].dn);
 			printf("\nMail: "); gets(x[n].mail);
 			printf("\nNumero de telemovel/telefone: "); scanf("%d",&x[n].tele);
@@ -95,13 +82,6 @@ void incerir(utilizador *x)
 		}
 	}
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
-}
-
-void NOVO_UTILIZADOR(void)
-{
-	utilizador x;
-	system("cls");
-	incerir(&x);
 }
 
 int eliminar(utilizador *x)
@@ -115,8 +95,8 @@ int eliminar(utilizador *x)
 	{
 		if(x[n].id_uti==eli)
 		{
-			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\nEstado: %d\n\n"
-			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele,x[n].estado);
+			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
+			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
 			printf("\n\nQuer mesmo eliminar? <S/N>");confere=getch();
 
 			if (confere!='S' && confere!='s')    return(0);
@@ -128,13 +108,6 @@ int eliminar(utilizador *x)
 	}
 	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
 	getch(); return(0);
-}
-
-void ELIMINAR_UTILIZADOR(void)
-{
-	utilizador x;
-	system("cls");
-	eliminar(&x);
 }
 
 void LISTA_Utilizadores(void)// Menu utilizadores -> Lista
@@ -168,40 +141,36 @@ void EDITAR_UTILIZADOR(void)// Menu UTILIZADOR -> Lista -> ID UTILIZADOR -> Edit
 
 void mostrar(utilizador *x)
 {
+	system("cls");
 	int n;
-	system ("cls");
 	for(n=1;n<NR;n++)
 	{
 		if(x[n].estado==1)
 		{
-			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\nEstado: %d\n\n"
-			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele,x[n].estado);
+			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
+			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
 		}
 	}
 	printf("\n\n\nListagem Concluida <Enter para Continuar>");getch();
 }
 
-void LISTA_UTILIZADOR(void)
-{
-	utilizador x;
-	system("cls");
-	mostrar(&x);
-}
-
 void UTILIZADORES(void)// menu UTILIZADORES
 { 
 		int op; // variavel a "entrar" - op
-
+		int n;
+		utilizador x;
+		utilizador uti[NR];
+		for(n=0;n<NR;n++)
+			uti[n].estado=0;
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
 		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD UTILIZADORES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\n\t\t 1. LER ARQUIVO");
-		printf("\n\t\t 2. LISTA");
-		printf("\n\t\t 3. ADICIONAR NOVO UTILIZADOR");
-		printf("\n\t\t 4. APAGAR UTILIZADOR");
-		printf("\n\t\t 5. LISTA");
-		printf("\n\t\t 6. GRAVAR ARQUIVO");
+		printf("\n\t\t 2. ADICIONAR NOVO UTILIZADOR");
+		printf("\n\t\t 3. APAGAR UTILIZADOR");
+		printf("\n\t\t 4. LISTA");
+		printf("\n\t\t 5. GRAVAR ARQUIVO");
 		printf("\n\t\t 0. VOLTAR");
 		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
@@ -210,22 +179,19 @@ void UTILIZADORES(void)// menu UTILIZADORES
 			
 		switch(op){
 				case 1:
-					LER_UTILIZADOR();
+					ler(&x);
 					break;
-				case 2: // Se 1, vai para menu LISTA
-					LISTA_UTILIZADOR();
+				case 2: // Se 2, vai para ADICIONAR NOVO utilizador
+					incerir(&x);
 					break;
-				case 3: // Se 2, vai para ADICIONAR NOVO utilizador
-					NOVO_UTILIZADOR();
+				case 3:
+					eliminar(&x);
 					break;
 				case 4:
-					ELIMINAR_UTILIZADOR();
+					mostrar(&x);
 					break;
 				case 5:
-					LISTA_UTILIZADOR();
-					break;
-				case 6:
-					GRAVAR_UTILIZADOR();	
+					gravar(&x);	
 					break;
 				case 0: // Volta para o menu principal
 					return;
