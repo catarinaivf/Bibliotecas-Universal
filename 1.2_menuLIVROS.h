@@ -103,12 +103,13 @@ int editar(livro *y)//funcao para editar livro
 	int n;
 	long int eli;
 	system("cls");
-	printf("Qual o Numero do livro que quer Eliminar? "); scanf("%ld",&eli);
+	printf("Qual o Numero do livro que quer Editar? "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(y[n].id_liv==eli)
 		{
 			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nNumero de telemovel/telefone: %d\n\n",y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor,y[n].tele);
+			fflush(stdin); 
 			printf("\n%s-->",y[n].titulo); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\n%s-->",y[n].gen); gets(y[n].gen);
 			printf("\n%s-->",y[n].autor); gets(y[n].autor);

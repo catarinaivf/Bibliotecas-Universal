@@ -102,12 +102,13 @@ int editar(utilizador *x)//funcao para editar utilizador
 	int n;
 	long int eli;
 	system("cls");
-	printf("Qual o Numero do utilizador que quer Eliminar? "); scanf("%ld",&eli);
+	printf("Qual o Numero do utilizador que quer Editar? "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(x[n].id_uti==eli)
 		{
 			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n",x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
+			fflush(stdin); 
 			printf("\n%s-->",x[n].nome_uti); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\n%s-->",x[n].dn); gets(x[n].dn);
 			printf("\n%s-->",x[n].mail); gets(x[n].mail);
