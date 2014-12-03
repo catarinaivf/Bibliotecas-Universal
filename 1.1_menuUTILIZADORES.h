@@ -112,7 +112,7 @@ int editar(utilizador *x)//funcao para editar utilizador
 			printf("\n%s-->",x[n].nome_uti); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\n%s-->",x[n].dn); gets(x[n].dn);
 			printf("\n%s-->",x[n].mail); gets(x[n].mail);
-			printf("\n%s-->",x[n].tele); scanf("%d",&x[n].tele);
+			printf("\n%d-->",x[n].tele); scanf("%d",&x[n].tele);
 
 
 			printf("\n\n\nRegisto alterado <enter para continuar>");
@@ -219,6 +219,12 @@ void UTILIZADORES(void)// menu UTILIZADORES
 				case 0: // Volta para o menu principal
 					return;
 					break;
+				default://se nao foi escolodo o caso certo(pode nao sair daqui)
+        		{
+        			printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
+        			scanf("%d", &op);
+        			system ("cls");
+        		}
 			}
 			
 	}while (op !=0);

@@ -6,8 +6,7 @@ long int id_liv;   // 1 variavel da identidade do livro
 char titulo[60],  // 2 variavel do titulo 
 	 autor[60]; // 4 variavel autora
 char gen[10];	// 3 variavel genero
-int	tele,	   // 5 variavel contacto telefonico
-	estado;	  // 6 variavel do estado 0=livra 1=ocupado
+int	estado;	  // 6 variavel do estado 0=livra 1=ocupado
 }livro;
 
 
@@ -27,7 +26,6 @@ void ler (livro *y)//funcao para ler arquivo utilizador
 		fscanf(l,"%s\n",&y[n].titulo);
 		fscanf(l,"%s\n",&y[n].gen);
 		fscanf(l,"%s\n",&y[n].autor);
-		fscanf(l,"%d\n",&y[n].tele);//<-----------------------------------
 		fscanf(l,"%d\n\n",&y[n].estado);
 	}
 	fclose(l);
@@ -51,7 +49,6 @@ void gravar (livro *y)//funcao para guardar arquivo livro
 		fprintf(l,"%s\n",y[n].titulo);
 		fprintf(l,"%s\n",y[n].gen);
 		fprintf(l,"%s\n",y[n].autor);
-		fprintf(l,"%d\n",y[n].tele);
 		fprintf(l,"%d\n\n",y[n].estado);
 	}
 	fclose(l);
@@ -87,7 +84,6 @@ void incerir(livro *y)//funcao para adicionar livro
 			printf("\nTitulo: "); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\nGenero: "); gets(y[n].gen);
 			printf("\nAutor: "); gets(y[n].autor);
-			printf("\nNumero de telemovel/telefone: "); scanf("%d",&y[n].tele);
 			y[n].estado=1;
 			printf("\n\n\nRegisto Inserido <Enter para Continuar>");
 			getch();
@@ -108,12 +104,11 @@ int editar(livro *y)//funcao para editar livro
 	{
 		if(y[n].id_liv==eli)
 		{
-			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nNumero de telemovel/telefone: %d\n\n",y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor,y[n].tele);
+			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n",y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 			fflush(stdin); 
 			printf("\n%s-->",y[n].titulo); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\n%s-->",y[n].gen); gets(y[n].gen);
 			printf("\n%s-->",y[n].autor); gets(y[n].autor);
-			printf("\n%s-->",y[n].tele); scanf("%d",&y[n].tele);
 
 
 			printf("\n\n\nRegisto alterado <enter para continuar>");
@@ -135,8 +130,8 @@ int eliminar(livro *y)
 	{
 		if(y[n].id_liv==eli)
 		{
-			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nNumero de telemovel/telefone: %d\n\n"
-			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor,y[n].tele);
+			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
+			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 			printf("\n\nQuer mesmo eliminar? <S/N>");confere=getch();
 
 			if (confere!='S' && confere!='s')    return(0);
@@ -158,16 +153,16 @@ void mostrar(livro *y)
 	{
 		if(y[n].estado==1)
 		{
-			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nNumero de telemovel/telefone: %d\n\n"
-			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor,y[n].tele);
+			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
+			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 		}	
 	}
 	for(n=1;n<NR;n++)
 	{
 		if(y[n].estado==2)
 		{
-			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nNumero de telemovel/telefone: %d\nEliminado\n\n"
-			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor,y[n].tele);
+			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nEliminado\n\n"
+			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 		}	
 	}
 	
@@ -175,7 +170,7 @@ void mostrar(livro *y)
 }
 
 void LIVROS(void){ // menu LIVROS
-		int op; // variável a "entrar" - op
+	int op; // variável a "entrar" - op
 	int n;
 	livro y;
 	livro liv[NR];
@@ -219,6 +214,12 @@ void LIVROS(void){ // menu LIVROS
 				case 0:
 					return;
 					break;
+				default://se nao foi escolodo o caso certo(pode nao sair daqui)
+        		{
+        			printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
+        			scanf("%d", &op);
+        			system ("cls");
+        		}
 			}
 			
 	}while (op !=0);
