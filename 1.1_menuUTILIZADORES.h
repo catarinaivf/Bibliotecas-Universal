@@ -64,23 +64,19 @@ void incerir(utilizador *x)//funcao para adicionar utilizador
 	int n;
 	long int inser;
 	system ("cls");
-	printf("ID do utilizador: ");
+	printf("Incira 0 para voltar: ");
 	scanf("%ld%*c",&inser);
 	if(inser==0)
 		return;
 	for(n=1;n<NR;n++){//funcao para verificar validade do ID
-		if(x[n].id_uti==inser){
-			system ("cls");
-			printf("\nID ja utilizado");
-			getch();
-			return;
-		}
-		else
+		if(x[n].id_uti!=n){
+			inser=n;
 			break;
+		}
 	}
 	for(n=1;n<NR;n++)
 	{
-		if(x[n].estado!=1)
+		if(x[n].estado!=1&&x[n].estado!=2)
 		{
 			x[n].id_uti=inser;
 			printf("\nNome(nome_apelido): "); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);

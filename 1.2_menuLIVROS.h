@@ -62,23 +62,19 @@ void incerir(livro *y)//funcao para adicionar livro
 	int n;
 	long int inser;
 	system ("cls");
-	printf("ID do livro: ");
+	printf("Incira 0 para voltar: ");
 	scanf("%ld%*c",&inser);
 	if(inser==0)
 		return;
 	for(n=1;n<NR;n++){//funcao para verificar validade do ID
-		if(y[n].id_liv==inser){
-			system ("cls");
-			printf("\nID ja utilizado");
-			getch();
-			return;
+		if(y[n].id_liv!=n){
+			inser=n;
+			break;	
 		}
-		else
-			break;
 	}
 	for(n=1;n<NR;n++)
 	{
-		if(y[n].estado!=1&&y[n].estado!=2)
+		if(y[n].estado!=1&&y[n].estado!=2&&y[n].estado!=3)
 		{
 			y[n].id_liv=inser;
 			printf("\nTitulo: "); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);

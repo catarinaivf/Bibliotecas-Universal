@@ -1,6 +1,17 @@
+/*
 #define M 100
 
-void ler_utilizador (utilizador *x)//funcao para ler arquivo utilizador
+typedef struct 
+{
+long int id_uti_r,   // 1 variavel da identidade do utilizador
+		id_uti_2,	// conatante para gravar ID utilizador
+		id_liv_r,
+		id_liv_2,	//constante para gravar ID livro
+		id_requisicao;
+int estado;	  // 6 variavel do estado 0=livra 1=ocupado
+}requisicao;
+
+void ler_utilizador(utilizador *x)//funcao para ler arquivo utilizador
 {
 	FILE *u;
 	int n;
@@ -22,7 +33,7 @@ void ler_utilizador (utilizador *x)//funcao para ler arquivo utilizador
 	fclose(u);
 }
 
-void ler_livro (livro *y)//funcao para ler arquivo utilizador
+void ler_livro(livro *y)//funcao para ler arquivo utilizador
 {
 	FILE *l;
 	int n;
@@ -43,7 +54,7 @@ void ler_livro (livro *y)//funcao para ler arquivo utilizador
 	fclose(l);
 }
 
-void gravar_livro (livro *y)//funcao para guardar arquivo livro
+void gravar_livro(livro *y)//funcao para guardar arquivo livro
 {
 	FILE *l;
 	int n;
@@ -65,14 +76,6 @@ void gravar_livro (livro *y)//funcao para guardar arquivo livro
 	printf("Ficheiro gravado <Enter para continuar>");
 	getch();
 }
-
-typedef struct 
-{
-long int id_uti_r,   // 1 variavel da identidade do utilizador
-		id_liv_r,
-		id_requisicao;
-int estado;	  // 6 variavel do estado 0=livra 1=ocupado
-}requisicao;
 
 void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
 {
@@ -174,7 +177,7 @@ void inserir(requisicao *z){
 			for(m=1;m<NR;m++){//funcao para verificar validade do ID
 				if(y[m].id_liv==inser){
 				system ("cls");
-				printf("\nTitulo:",y[n].titulo);
+				printf("\nTitulo:",y[m].titulo);
 				y[m].estado=3;
 				z[n].id_liv_r=inser;
 				break;
@@ -204,8 +207,10 @@ void inserir(requisicao *z){
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
 
 }
-
+*/
 void REQUISICOES(){
+/*
+
 	int op_REQUISICOES;//variavel opcao	
 	//parte visual do menu*inicio
 		int n;
@@ -244,5 +249,6 @@ void REQUISICOES(){
         system ("cls");
         }
     }
+*/
 }
 
