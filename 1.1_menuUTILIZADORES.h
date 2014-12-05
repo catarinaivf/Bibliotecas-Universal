@@ -109,8 +109,12 @@ int editar(utilizador *x)//funcao para editar utilizador
 			printf("\n%s-->",x[n].dn); gets(x[n].dn);
 			printf("\n%s-->",x[n].mail); gets(x[n].mail);
 			printf("\n%d-->",x[n].tele); scanf("%d",&x[n].tele);
-
-
+			if(x[n].estado==2){
+				x[n].estado=1;
+				break;
+			}
+			else
+				break;
 			printf("\n\n\nRegisto alterado <enter para continuar>");
 			getch();  return (1);
 		}

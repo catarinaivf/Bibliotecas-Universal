@@ -105,8 +105,12 @@ int editar(livro *y)//funcao para editar livro
 			printf("\n%s-->",y[n].titulo); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\n%s-->",y[n].gen); gets(y[n].gen);
 			printf("\n%s-->",y[n].autor); gets(y[n].autor);
-
-
+			if(y[n].estado==2){
+				y[n].estado=1;
+				break;
+			}
+			else
+				break;
 			printf("\n\n\nRegisto alterado <enter para continuar>");
 			getch();  return (1);
 		}
