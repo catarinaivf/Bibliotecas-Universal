@@ -11,74 +11,6 @@ typedef struct
 	int estado;	  // 6 variavel do estado 0=livra 1=ocupado
 }requisicao;
 
-void ler_utilizador(utilizador *x)//funcao para ler arquivo utilizador
-{
-	FILE *u;
-	int n;
-	if (!(u=fopen("arquivos/utilizador.txt","rt")))
-	{
-		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
-		getch();
-		return;
-	}
-	for(n=1;n<=NR;n++)
-	{
-		
-		fscanf(u,"%ld\n",&x[n].id_uti);
-		fscanf(u,"%s\n",&x[n].nome_uti);
-		fscanf(u,"%s\n",&x[n].dn);
-		fscanf(u,"%s\n",&x[n].mail);
-		fscanf(u,"%d\n",&x[n].tele);
-		fscanf(u,"%d\n\n",&x[n].estado);
-	}
-	fclose(u);
-}
-
-void ler_livro(livro *y)//funcao para ler arquivo utilizador
-{
-	FILE *l;
-	int n;
-	if (!(l=fopen("arquivos/livro.txt","rt")))
-	{
-		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
-		getch();
-		return;
-	}
-	for(n=1;n<=NR;n++)
-	{
-		fscanf(l,"%ld\n",&y[n].id_liv);
-		fscanf(l,"%s\n",&y[n].titulo);
-		fscanf(l,"%s\n",&y[n].gen);
-		fscanf(l,"%s\n",&y[n].autor);
-		fscanf(l,"%d\n\n",&y[n].estado);
-	}
-	fclose(l);
-}
-
-void gravar_livro(livro *y)//funcao para guardar arquivo livro
-{
-	FILE *l;
-	int n, k=1;
-	if (!(l=fopen("arquivos/livro.txt","wt")))
-	{
-		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
-		getch();
-		return;
-	}
-	for(n=1;n<=NR;n++)
-	{
-		if(y[n].estado != 0){
-		
-		fprintf(l,"%ld\n",y[n].id_liv);
-		fprintf(l,"%s\n",y[n].titulo);
-		fprintf(l,"%s\n",y[n].gen);
-		fprintf(l,"%s\n",y[n].autor);
-		fprintf(l,"%d\n\n",y[n].estado);
-	}
-	}
-	fclose(l);
-}
-
 void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
 {
 	FILE *r;
@@ -117,13 +49,14 @@ void gravar_requisicao (requisicao *z)//funcao para guardar arquivo livro
 	}
 	for(n=1;n<=NR;n++)
 	{
-		
-		fprintf(r,"%ld\n",z[n].id_requisicao);
-		fprintf(r,"%ld\n",z[n].id_uti_r);
-		fprintf(r,"%s\n",z[n].nome_r);
-		fprintf(r,"%ld\n",z[n].id_liv_r);
-		fprintf(r,"%s\n",z[n].titulo_r);
-		fprintf(r,"%d\n\n",z[n].estado);
+		if(z[n].estado!=0){
+			fprintf(r,"%ld\n",z[n].id_requisicao);
+			fprintf(r,"%ld\n",z[n].id_uti_r);
+			fprintf(r,"%s\n",z[n].nome_r);
+			fprintf(r,"%ld\n",z[n].id_liv_r);
+			fprintf(r,"%s\n",z[n].titulo_r);
+			fprintf(r,"%d\n\n",z[n].estado);
+		}
 	}
 	fclose(r);
 }
@@ -144,7 +77,7 @@ void mostrar_requisicao(requisicao *z)
 	}
 	for(n=1;n<NR;n++)
 	{
-		if(z[n].estado==1)
+		if(z[n].estado==2)
 		{
 			printf("\n\nID da Requisicao: %ld\n%ld : %s --- %ld : %s --- Concluido\n\n"
 			,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
@@ -177,44 +110,37 @@ void inserir(requisicao *z, livro *y, utilizador *x){
 			printf("\nID do Livro(0=voltar): "); scanf("%d",&inser);    // scanf("%[^\n]s",x[n].nome_uti);
 			if(inser==0)
 				return;
-			ler_utilizador(x);
+			ler_l(y);
 			for(m=1; m<NR; m++){//funcao para verificar validade do ID
 				if(y[m].id_liv == inser){
-					limpa_ecra();
-					printf("\nTitulo:",y[m].titulo);
+					printf("\nTitulo: %s",y[m].titulo);
 					y[m].estado=3;
 					z[n].id_liv_r=inser;
 					strcpy(z[n].titulo_r,y[m].titulo);
-					break;
-				}
-				//else
-				//	return;
-			}
-		}
-			printf("\nID do Utilizador(0=voltar): "); scanf("%d",&inser);
-			if(inser==0)
-				return;
-			ler_livro(y);
-			for(m=1;m<NR;m++){//funcao para verificar validade do ID
-				if(x[m].id_uti==inser){
-					limpa_ecra();
-					z[n].id_uti_r=inser;
-					strcpy(z[n].nome_r,x[m].nome_uti);
+					printf("\n\nID do Utilizador(0=voltar): "); scanf("%d",&inser);
+					if(inser==0)
+					return;
+					ler_u(x);
+					if(x[m].id_uti==inser){
+						z[n].id_uti_r=inser;
+						strcpy(z[n].nome_r,x[m].nome_uti);
+						z[n].estado=1;
+						printf("\n\n\nRegisto Inserido com sucesso! (Prima ENTER para continuar)");
+						getch();
+						return;
+					}
 					break;
 				}
 				else
 					return;
-			z[n].estado=1;
-			printf("\n\n\nRegisto Inserido com sucesso! (Prima ENTER para continuar)");
-			getch();
-			return;
+			}
 		}
 	}
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
 
 }
 
-int eliminar(requisicao *z)
+int concluir(requisicao *z)
 {
 	char confere;
 	int n;
@@ -223,18 +149,23 @@ int eliminar(requisicao *z)
 	printf("Numero da requisicao a concluir: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
-		if(z[n].id_requisicao==eli)
-		{
-			printf("\n\nID da Requicicao: %ld\n%ld : %s --- %ld : %s\n\n"
-			,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
-			printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
-
-			if (confere!='S' && confere!='s')    return(0);
-
-			z[n].estado=2;
-			printf("\n\n\nRegisto eliminado com sucesso (Prima ENTER para continuar)");
-			getch();  return (1);
+		if(z[n].estado==1){
+			if(z[n].id_requisicao==eli)
+			{
+				printf("\n\nID da Requicicao: %ld\n%ld : %s --- %ld : %s\n\n"
+				,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
+				printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
+	
+				if (confere!='S' && confere!='s')    return(0);
+	
+				z[n].estado=2;
+				printf("\n\n\nRegisto concluida com sucesso (Prima ENTER para continuar)");
+				getch();  return (1);
+			}
 		}
+		else
+			printf("\nFoi concluido");
+			getch();  return (0);
 	}
 	printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
 	getch(); return(0);
@@ -249,10 +180,13 @@ void REQUISICOES(){
 	livro y;
 	requisicao z;
 	requisicao req[NR];
+	for(n=0;n<NR;n++)
+		req[n].estado=0;
+	utilizador uti[NR];
+	for(n=0;n<NR;n++)
+		uti[n].estado=0;	
+	ler_requisicao(&z);
 	do{
-		for(n=0;n<NR;n++)
-			req[n].estado=0;
-		ler_requisicao(&z);
 		limpa_ecra();
 		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  REQUISICOES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\n\t 1. FAZER REQUISICAO");
@@ -269,11 +203,11 @@ void REQUISICOES(){
 			case 1: 
 				inserir(&z,&y,&x); 
 				break;
-			case 2:	eliminar(&z);break;
+			case 2:	concluir(&z);break;
 			case 3:	mostrar_requisicao(&z); break;
 			case 0: 
 				gravar_requisicao(&z);
-				gravar_livro(&y); 
+				gravar_l(&y); 
 				return;
 			default:
 		        printf("\a\n\n\tInseriu mal opcao!Insira outra vez: ");

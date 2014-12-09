@@ -13,7 +13,7 @@ int	estado;	  // 6 variavel do estado 0=livra 1=ocupado
 void ler_l (livro *y)//funcao para ler arquivo utilizador
 {
 	FILE *l;
-	int n;
+	int n,k=0;
 	if (!(l=fopen("arquivos/livro.txt","rt")))
 	{
 		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
@@ -22,11 +22,15 @@ void ler_l (livro *y)//funcao para ler arquivo utilizador
 	}
 	for(n=1;n<=NR;n++)
 	{
-		fscanf(l,"%ld\n",&y[n].id_liv);
-		fscanf(l,"%s\n",&y[n].titulo);
-		fscanf(l,"%s\n",&y[n].gen);
-		fscanf(l,"%s\n",&y[n].autor);
-		fscanf(l,"%d\n\n",&y[n].estado);
+		k = fscanf(l,"%ld\n",&y[n].id_liv);
+		if(k==1){
+			fscanf(l,"%s\n",&y[n].titulo);
+			fscanf(l,"%s\n",&y[n].gen);
+			fscanf(l,"%s\n",&y[n].autor);
+			fscanf(l,"%d\n\n",&y[n].estado);
+		}
+		else
+			y[n].estado=0;
 	}
 	fclose(l);
 }
@@ -43,11 +47,13 @@ void gravar_l (livro *y)//funcao para guardar arquivo livro
 	}
 	for(n=1;n<=NR;n++)
 	{
-		fprintf(l,"%ld\n",y[n].id_liv);
-		fprintf(l,"%s\n",y[n].titulo);
-		fprintf(l,"%s\n",y[n].gen);
-		fprintf(l,"%s\n",y[n].autor);
-		fprintf(l,"%d\n\n",y[n].estado);
+		if(y[n].estado!=0){	
+			fprintf(l,"%ld\n",y[n].id_liv);
+			fprintf(l,"%s\n",y[n].titulo);
+			fprintf(l,"%s\n",y[n].gen);
+			fprintf(l,"%s\n",y[n].autor);
+			fprintf(l,"%d\n\n",y[n].estado);
+		}
 	}
 	fclose(l);
 }
@@ -127,18 +133,23 @@ int eliminar_l(livro *y)
 	printf("\nID do livro a eliminar: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
-		if(y[n].id_liv==eli)
-		{
-			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
-			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
-			printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
-
-			if (confere!='S' && confere!='s')    return(0);
-
-			y[n].estado=2;
-			printf("\n\n\nRegisto eliminado com sucesso! (Primo ENTER para continuar)");
-			getch();  return (1);
+		if(y[n].estado==1){
+			if(y[n].id_liv==eli)
+			{
+				printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
+				,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
+				printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
+	
+				if (confere!='S' && confere!='s')    return(0);
+	
+				y[n].estado=2;
+				printf("\n\n\nRegisto eliminado com sucesso! (Primo ENTER para continuar)");
+				getch();  return (1);
+			}
 		}
+		else
+			printf("\nFoi eliminado");
+			getch();  return (0);
 	}
 	printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
 	getch(); return(0);
