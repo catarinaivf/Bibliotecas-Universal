@@ -31,8 +31,6 @@ void ler (utilizador *x)//funcao para ler arquivo utilizador
 		fscanf(u,"%d\n\n",&x[n].estado);
 	}
 	fclose(u);
-	printf("Ficheiro lido <Enter para continuar>");
-	getch();
 }
 
 void gravar (utilizador *x)//funcao para guardar arquivo utilizador
@@ -55,8 +53,6 @@ void gravar (utilizador *x)//funcao para guardar arquivo utilizador
 		fprintf(u,"%d\n\n",x[n].estado);
 	}
 	fclose(u);
-	printf("Ficheiro gravado <Enter para continuar>");
-	getch();
 }
 
 void incerir(utilizador *x)//funcao para adicionar utilizador
@@ -175,22 +171,21 @@ void mostrar(utilizador *x)
 
 void UTILIZADORES(void)// menu UTILIZADORES
 { 
-		int op; // variavel a "entrar" - op
-		int n;
-		utilizador x;
-		utilizador uti[NR];
-		for(n=0;n<NR;n++)
-			uti[n].estado=0;
+	int op; // variavel a "entrar" - op
+	int n;
+	utilizador x;
+	utilizador uti[NR];
+	for(n=0;n<NR;n++)
+		uti[n].estado=0;
+	ler(&x);
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
 		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD UTILIZADORES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-		printf("\n\n\t\t 1. LER ARQUIVO");
-		printf("\n\t\t 2. ADICIONAR NOVO UTILIZADOR");
-		printf("\n\t\t 3. APAGAR UTILIZADOR");
-		printf("\n\t\t 4. EDITAR UTILIZADOR");
-		printf("\n\t\t 5. LISTA");
-		printf("\n\t\t 6. GRAVAR ARQUIVO");
+		printf("\n\n\t\t 1. ADICIONAR NOVO UTILIZADOR");
+		printf("\n\t\t 2. APAGAR UTILIZADOR");
+		printf("\n\t\t 3. EDITAR UTILIZADOR");
+		printf("\n\t\t 4. LISTA");
 		printf("\n\t\t 0. VOLTAR");
 		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
@@ -198,26 +193,20 @@ void UTILIZADORES(void)// menu UTILIZADORES
 		scanf("%d", &op);	
 			
 		switch(op){
-				case 1:
-					ler(&x);
-					break;
-				case 2: // Se 2, vai para ADICIONAR NOVO utilizador
+				case 1: // Se 2, vai para ADICIONAR NOVO utilizador
 					incerir(&x);
 					break;
-				case 3:
+				case 2:
 					eliminar(&x);
 					break;
-				case 4:
+				case 3:
 					editar(&x);
 					break;
-				case 5:
+				case 4:
 					mostrar(&x);
 					break;
-				case 6:
-					gravar(&x);	
-					break;
 				case 0: // Volta para o menu principal
-					return;
+					gravar(&x);return;
 					break;
 				default://se nao foi escolodo o caso certo(pode nao sair daqui)
         		{

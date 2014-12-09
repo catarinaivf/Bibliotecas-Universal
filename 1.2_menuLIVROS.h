@@ -29,8 +29,6 @@ void ler (livro *y)//funcao para ler arquivo utilizador
 		fscanf(l,"%d\n\n",&y[n].estado);
 	}
 	fclose(l);
-	printf("Ficheiro lido <Enter para continuar>");
-	getch();
 }
 
 void gravar (livro *y)//funcao para guardar arquivo livro
@@ -52,8 +50,6 @@ void gravar (livro *y)//funcao para guardar arquivo livro
 		fprintf(l,"%d\n\n",y[n].estado);
 	}
 	fclose(l);
-	printf("Ficheiro gravado <Enter para continuar>");
-	getch();
 }
 
 void incerir(livro *y)//funcao para adicionar livro
@@ -176,16 +172,15 @@ void LIVROS(void){ // menu LIVROS
 	livro liv[NR];
 	for(n=0;n<NR;n++)
 		liv[n].estado=0;
+	ler(&y);
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
 		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-		printf("\n\n\t\t 1. LER ARQUIVO");
-		printf("\n\t\t 2. ADICIONAR NOVO LIVRO");
-		printf("\n\t\t 3. APAGAR LIVRO");
-		printf("\n\t\t 4. EDITAR LIVRO");
-		printf("\n\t\t 5. LISTA");
-		printf("\n\t\t 6. GRAVAR ARQUIVO");
+		printf("\n\n\t\t 1. ADICIONAR NOVO LIVRO");
+		printf("\n\t\t 2. APAGAR LIVRO");
+		printf("\n\t\t 3. EDITAR LIVRO");
+		printf("\n\t\t 4. LISTA");
 		printf("\n\t\t 0. VOLTAR");
 		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
@@ -194,25 +189,19 @@ void LIVROS(void){ // menu LIVROS
 			
 		switch(op){
 				case 1:
-					ler(&y);
-					break;
-				case 2: // Se 2, vai para ADICIONAR NOVO utilizador
 					incerir(&y);
 					break;
-				case 3:
+				case 2:
 					eliminar(&y);
 					break;
-				case 4:
+				case 3:
 					editar(&y);
 					break;
-				case 5:
+				case 4:
 					mostrar(&y);
 					break;
-				case 6:
-					gravar(&y);	
-					break;
 				case 0:
-					return;
+					gravar(&y);return;
 					break;
 				default://se nao foi escolodo o caso certo(pode nao sair daqui)
         		{

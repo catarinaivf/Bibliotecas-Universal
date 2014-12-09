@@ -31,8 +31,6 @@ void ler_utilizador(utilizador *x)//funcao para ler arquivo utilizador
 		fscanf(u,"%d\n\n",&x[n].estado);
 	}
 	fclose(u);
-	printf("\nFicheiro Utilizador lido <Enter para continuar>");
-	getch();
 }
 
 void ler_livro(livro *y)//funcao para ler arquivo utilizador
@@ -54,8 +52,6 @@ void ler_livro(livro *y)//funcao para ler arquivo utilizador
 		fscanf(l,"%d\n\n",&y[n].estado);
 	}
 	fclose(l);
-	printf("\nFicheiro Livro lido <Enter para continuar>");
-	getch();
 }
 
 void gravar_livro(livro *y)//funcao para guardar arquivo livro
@@ -77,8 +73,6 @@ void gravar_livro(livro *y)//funcao para guardar arquivo livro
 		fprintf(l,"%d\n\n",y[n].estado);
 	}
 	fclose(l);
-	printf("\nFicheiro Livro gravado <Enter para continuar>\n");
-	getch();
 }
 
 void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
@@ -101,8 +95,6 @@ void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
 		fscanf(r,"%d\n\n",&z[n].estado);
 	}
 	fclose(r);
-	printf("\nFicheiro Requisicao lido <Enter para continuar>");
-	getch();
 }
 
 void gravar_requisicao (requisicao *z)//funcao para guardar arquivo livro
@@ -125,8 +117,6 @@ void gravar_requisicao (requisicao *z)//funcao para guardar arquivo livro
 		fprintf(r,"%d\n\n",z[n].estado);
 	}
 	fclose(r);
-	printf("\nFicheiro Requisicao gravado <Enter para continuar>");
-	getch();
 }
 
 
@@ -177,6 +167,7 @@ void inserir(requisicao *z,livro *y,utilizador *x){
 			printf("\nID do Livro(0=voltar): "); scanf("%d",&inser);    // scanf("%[^\n]s",x[n].nome_uti);
 			if(inser==0)
 				return;
+			ler_utilizador(x);
 			for(m=1;m<NR;m++){//funcao para verificar validade do ID
 				if(y[m].id_liv==inser){
 				system ("cls");
@@ -193,6 +184,7 @@ void inserir(requisicao *z,livro *y,utilizador *x){
 			printf("\nID do Utilizador(0=voltar): "); scanf("%d",&inser);
 			if(inser==0)
 				return;
+			ler_livro(y);
 			for(m=1;m<NR;m++){//funcao para verificar validade do ID
 				if(x[m].id_uti==inser){
 				system ("cls");
@@ -242,20 +234,19 @@ void REQUISICOES(){
 
 	int op_REQUISICOES;//variavel opcao	
 	//parte visual do menu*inicio
-		int n;
-		utilizador x;
-		livro y;
-		requisicao z;
-		requisicao req[NR];
-		for(n=0;n<NR;n++)
-			req[n].estado=0;
+	int n;
+	utilizador x;
+	livro y;
+	requisicao z;
+	requisicao req[NR];
+	for(n=0;n<NR;n++)
+		req[n].estado=0;
+	ler_requisicao(&z);
 	system ("cls");
 	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  REQUISICOES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-	printf("\n\n\t\t 1. LER ARQUIVO");
-	printf("\n\t\t 2. FAZER REQUISICAO");
-	printf("\n\t\t 3. CONCLUIR REQUISICAO/ainda nao funciona/");
-	printf("\n\t\t 4. LISTA REQUISICOES");
-	printf("\n\t\t 5. GRAVAR ARQUIVO");
+	printf("\n\n\t\t 1. FAZER REQUISICAO");
+	printf("\n\t\t 2. CONCLUIR REQUISICAO");
+	printf("\n\t\t 3. LISTA REQUISICOES");
 	printf("\n\t\t 0. VOLTAR");
 	printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 	printf("\n\t\t\t:");
@@ -264,12 +255,10 @@ void REQUISICOES(){
 	scanf("%d", &op_REQUISICOES);//veja a opcao
 	switch(op_REQUISICOES) {
 	
-	case 1: ler_requisicao(&z);ler_utilizador(&x);ler_livro(&y);break;
-	case 2: inserir(&z,&y,&x); break;
+	case 1: inserir(&z,&y,&x); break;
 	case 3:	eliminar(&z);break;
 	case 4:	mostrar_requisicao(&z); break;
-	case 5: gravar_requisicao(&z);gravar_livro(&y); break;
-	case 0: return; break;
+	case 0: gravar_requisicao(&z);gravar_livro(&y); return; break;
 	default:
         {
         printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
