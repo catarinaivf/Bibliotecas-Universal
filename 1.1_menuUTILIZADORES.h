@@ -11,7 +11,7 @@ int	tele,	   // 5 variavel contacto telefonico
 }utilizador;
 
 
-void ler (utilizador *x)//funcao para ler arquivo utilizador
+void ler_u (utilizador *x)//funcao para ler arquivo utilizador
 {
 	FILE *u;
 	int n;
@@ -33,7 +33,7 @@ void ler (utilizador *x)//funcao para ler arquivo utilizador
 	fclose(u);
 }
 
-void gravar (utilizador *x)//funcao para guardar arquivo utilizador
+void gravar_u (utilizador *x)//funcao para guardar arquivo utilizador
 {
 	FILE *u;
 	int n;
@@ -55,7 +55,7 @@ void gravar (utilizador *x)//funcao para guardar arquivo utilizador
 	fclose(u);
 }
 
-void incerir(utilizador *x)//funcao para adicionar utilizador
+void incerir_u(utilizador *x)//funcao para adicionar utilizador
 {
 	int n;
 	long int inser;
@@ -88,7 +88,7 @@ void incerir(utilizador *x)//funcao para adicionar utilizador
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
 }
 
-int editar(utilizador *x)//funcao para editar utilizador
+int editar_u(utilizador *x)//funcao para editar utilizador
 {
 	char confere;
 	int n;
@@ -119,7 +119,7 @@ int editar(utilizador *x)//funcao para editar utilizador
 	getch(); return(0);
 }
 
-int eliminar(utilizador *x)
+int eliminar_u(utilizador *x)
 {
 	char confere;
 	int n;
@@ -145,7 +145,7 @@ int eliminar(utilizador *x)
 	getch(); return(0);
 }
 
-void mostrar(utilizador *x)
+void mostrar_u(utilizador *x)
 {
 	system("cls");
 	int n;
@@ -176,8 +176,8 @@ void UTILIZADORES(void)// menu UTILIZADORES
 	utilizador x;
 	utilizador uti[NR];
 	for(n=0;n<NR;n++)
+	ler_u(&x);
 		uti[n].estado=0;
-	ler(&x);
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
@@ -193,22 +193,22 @@ void UTILIZADORES(void)// menu UTILIZADORES
 		scanf("%d", &op);	
 			
 		switch(op){
-				case 1: // Se 2, vai para ADICIONAR NOVO utilizador
-					incerir(&x);
+				case 1:
+					incerir_u(&x);
 					break;
 				case 2:
-					eliminar(&x);
+					eliminar_u(&x);
 					break;
 				case 3:
-					editar(&x);
+					editar_u(&x);
 					break;
 				case 4:
-					mostrar(&x);
+					mostrar_u(&x);
 					break;
-				case 0: // Volta para o menu principal
-					gravar(&x);return;
+				case 0:
+					gravar_u(&x);return;
 					break;
-				default://se nao foi escolodo o caso certo(pode nao sair daqui)
+				default:
         		{
         			printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
         			scanf("%d", &op);

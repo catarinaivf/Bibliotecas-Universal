@@ -10,7 +10,7 @@ int	estado;	  // 6 variavel do estado 0=livra 1=ocupado
 }livro;
 
 
-void ler (livro *y)//funcao para ler arquivo utilizador
+void ler_l (livro *y)//funcao para ler arquivo utilizador
 {
 	FILE *l;
 	int n;
@@ -31,7 +31,7 @@ void ler (livro *y)//funcao para ler arquivo utilizador
 	fclose(l);
 }
 
-void gravar (livro *y)//funcao para guardar arquivo livro
+void gravar_l (livro *y)//funcao para guardar arquivo livro
 {
 	FILE *l;
 	int n;
@@ -52,7 +52,7 @@ void gravar (livro *y)//funcao para guardar arquivo livro
 	fclose(l);
 }
 
-void incerir(livro *y)//funcao para adicionar livro
+void incerir_l(livro *y)//funcao para adicionar livro
 {
 	
 	int n;
@@ -85,7 +85,7 @@ void incerir(livro *y)//funcao para adicionar livro
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
 }
 
-int editar(livro *y)//funcao para editar livro
+int editar_l(livro *y)//funcao para editar livro
 {
 	char confere;
 	int n;
@@ -115,7 +115,7 @@ int editar(livro *y)//funcao para editar livro
 	getch(); return(0);
 }
 
-int eliminar(livro *y)
+int eliminar_l(livro *y)
 {
 	char confere;
 	int n;
@@ -141,7 +141,7 @@ int eliminar(livro *y)
 	getch(); return(0);
 }
 
-void mostrar(livro *y)
+void mostrar_l(livro *y)
 {
 	system("cls");
 	int n;
@@ -172,7 +172,7 @@ void LIVROS(void){ // menu LIVROS
 	livro liv[NR];
 	for(n=0;n<NR;n++)
 		liv[n].estado=0;
-	ler(&y);
+	ler_l(&y);
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
@@ -189,19 +189,19 @@ void LIVROS(void){ // menu LIVROS
 			
 		switch(op){
 				case 1:
-					incerir(&y);
+					incerir_l(&y);
 					break;
 				case 2:
-					eliminar(&y);
+					eliminar_l(&y);
 					break;
 				case 3:
-					editar(&y);
+					editar_l(&y);
 					break;
 				case 4:
-					mostrar(&y);
+					mostrar_l(&y);
 					break;
 				case 0:
-					gravar(&y);return;
+					gravar_l(&y);return;
 					break;
 				default://se nao foi escolodo o caso certo(pode nao sair daqui)
         		{
