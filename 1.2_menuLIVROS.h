@@ -127,14 +127,14 @@ int eliminar_l(livro *y)
 {
 	char confere;
 	int n;
-	long int eli;
+	int eli;
 	limpa_ecra();
 	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  ELIMINAR UTILIZADOR \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
-	printf("\nID do livro a eliminar: "); scanf("%ld",&eli);
+	printf("\nID do livro a eliminar: "); scanf("%d",&eli);
 	for(n=1;n<NR;n++)
 	{
-		if(y[n].estado==1){
-			if(y[n].id_liv==eli)
+		if(y[n].id_liv==eli){
+			if(y[n].estado!=2)
 			{
 				printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
 				,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
@@ -146,13 +146,16 @@ int eliminar_l(livro *y)
 				printf("\n\n\nRegisto eliminado com sucesso! (Primo ENTER para continuar)");
 				getch();  return (1);
 			}
+			else{
+				printf("\nFoi eliminado");
+				getch();  return (0);
+			}
 		}
-		else
-			printf("\nFoi eliminado");
-			getch();  return (0);
+		else{
+			printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
+			getch(); return(0);
+		}
 	}
-	printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
-	getch(); return(0);
 }
 
 void mostrar_l(livro *y)
@@ -165,6 +168,14 @@ void mostrar_l(livro *y)
 		{
 			printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  LISTA DE LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
 			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
+			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
+		}	
+	}
+	for(n=1;n<NR;n++)
+	{
+		if(y[n].estado==3)
+		{
+			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\nRequisitado\n\n"
 			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 		}	
 	}

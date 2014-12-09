@@ -144,13 +144,13 @@ int concluir(requisicao *z)
 {
 	char confere;
 	int n;
-	long int eli;
+	int eli;
 	system("cls");
 	printf("Numero da requisicao a concluir: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
-		if(z[n].estado==1){
-			if(z[n].id_requisicao==eli)
+		if(z[n].id_requisicao==eli){
+			if(z[n].estado!=2)
 			{
 				printf("\n\nID da Requicicao: %ld\n%ld : %s --- %ld : %s\n\n"
 				,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
@@ -162,13 +162,16 @@ int concluir(requisicao *z)
 				printf("\n\n\nRegisto concluida com sucesso (Prima ENTER para continuar)");
 				getch();  return (1);
 			}
-		}
-		else
+			else{
 			printf("\nFoi concluido");
 			getch();  return (0);
+			}
+		}
+		else{
+			printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
+			getch(); return(0);
+		}
 	}
-	printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
-	getch(); return(0);
 }
 
 void REQUISICOES(){

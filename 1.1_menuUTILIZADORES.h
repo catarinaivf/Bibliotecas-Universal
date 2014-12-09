@@ -56,7 +56,7 @@ void gravar_u (utilizador *x)//funcao para guardar arquivo utilizador
 			fprintf(u,"%s\n",x[n].dn);
 			fprintf(u,"%s\n",x[n].mail);
 			fprintf(u,"%d\n",x[n].tele);
-			fprintf(u,"%d\n",x[n].estado);
+			fprintf(u,"%d\n\n",x[n].estado);
 		}
 	}
 	fclose(u);
@@ -132,32 +132,33 @@ int eliminar_u(utilizador *x)
 {
 	char confere;
 	int n;
-	long int eli;
-	system("cls");
+	int eli;
+	limpa_ecra();
 	printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  ELIMINAR UTILIZADOR \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
-	printf("ID do utilizador a Eliminar: "); scanf("%ld",&eli);
+	printf("ID do utilizador a Eliminar: "); scanf("%d",&eli);
 	for(n=1;n<NR;n++)
 	{
-		if(x[n].estado==1){
-			if(x[n].id_uti==eli)
-			{
-				printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
-				,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
-				printf("\n\nQuer mesmo eliminar? (S = Sim | N = Nao)");confere=getch();
-	
+		if(x[n].id_uti==eli){
+			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
+			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
+			printf("\n\nQuer mesmo eliminar? (S = Sim | N = Nao)");confere=getch();
+			if(x[n].estado!=2){
 				if (confere!='S' && confere!='s')    return(0);
 	
 				x[n].estado=2;
 				printf("\n\n\nRegisto eliminado com sucesso! (Prima ENTER para continuar)");
 				getch();  return (1);
 			}
-		}
-		else
+			else{
 			printf("\nFoi eliminado");
 			getch();  return (0);
+			}
+		}
+		else{
+			printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
+			getch(); return(0);
+		}
 	}
-	printf("ERRO! Numero nao encontrado (Prima ENTER para Continuar)");
-	getch(); return(0);
 }
 
 void mostrar_u(utilizador *x)
