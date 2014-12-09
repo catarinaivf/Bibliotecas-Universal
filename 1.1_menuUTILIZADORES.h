@@ -14,7 +14,7 @@ int	tele,	   // 5 variavel contacto telefonico
 void ler_u (utilizador *x)//funcao para ler arquivo utilizador
 {
 	FILE *u;
-	int n;
+	int n, k=0;
 	if (!(u=fopen("arquivos/utilizador.txt","rt")))
 	{
 		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
@@ -23,12 +23,16 @@ void ler_u (utilizador *x)//funcao para ler arquivo utilizador
 	}
 	for(n=1;n<=NR;n++)
 	{
-		fscanf(u,"%ld\n",&x[n].id_uti);
-		fscanf(u,"%s\n",&x[n].nome_uti);
-		fscanf(u,"%s\n",&x[n].dn);
-		fscanf(u,"%s\n",&x[n].mail);
-		fscanf(u,"%d\n",&x[n].tele);
-		fscanf(u,"%d\n\n",&x[n].estado);
+		k=fscanf(u,"%ld\n",&x[n].id_uti);
+		if (k == 1){			
+			fscanf(u,"%s",&x[n].nome_uti);
+			fscanf(u,"%s",&x[n].dn);
+			fscanf(u,"%s",&x[n].mail);
+			fscanf(u,"%d",&x[n].tele);
+			fscanf(u,"%d",&x[n].estado);
+		}else{
+			x[n].estado = 0;
+		}
 	}
 	fclose(u);
 }
@@ -45,12 +49,14 @@ void gravar_u (utilizador *x)//funcao para guardar arquivo utilizador
 	}
 	for(n=1;n<=NR;n++)
 	{
-		fprintf(u,"%ld\n",x[n].id_uti);
-		fprintf(u,"%s\n",x[n].nome_uti);
-		fprintf(u,"%s\n",x[n].dn);
-		fprintf(u,"%s\n",x[n].mail);
-		fprintf(u,"%d\n",x[n].tele);
-		fprintf(u,"%d\n\n",x[n].estado);
+		if(x[n].estado != 0){
+			fprintf(u,"%ld\n",x[n].id_uti);
+			fprintf(u,"%s\n",x[n].nome_uti);
+			fprintf(u,"%s\n",x[n].dn);
+			fprintf(u,"%s\n",x[n].mail);
+			fprintf(u,"%d\n",x[n].tele);
+			fprintf(u,"%d\n",x[n].estado);
+		}
 	}
 	fclose(u);
 }
@@ -176,8 +182,10 @@ void UTILIZADORES(void)// menu UTILIZADORES
 	utilizador x;
 	utilizador uti[NR];
 	for(n=0;n<NR;n++)
-	ler_u(&x);
 		uti[n].estado=0;
+
+	ler_u(&x);
+
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
