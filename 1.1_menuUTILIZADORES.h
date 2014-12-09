@@ -17,13 +17,13 @@ void ler_u (utilizador *x)//funcao para ler arquivo utilizador
 	int n, k=0;
 	if (!(u=fopen("arquivos/utilizador.txt","rt")))
 	{
-		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
 		return;
 	}
 	for(n=1;n<=NR;n++)
 	{
-		k=fscanf(u,"%ld\n",&x[n].id_uti);
+		k = fscanf(u,"%ld\n",&x[n].id_uti);
 		if (k == 1){			
 			fscanf(u,"%s",&x[n].nome_uti);
 			fscanf(u,"%s",&x[n].dn);
@@ -43,7 +43,8 @@ void gravar_u (utilizador *x)//funcao para guardar arquivo utilizador
 	int n;
 	if (!(u=fopen("arquivos/utilizador.txt","wt")))
 	{
-		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		
+		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
 		return;
 	}
@@ -61,12 +62,13 @@ void gravar_u (utilizador *x)//funcao para guardar arquivo utilizador
 	fclose(u);
 }
 
-void incerir_u(utilizador *x)//funcao para adicionar utilizador
+void inserir_u(utilizador *x)//funcao para adicionar utilizador
 {
 	int n;
 	long int inser;
-	system ("cls");
-	printf("Incira 0 para voltar: ");
+	limpa_ecra();
+	printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  ADICIONAR NOVO UTILIZADOR \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+	printf("\n (Para continuar = 1 | Para voltar = 0): ");
 	scanf("%ld%*c",&inser);
 	if(inser==0)
 		return;
@@ -86,7 +88,7 @@ void incerir_u(utilizador *x)//funcao para adicionar utilizador
 			printf("\nMail: "); gets(x[n].mail);
 			printf("\nNumero de telemovel/telefone: "); scanf("%d",&x[n].tele);
 			x[n].estado=1;
-			printf("\n\n\nRegisto Inserido <Enter para Continuar>");
+			printf("\n\n\nRegisto Inserido com sucesso! (Prima ENTER para Continuar)");
 			getch();
 			return;
 		}
@@ -100,28 +102,29 @@ int editar_u(utilizador *x)//funcao para editar utilizador
 	int n;
 	long int eli;
 	system("cls");
-	printf("Qual o Numero do utilizador que quer Editar? "); scanf("%ld",&eli);
+	printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  EDITAR UTILIZADOR \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+	printf("ID do utilizador a editar: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(x[n].id_uti==eli)
 		{
 			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n",x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
 			fflush(stdin); 
-			printf("\n%s-->",x[n].nome_uti); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
-			printf("\n%s-->",x[n].dn); gets(x[n].dn);
-			printf("\n%s-->",x[n].mail); gets(x[n].mail);
-			printf("\n%d-->",x[n].tele); scanf("%d",&x[n].tele);
+			printf("\n%s = ",x[n].nome_uti); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
+			printf("\n%s = ",x[n].dn); gets(x[n].dn);
+			printf("\n%s = ",x[n].mail); gets(x[n].mail);
+			printf("\n%d = ",x[n].tele); scanf("%d",&x[n].tele);
 			if(x[n].estado==2){
 				x[n].estado=1;
 				break;
 			}
 			else
 				break;
-			printf("\n\n\nRegisto alterado <enter para continuar>");
+			printf("\n\n\nRegisto alterado com sucesso! (Prima ENTER para continuar)");
 			getch();  return (1);
 		}
 	}
-	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
+	printf("ERRO! Numero nao Encontrado (Prima ENTER para Continuar)");
 	getch(); return(0);
 }
 
@@ -131,23 +134,24 @@ int eliminar_u(utilizador *x)
 	int n;
 	long int eli;
 	system("cls");
-	printf("Qual o Numero do utilizador que quer Eliminar? "); scanf("%ld",&eli);
+	printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  ELIMINAR UTILIZADOR \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+	printf("ID do utilizador a Eliminar: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(x[n].id_uti==eli)
 		{
 			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
 			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
-			printf("\n\nQuer mesmo eliminar? <S/N>");confere=getch();
+			printf("\n\nQuer mesmo eliminar? (S = Sim | N = Nao)");confere=getch();
 
 			if (confere!='S' && confere!='s')    return(0);
 
 			x[n].estado=2;
-			printf("\n\n\nRegisto eliminado <enter para continuar>");
+			printf("\n\n\nRegisto eliminado com sucesso! (Prima ENTER para continuar)");
 			getch();  return (1);
 		}
 	}
-	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
+	printf("ERRO! Numero nao encontrado (Prima ENTER para Continuar)");
 	getch(); return(0);
 }
 
@@ -159,7 +163,8 @@ void mostrar_u(utilizador *x)
 	{
 		if(x[n].estado==1)
 		{
-			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
+			printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  LISTA DE UTILIZADORES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+			printf("\n\nID de utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n"
 			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
 		}	
 	}
@@ -167,12 +172,12 @@ void mostrar_u(utilizador *x)
 	{
 		if(x[n].estado==2)
 		{
-			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\nEliminado\n\n"
+			printf("\n\nID de utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\nEliminado\n\n"
 			,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
 		}	
 	}
 	
-	printf("\n\n\nListagem Concluida <Enter para Continuar>");getch();
+	printf("\n\n\nListagem Concluida (Prima ENTER para Continuar)");getch();
 }
 
 void UTILIZADORES(void)// menu UTILIZADORES
@@ -189,20 +194,20 @@ void UTILIZADORES(void)// menu UTILIZADORES
 	do{
 		system("cls"); //limpa o ecrã
 		//parte visual do menu*inicio
-		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD UTILIZADORES \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-		printf("\n\n\t\t 1. ADICIONAR NOVO UTILIZADOR");
-		printf("\n\t\t 2. APAGAR UTILIZADOR");
-		printf("\n\t\t 3. EDITAR UTILIZADOR");
-		printf("\n\t\t 4. LISTA");
-		printf("\n\t\t 0. VOLTAR");
-		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  UTILIZADORES  \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+		printf("\n\n\t 1. ADICIONAR NOVO UTILIZADOR");
+		printf("\n\n\t 2. APAGAR UTILIZADOR");
+		printf("\n\n\t 3. EDITAR UTILIZADOR");
+		printf("\n\n\t 4. LISTA");
+		printf("\n\n\t 0. VOLTAR");
+		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
 		//*fim
 		scanf("%d", &op);	
 			
 		switch(op){
 				case 1:
-					incerir_u(&x);
+					inserir_u(&x);
 					break;
 				case 2:
 					eliminar_u(&x);
@@ -218,9 +223,9 @@ void UTILIZADORES(void)// menu UTILIZADORES
 					break;
 				default:
         		{
-        			printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
+        			printf("\a\n\n\tInseriu mal opcao!Insira outra vez: ");
         			scanf("%d", &op);
-        			system ("cls");
+        			limpa_ecra();
         		}
 			}
 			

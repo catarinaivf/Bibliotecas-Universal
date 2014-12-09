@@ -16,7 +16,7 @@ void ler_l (livro *y)//funcao para ler arquivo utilizador
 	int n;
 	if (!(l=fopen("arquivos/livro.txt","rt")))
 	{
-		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
 		return;
 	}
@@ -37,7 +37,7 @@ void gravar_l (livro *y)//funcao para guardar arquivo livro
 	int n;
 	if (!(l=fopen("arquivos/livro.txt","wt")))
 	{
-		printf("O programa nao conseguiu abrir o arquivo <Enter para sair>");
+		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
 		return;
 	}
@@ -52,13 +52,14 @@ void gravar_l (livro *y)//funcao para guardar arquivo livro
 	fclose(l);
 }
 
-void incerir_l(livro *y)//funcao para adicionar livro
+void inserir_l(livro *y)//funcao para adicionar livro
 {
 	
 	int n;
 	long int inser;
-	system ("cls");
-	printf("Incira 0 para voltar: ");
+	limpa_ecra();
+	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  NOVO LIVRO \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+	printf("(Para continuar=1 | Para voltar=0): ");
 	scanf("%ld%*c",&inser);
 	if(inser==0)
 		return;
@@ -77,7 +78,7 @@ void incerir_l(livro *y)//funcao para adicionar livro
 			printf("\nGenero: "); gets(y[n].gen);
 			printf("\nAutor: "); gets(y[n].autor);
 			y[n].estado=1;
-			printf("\n\n\nRegisto Inserido <Enter para Continuar>");
+			printf("\n\n\nRegisto Inserido com sucesso! (Prima ENTER para continuar)");
 			getch();
 			return;
 		}
@@ -91,7 +92,8 @@ int editar_l(livro *y)//funcao para editar livro
 	int n;
 	long int eli;
 	system("cls");
-	printf("Qual o Numero do livro que quer Editar? "); scanf("%ld",&eli);
+	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  EDITAR LIVRO \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+	printf("\nID do livro a editar: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(y[n].id_liv==eli)
@@ -107,11 +109,11 @@ int editar_l(livro *y)//funcao para editar livro
 			}
 			else
 				break;
-			printf("\n\n\nRegisto alterado <enter para continuar>");
+			printf("\n\n\nRegisto alterado com sucesso! (Prima ENTER para continuar)");
 			getch();  return (1);
 		}
 	}
-	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
+	printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
 	getch(); return(0);
 }
 
@@ -120,35 +122,37 @@ int eliminar_l(livro *y)
 	char confere;
 	int n;
 	long int eli;
-	system("cls");
-	printf("Qual o Numero do livro que quer Eliminar? "); scanf("%ld",&eli);
+	limpa_ecra();
+	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  ELIMINAR UTILIZADOR \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+	printf("\nID do livro a eliminar: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(y[n].id_liv==eli)
 		{
 			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
 			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
-			printf("\n\nQuer mesmo eliminar? <S/N>");confere=getch();
+			printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
 
 			if (confere!='S' && confere!='s')    return(0);
 
 			y[n].estado=2;
-			printf("\n\n\nRegisto eliminado <enter para continuar>");
+			printf("\n\n\nRegisto eliminado com sucesso! (Primo ENTER para continuar)");
 			getch();  return (1);
 		}
 	}
-	printf("ERRO! Numero nao Encontrado <Enter para Continuar>");
+	printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
 	getch(); return(0);
 }
 
 void mostrar_l(livro *y)
 {
-	system("cls");
+	limpa_ecra();
 	int n;
 	for(n=1;n<NR;n++)
 	{
 		if(y[n].estado==1)
 		{
+			printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  LISTA DE LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
 			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
 			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 		}	
@@ -162,7 +166,7 @@ void mostrar_l(livro *y)
 		}	
 	}
 	
-	printf("\n\n\nListagem Concluida <Enter para Continuar>");getch();
+	printf("\n\n\nListagem Concluida (Prima ENTER para continuar)");getch();
 }
 
 void LIVROS(void){ // menu LIVROS
@@ -174,22 +178,22 @@ void LIVROS(void){ // menu LIVROS
 		liv[n].estado=0;
 	ler_l(&y);
 	do{
-		system("cls"); //limpa o ecrã
+		limpa_ecra(); //limpa o ecrã
 		//parte visual do menu*inicio
-		printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-		printf("\n\n\t\t 1. ADICIONAR NOVO LIVRO");
-		printf("\n\t\t 2. APAGAR LIVRO");
-		printf("\n\t\t 3. EDITAR LIVRO");
-		printf("\n\t\t 4. LISTA");
-		printf("\n\t\t 0. VOLTAR");
-		printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD   LIVROS   \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+		printf("\n\n\t 1. ADICIONAR NOVO LIVRO");
+		printf("\n\n\t 2. APAGAR LIVRO");
+		printf("\n\n\t 3. EDITAR LIVRO");
+		printf("\n\n\t 4. LISTA");
+		printf("\n\n\t 0. VOLTAR");
+		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 		printf("\n\t\t\t:");
 		//*fim
 		scanf("%d", &op);	
 			
 		switch(op){
 				case 1:
-					incerir_l(&y);
+					inserir_l(&y);
 					break;
 				case 2:
 					eliminar_l(&y);
@@ -205,9 +209,9 @@ void LIVROS(void){ // menu LIVROS
 					break;
 				default://se nao foi escolodo o caso certo(pode nao sair daqui)
         		{
-        			printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
+        			printf("\a\n\n\tInseriu mal opcao!Insira outra vez: ");
         			scanf("%d", &op);
-        			system ("cls");
+        			limpa_ecra();
         		}
 			}
 			

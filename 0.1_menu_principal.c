@@ -6,6 +6,9 @@
 #include<dos.h>                     //contains _dos_getdate
 #include<time.h>
 //lista das bibliotecas principais
+void limpa_ecra(){ 	
+	system ("cls"); 
+}
 
 #include"1.1_menuUTILIZADORES.h"
 #include"1.2_menuLIVROS.h"
@@ -17,14 +20,13 @@
 
 #define RETURNTIME 15
 
-
 void MENU_PRINCIPAL(){
 int op;//variavel opcao
 	do{
 	//parte visual do menu*inicio
-	system ("cls");
+	limpa_ecra();
 	t();
-	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  MENU PRINCPIAL \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+	printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  MENU PRINCIPAL \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 	printf("\n");
 	printf("\n\t1. UTILIZADORES");
 	printf("\n");
@@ -39,20 +41,19 @@ int op;//variavel opcao
 	//*fim
 	
 	scanf("%d", &op);//veja a opcao
-	system ("cls");//faz clear do ecra
+	limpa_ecra();//faz clear do ecra
 	switch(op) {
-	
-	case 1: UTILIZADORES(); break;//vem ao menu Utilizadores
-	case 2: LIVROS(); break;//vem ao menu Livros
-	case 3: REQUISICOES(); break;//vem ao menu Requisi
-	case 0: break;//conclui a programa	
-	default://se nao foi escolodo o caso certo(pode nao sair daqui)
-        {
-        printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
-        scanf("%d", &op);
-        system ("cls");
-        }
-	} 
+		case 1: UTILIZADORES(); break;//vem ao menu Utilizadores
+		case 2: LIVROS(); break;//vem ao menu Livros
+		case 3: REQUISICOES(); break;//vem ao menu Requisi
+		case 0: break;//conclui a programa	
+		default://se nao foi escolodo o caso certo(pode nao sair daqui)
+	        {
+	        printf("\a\n\n\tInseriu mal opcao!Incire outra vez: ");
+	        scanf("%d", &op);
+	        limpa_ecra();
+	        }
+		} 
 	}while (op !=0);
 }
 
