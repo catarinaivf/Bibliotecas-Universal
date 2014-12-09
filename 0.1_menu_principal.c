@@ -10,7 +10,6 @@
 #include"1.1_menuUTILIZADORES.h"
 #include"1.2_menuLIVROS.h"
 #include"1.3_menuREQUISICOES.h"
-#include"1.4_menuGESTAO.h"
 
 
 #include"relogio.h"
@@ -33,8 +32,6 @@ int op;//variavel opcao
 	printf("\n");
 	printf("\n\t3. REQUISICOES");
 	printf("\n");
-	printf("\n\t4. GESTAO");
-	printf("\n");
 	printf("\n\t0. SAIR");
 	printf("\n");
 	printf("\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
@@ -48,7 +45,6 @@ int op;//variavel opcao
 	case 1: UTILIZADORES(); break;//vem ao menu Utilizadores
 	case 2: LIVROS(); break;//vem ao menu Livros
 	case 3: REQUISICOES(); break;//vem ao menu Requisi
-	case 4:	GESTAO(); break;//vem ao menu Gestao
 	case 0: break;//conclui a programa	
 	default://se nao foi escolodo o caso certo(pode nao sair daqui)
         {

@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=1
 CompilerSettings=0000000000000000001000000
-UnitCount=6
+UnitCount=5
 
 [VersionInfo]
 Major=1
@@ -84,16 +84,6 @@ BuildCmd=
 FileName=1.3_menuREQUISICOES.h
 CompileCpp=1
 Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit5]
-FileName=1.4_menuGESTAO.h
-CompileCpp=1
-Folder=Projeto1
 Compile=1
 Link=1
 Priority=1000
@@ -194,6 +184,16 @@ BuildCmd=
 FileName=1.3.1_f_req.h
 CompileCpp=1
 Folder=Bibliotecas-Universal
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=relogio.h
+CompileCpp=1
+Folder=Projeto1
 Compile=1
 Link=1
 Priority=1000
