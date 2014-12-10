@@ -108,18 +108,18 @@ int editar_u(utilizador *x)//funcao para editar utilizador
 	{
 		if(x[n].id_uti==eli)
 		{
+			if(x[n].estado==2){
+				x[n].estado=1;
+				break;
+			} else
 			printf("\n\nID do utilizador: %ld\nNome: %s\nData de nascimento: %s\nMail: %s\nNumero de telemovel/telefone: %d\n\n",x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);
 			fflush(stdin); 
 			printf("\n%s-->",x[n].nome_uti); gets(x[n].nome_uti);    // scanf("%[^\n]s",x[n].nome_uti);
 			printf("\n%s-->",x[n].dn); gets(x[n].dn);
 			printf("\n%s-->",x[n].mail); gets(x[n].mail);
 			printf("\n%d-->",x[n].tele); scanf("%d",&x[n].tele);
-			if(x[n].estado==2){
-				x[n].estado=1;
-				break;
-			}
-			else
-				break;
+			
+			
 			printf("\n\n\nRegisto alterado com sucesso! (Prima ENTER para continuar)");
 			getch();  return (1);
 		}

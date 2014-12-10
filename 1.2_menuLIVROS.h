@@ -104,17 +104,18 @@ int editar_l(livro *y)//funcao para editar livro
 	{
 		if(y[n].id_liv==eli)
 		{
-			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n",y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
-			fflush(stdin); 
-			printf("\n%s-->",y[n].titulo); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);
-			printf("\n%s-->",y[n].gen); gets(y[n].gen);
-			printf("\n%s-->",y[n].autor); gets(y[n].autor);
 			if(y[n].estado==2){
 				y[n].estado=1;
 				break;
 			}
 			else
-				break;
+			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n",y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
+			fflush(stdin); 
+			printf("\n%s-->",y[n].titulo); gets(y[n].titulo);    // scanf("%[^\n]s",x[n].nome_uti);
+			printf("\n%s-->",y[n].gen); gets(y[n].gen);
+			printf("\n%s-->",y[n].autor); gets(y[n].autor);
+			
+				
 			printf("\n\n\nRegisto alterado com sucesso! (Prima ENTER para continuar)");
 			getch();  return (1);
 		}
@@ -164,9 +165,10 @@ void mostrar_l(livro *y)
 	int n;
 	for(n=1;n<NR;n++)
 	{
+		
 		if(y[n].estado==1)
 		{
-			printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  LISTA DE LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n");
+			printf("\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  LISTA DE LIVROS \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 			printf("\n\nID do livro: %ld\nTitulo: %s\nGenero: %s\nAutor: %s\n\n"
 			,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);
 		}	

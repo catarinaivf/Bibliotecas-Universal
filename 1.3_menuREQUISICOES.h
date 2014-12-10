@@ -66,6 +66,7 @@ void gravar_requisicao (requisicao *z)//funcao para guardar arquivo livro
 void mostrar_requisicao(requisicao *z)
 {
 	system("cls");
+	printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  LISTA DE REQUISICOES  \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
 	int n;
 	for(n=1;n<NR;n++)
 	{
@@ -91,7 +92,8 @@ void inserir(requisicao *z, livro *y, utilizador *x){
 	int n,m;
 	long int inser;
 	limpa_ecra();
-	printf("0 para voltar: ");
+	printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  NOVA REQUISICAO  \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+	printf("\n(Para continuar = 1 | Para voltar = 0): ");
 	scanf("%ld%*c",&inser);
 	if(inser==0)
 		return;
@@ -106,7 +108,9 @@ void inserir(requisicao *z, livro *y, utilizador *x){
 		//
 		if(z[n].estado != 1 && z[n].estado != 2)
 		{
+			
 			z[n].id_requisicao=inser;
+			
 			printf("\nID do Livro(0=voltar): "); scanf("%d",&inser);    // scanf("%[^\n]s",x[n].nome_uti);
 			if(inser==0)
 				return;
@@ -146,7 +150,8 @@ int concluir(requisicao *z)
 	int n;
 	int eli;
 	system("cls");
-	printf("Numero da requisicao a concluir: "); scanf("%ld",&eli);
+		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  CONCLUIR REQUISICAO  \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
+	printf("\nID da requisicao a concluir: "); scanf("%ld",&eli);
 	for(n=1;n<NR;n++)
 	{
 		if(z[n].id_requisicao==eli){
