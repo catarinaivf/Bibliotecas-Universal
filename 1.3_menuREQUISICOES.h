@@ -16,7 +16,7 @@ void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
 	FILE *r;
 	int n, k=0;
 
-	if (!(r=fopen("arquivos/requisicao.txt","rt")))
+	if (!(r=fopen("arquivos/requisicao.txt","rt"))) //r- ler, t-ficheiro de texto
 	{
 		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
@@ -25,13 +25,15 @@ void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
 	for(n=1;n<=NR;n++)
 	{
 		k=fscanf(r,"%ld\n",&z[n].id_requisicao);
-		if(k==1) {
+		if(k==1) { // apenas le os ficheiros que existem
 			fscanf(r,"%ld\n",&z[n].id_uti_r);
 			fscanf(r,"%s\n",&z[n].nome_r);
 			fscanf(r,"%ld\n",&z[n].id_liv_r);
 			fscanf(r,"%s\n",&z[n].titulo_r);
 			fscanf(r,"%d\n\n",&z[n].estado);
 		}
+		else
+			z[n].estado = 0;
 	}
 	
 	fclose(r);
@@ -41,7 +43,7 @@ void gravar_requisicao (requisicao *z)//funcao para guardar arquivo livro
 {
 	FILE *r;
 	int n;
-	if (!(r=fopen("arquivos/requisicao.txt","wt")))
+	if (!(r=fopen("arquivos/requisicao.txt","wt"))) // w-escrever, t- ficheiro de texto
 	{
 		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
@@ -49,7 +51,7 @@ void gravar_requisicao (requisicao *z)//funcao para guardar arquivo livro
 	}
 	for(n=1;n<=NR;n++)
 	{
-		if(z[n].estado!=0){
+		if(z[n].estado==1||z[n].estado==2){ // guarda nas requisicoes os livros com estados a 1 e a 2
 			fprintf(r,"%ld\n",z[n].id_requisicao);
 			fprintf(r,"%ld\n",z[n].id_uti_r);
 			fprintf(r,"%s\n",z[n].nome_r);
@@ -70,7 +72,7 @@ void mostrar_requisicao(requisicao *z)
 	int n;
 	for(n=1;n<NR;n++)
 	{
-		if(z[n].estado==1)
+		if(z[n].estado==1) // com estado a 1, significa que esta pendente, "a pessoa ainda possui o livro", requisicao ativa
 		{
 			printf("\n\nID da Requisicao: %ld\n%ld : %s --- %ld : %s\n\n"
 			,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
@@ -78,7 +80,7 @@ void mostrar_requisicao(requisicao *z)
 	}
 	for(n=1;n<NR;n++)
 	{
-		if(z[n].estado==2)
+		if(z[n].estado==2) // se estado for igual a 2, significa que a requisicao ja foi concluida
 		{
 			printf("\n\nID da Requisicao: %ld\n%ld : %s --- %ld : %s --- Concluido\n\n"
 			,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
@@ -111,24 +113,23 @@ void inserir(requisicao *z, livro *y, utilizador *x){
 			
 			z[n].id_requisicao=inser;
 			
-			printf("\nID do Livro(0=voltar): "); scanf("%d",&inser);    // scanf("%[^\n]s",x[n].nome_uti);
+			printf("\nID do Livro(0=voltar): "); scanf("%d",&m);    // scanf("%[^\n]s",x[n].nome_uti);
 			if(inser==0)
 				return;
 			ler_l(y);
-			for(m=1; m<NR; m++){//funcao para verificar validade do ID
-				if(y[m].id_liv == inser){
+				if(y[m].id_liv == m){ // verifica o ID do livro e mostra o seu titulo
 					printf("\nTitulo: %s",y[m].titulo);
-					y[m].estado=3;
-					z[n].id_liv_r=inser;
+					y[m].estado=3; // coloca o estado do livro a 3, significando que se encontra requisitado
+					z[n].id_liv_r=m;
 					strcpy(z[n].titulo_r,y[m].titulo);
-					printf("\n\nID do Utilizador(0=voltar): "); scanf("%d",&inser);
+					printf("\n\nID do Utilizador(0=voltar): "); scanf("%d",&m);
 					if(inser==0)
 					return;
 					ler_u(x);
-					if(x[m].id_uti==inser){
-						z[n].id_uti_r=inser;
+					if(x[m].id_uti==m){
+						z[n].id_uti_r=m;
 						strcpy(z[n].nome_r,x[m].nome_uti);
-						z[n].estado=1;
+						z[n].estado=1; // estado da requisicao a 1, significa que esta ativa, ou pendente
 						printf("\n\n\nRegisto Inserido com sucesso! (Prima ENTER para continuar)");
 						getch();
 						return;
@@ -137,7 +138,6 @@ void inserir(requisicao *z, livro *y, utilizador *x){
 				}
 				else
 					return;
-			}
 		}
 	}
 	printf("ERRO! Nao foi possivel Inserir"); getch(); return;
@@ -155,13 +155,13 @@ int concluir(requisicao *z)
 
 			printf("\n\nID da Requicicao: %ld\n%ld : %s --- %ld : %s\n\n"
 			,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
-			if(z[n].estado!=2)
+			if(z[n].estado!=2) // verifica se o livo ja se encontra requisitado ou nao
 			{
 				printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
 	
 				if (confere!='S' && confere!='s')    return(0);
 	
-				z[n].estado=2;
+				z[n].estado=2; // coloca o estado da requisicao a 2, significando que a requisicao foi concluida
 				printf("\n\n\nRegisto concluida com sucesso (Prima ENTER para continuar)");
 				getch();  return (1);
 			}

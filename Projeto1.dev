@@ -34,19 +34,19 @@ UnitCount=5
 [VersionInfo]
 Major=1
 Minor=0
-Release=0
-Build=66
+Release=1
+Build=2
 LanguageID=2070
 CharsetID=1252
 CompanyName=tic
-FileVersion=1.0.0.66
+FileVersion=1.0.1.2
 FileDescription=Developed using the Dev-C++ IDE
 InternalName=
 LegalCopyright=tic
 LegalTrademarks=tic
 OriginalFilename=
 ProductName=Biblioteca universal
-ProductVersion=1.0.0.66
+ProductVersion=1.0.1.2
 AutoIncBuildNr=1
 SyncProduct=1
 
