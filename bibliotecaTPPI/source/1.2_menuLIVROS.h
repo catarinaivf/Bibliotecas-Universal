@@ -1,12 +1,12 @@
-#define M 100
+#define M 100 /// Numero máximo de livros a serem registados
 
 typedef struct 
 {
-long int id_liv;   // 1 variavel da identidade do livro
-char titulo[60],  // 2 variavel do titulo 
-	 autor[60]; // 4 variavel autora
-char gen[10];	// 3 variavel genero
-int	estado;	  // 6 variavel do estado 0=livra 1=ocupado
+long int id_liv;   /// ID do Livro
+char titulo[60],  /// Titulo
+	 autor[60]; ///Autor
+char gen[10];	///Genero
+int	estado;	  //Estados dos livros : Estado=0 -> Inexistente; Estado=1 -> Existente e disponivel; Estado=2 -> Eliminado; Estado=3 -> Requisitado
 }livro;
 
 
@@ -14,7 +14,7 @@ void ler_l (livro *y)//funcao para ler arquivo utilizador
 {
 	FILE *l;
 	int n,k=0;
-	if (!(l=fopen("arquivos/livro.txt","rt"))) // r- ler o ficheiro, t- ficheiro de texto
+	if (!(l=fopen("arquivos/livro.txt","rt"))) //r- ler o ficheiro, t- ficheiro de texto
 	{
 		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();
@@ -23,14 +23,14 @@ void ler_l (livro *y)//funcao para ler arquivo utilizador
 	for(n=1;n<=NR;n++)
 	{
 		k = fscanf(l,"%ld\n",&y[n].id_liv);
-		if(k==1){ // apresenta apena o que o programa consegue ler
+		if(k==1){ /// Le apenas informaçoes que existam/estejam guardadas
 			fscanf(l,"%s\n",&y[n].titulo);
 			fscanf(l,"%s\n",&y[n].gen);
 			fscanf(l,"%s\n",&y[n].autor);
 			fscanf(l,"%d\n\n",&y[n].estado);
 		}
 		else
-			y[n].estado=0;  // nao e efetuada a leitura de livros com o estado a 0
+			y[n].estado=0;  /// nao e efetuada a leitura de livros com o estado a 0, pois estes são inexistentes
 	}
 	fclose(l);
 }

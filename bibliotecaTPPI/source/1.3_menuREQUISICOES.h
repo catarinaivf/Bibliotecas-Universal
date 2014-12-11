@@ -1,14 +1,14 @@
 
-#define M 100
+#define M 100 // Numero máximo de requisições possiveis
 
 typedef struct 
 {
-	long int id_uti_r,   // 1 variavel da identidade do utilizador
+	long int id_uti_r,   /// ID de utilizador, ID de Livro e ID de Requisicao
 			id_liv_r,
 			id_requisicao;
-	char titulo_r[60],
-		nome_r[60];
-	int estado;	  // 6 variavel do estado 0=livra 1=ocupado
+	char titulo_r[60], /// Titulo do livro
+		nome_r[60]; ///Nome do utilizador
+	int estado;	  /// Estado=0 -> nao existe; Estado=1 -> Requisicao ativa; Estado=2 -> Requisicao concluida
 }requisicao;
 
 void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
@@ -16,7 +16,7 @@ void ler_requisicao (requisicao *z)//funcao para ler arquivo utilizador
 	FILE *r;
 	int n, k=0;
 
-	if (!(r=fopen("arquivos/requisicao.txt","rt"))) //r- ler, t-ficheiro de texto
+	if (!(r=fopen("arquivos/requisicao.txt","rt"))) /// "rt" --> r- ler, t-ficheiro de texto
 	{
 		printf("O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)");
 		getch();

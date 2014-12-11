@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.4_menuGESTAO.h" line="1" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.4_menuGESTAO.h" bodystart="1" bodyend="2"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.4_menuGESTAO.h" line="1" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.4_menuGESTAO.h" bodystart="1" bodyend="2"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -25,6 +25,6 @@
 <codeline lineno="1" refid="1_84__menu_g_e_s_t_a_o_8h_1a14effc2d73f1a2f3b49458203ba8af12" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_84__menu_g_e_s_t_a_o_8h_1a14effc2d73f1a2f3b49458203ba8af12" kindref="member">GESTAO</ref>(){</highlight></codeline>
 <codeline lineno="2"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.4_menuGESTAO.h"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.4_menuGESTAO.h"/>
   </compounddef>
 </doxygen>

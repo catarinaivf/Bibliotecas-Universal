@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['liv',['liv',['../inicio-estruturas_8c.html#a870a36959aefbacb87f69453cb403504',1,'inicio-estruturas.c']]]
+  ['mail',['mail',['../structutilizador.html#a02cac4787c82da8aa24aa640d9f9f4e8',1,'utilizador']]]
 ];

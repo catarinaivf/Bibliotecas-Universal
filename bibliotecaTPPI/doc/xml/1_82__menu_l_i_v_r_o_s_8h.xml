@@ -4,14 +4,14 @@
     <compoundname>1.2_menuLIVROS.h</compoundname>
     <includedby refid="0_81__menu__principal_8c" local="yes">source/0.1_menu_principal.c</includedby>
     <invincdepgraph>
-      <node id="52">
+      <node id="47">
         <label>source/0.1_menu_principal.c</label>
         <link refid="0_81__menu__principal_8c"/>
       </node>
-      <node id="51">
+      <node id="46">
         <label>source/1.2_menuLIVROS.h</label>
         <link refid="1.2_menuLIVROS.h"/>
-        <childnode refid="52" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="1" column="9" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="1" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="1" column="9" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="1" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -44,8 +44,8 @@
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="13" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="13" bodyend="36"/>
+<para>Le apenas informaçoes que existam/estejam guardadas</para><para>nao e efetuada a leitura de livros com o estado a 0, pois estes são inexistentes </para>        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="13" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="13" bodyend="36"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="38" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="38" bodyend="59"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="38" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="38" bodyend="59"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
         <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
@@ -86,8 +86,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="61" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="61" bodyend="93"/>
-        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="61" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="61" bodyend="93"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <references refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="5">livro::id_liv</references>
         <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="95" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="95" bodyend="121"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="95" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="95" bodyend="121"/>
         <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
       </memberdef>
@@ -127,8 +127,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="123" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="123" bodyend="151"/>
-        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="123" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="123" bodyend="151"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
         <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
       </memberdef>
@@ -147,8 +147,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="153" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="153" bodyend="185"/>
-        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="153" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="153" bodyend="185"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
       </memberdef>
@@ -166,17 +166,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="187" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="187" bodyend="235"/>
-        <references refid="inicio-estruturas_8c_1a870a36959aefbacb87f69453cb403504" compoundref="inicio-estruturas_8c" startline="10">liv</references>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="187" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="187" bodyend="235"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="13" endline="36">ler_l</references>
-        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="61" endline="93">inserir_l</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1af8eb970526c202f594da1c16355fa43a" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="123" endline="151">eliminar_l</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="95" endline="121">editar_l</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="153" endline="185">mostrar_l</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="38" endline="59">gravar_l</references>
-        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="23" endline="58">MENU_PRINCIPAL</referencedby>
+        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="24" endline="59">MENU_PRINCIPAL</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -184,23 +183,23 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1" refid="1_82__menu_l_i_v_r_o_s_8h_1a52037c938e3c1b126c6277da5ca689d0" refkind="member"><highlight class="preprocessor">#define<sp/>M<sp/>100</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1" refid="1_82__menu_l_i_v_r_o_s_8h_1a52037c938e3c1b126c6277da5ca689d0" refkind="member"><highlight class="preprocessor">#define<sp/>M<sp/>100<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3" refid="structlivro" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="5" refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" kindref="member">id_liv</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>variavel<sp/>da<sp/>identidade<sp/>do<sp/>livro</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6" refid="structlivro_1adff70562cca95767369bccf3714e22e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>titulo[60],<sp/><sp/></highlight><highlight class="comment">//<sp/>2<sp/>variavel<sp/>do<sp/>titulo<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>autor[60];<sp/></highlight><highlight class="comment">//<sp/>4<sp/>variavel<sp/>autora</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="structlivro_1a81b3cc6450c77481974037c3222cb9ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>gen[10];<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3<sp/>variavel<sp/>genero</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="structlivro_1a876d08c1d21086e4fd228744da10d028" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>6<sp/>variavel<sp/>do<sp/>estado<sp/>0=livra<sp/>1=ocupado</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}<ref refid="inicio-adicionarlivro-exemplo_8c_1acf2dd788f34fdd4228b4b96fa8b62db1" kindref="member">livro</ref>;</highlight></codeline>
+<codeline lineno="5" refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" kindref="member">id_liv</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6" refid="structlivro_1adff70562cca95767369bccf3714e22e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>titulo[60],<sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>autor[60];<sp/></highlight></codeline>
+<codeline lineno="8" refid="structlivro_1a81b3cc6450c77481974037c3222cb9ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>gen[10];<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="structlivro_1a876d08c1d21086e4fd228744da10d028" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//Estados<sp/>dos<sp/>livros<sp/>:<sp/>Estado=0<sp/>-&gt;<sp/>Inexistente;<sp/>Estado=1<sp/>-&gt;<sp/>Existente<sp/>e<sp/>disponivel;<sp/>Estado=2<sp/>-&gt;<sp/>Eliminado;<sp/>Estado=3<sp/>-&gt;<sp/>Requisitado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}<ref refid="structlivro" kindref="compound">livro</ref>;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" kindref="member">ler_l</ref><sp/>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight><highlight class="comment">//funcao<sp/>para<sp/>ler<sp/>arquivo<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*l;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,k=0;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(l=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/livro.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//<sp/>r-<sp/>ler<sp/>o<sp/>ficheiro,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(l=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/livro.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//r-<sp/>ler<sp/>o<sp/>ficheiro,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
@@ -209,14 +208,14 @@
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k<sp/>=<sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,&amp;y[n].id_liv);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(k==1){<sp/></highlight><highlight class="comment">//<sp/>apresenta<sp/>apena<sp/>o<sp/>que<sp/>o<sp/>programa<sp/>consegue<sp/>ler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(k==1){<sp/></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;y[n].titulo);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;y[n].gen);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;y[n].autor);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,&amp;y[n].estado);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=0;<sp/><sp/></highlight><highlight class="comment">//<sp/>nao<sp/>e<sp/>efetuada<sp/>a<sp/>leitura<sp/>de<sp/>livros<sp/>com<sp/>o<sp/>estado<sp/>a<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=0;<sp/><sp/></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(l);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
@@ -374,7 +373,7 @@
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op;<sp/></highlight><highlight class="comment">//<sp/>variável<sp/>a<sp/>&quot;entrar&quot;<sp/>-<sp/>op</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/>y;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/><ref refid="inicio-estruturas_8c_1a870a36959aefbacb87f69453cb403504" kindref="member">liv</ref>[<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>];</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/>liv[<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>];</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=0;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>liv[n].estado=0;</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" kindref="member">ler_l</ref>(&amp;y);</highlight></codeline>
@@ -461,6 +460,6 @@
 <codeline lineno="235"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h"/>
   </compounddef>
 </doxygen>

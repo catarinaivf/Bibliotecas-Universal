@@ -4,6 +4,5 @@ var searchData=
   ['id_5fliv_5fr',['id_liv_r',['../structrequisicao.html#af636ce6e374d3e55eeb00565c29faf01',1,'requisicao']]],
   ['id_5frequisicao',['id_requisicao',['../structrequisicao.html#a83bcbbb52167d11b977097b6e3c282c9',1,'requisicao']]],
   ['id_5futi',['id_uti',['../structutilizador.html#ade1e35363a9e73ac0443d514809a2ed2',1,'utilizador']]],
-  ['id_5futi_5fr',['id_uti_r',['../structrequisicao.html#a46ba42e509577cf7ad9429d2293ff577',1,'requisicao']]],
-  ['idl',['idl',['../struct_l_i_v_r_o_s.html#ac9639d5d4181be687dc6d15def280e26',1,'LIVROS']]]
+  ['id_5futi_5fr',['id_uti_r',['../structrequisicao.html#a46ba42e509577cf7ad9429d2293ff577',1,'requisicao']]]
 ];

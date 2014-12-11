@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="5" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="5" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="5" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="5" bodyend="-1"/>
         <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="65" endline="97">inserir_u</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structutilizador_1a9073385a3e289a31c348400685f9ec30" prot="public" static="no" mutable="no">
@@ -24,12 +24,12 @@
         <argsstring>[60]</argsstring>
         <name>nome_uti</name>
         <briefdescription>
-        </briefdescription>
+<para>ID do utilizador. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="6" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="6" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structutilizador_1a02cac4787c82da8aa24aa640d9f9f4e8" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -37,12 +37,12 @@
         <argsstring>[60]</argsstring>
         <name>mail</name>
         <briefdescription>
-        </briefdescription>
+<para>Nome do Utilizador. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="7" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="7" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structutilizador_1aaee503890dbae4a98b7f7be5fd927cb0" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -50,12 +50,12 @@
         <argsstring>[10]</argsstring>
         <name>dn</name>
         <briefdescription>
-        </briefdescription>
+<para>Email do utilizador. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="8" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="8" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="8" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="8" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structutilizador_1ac061470c693046faeb6b26265dff592f" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -63,12 +63,12 @@
         <argsstring></argsstring>
         <name>tele</name>
         <briefdescription>
-        </briefdescription>
+<para>Data de Nascimento. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="9" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="9" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="9" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structutilizador_1a876d08c1d21086e4fd228744da10d028" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -76,12 +76,12 @@
         <argsstring></argsstring>
         <name>estado</name>
         <briefdescription>
-        </briefdescription>
+<para>Telefone/Telemóvel. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="10" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="10" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="9" bodyend="-1"/>
         <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="14" endline="38">ler_u</referencedby>
         <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="65" endline="97">inserir_u</referencedby>
         <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="99" endline="127">editar_u</referencedby>
@@ -92,7 +92,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="4" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="3" bodyend="11"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="4" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="3" bodyend="11"/>
     <listofallmembers>
       <member refid="structutilizador_1aaee503890dbae4a98b7f7be5fd927cb0" prot="public" virt="non-virtual"><scope>utilizador</scope><name>dn</name></member>
       <member refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" prot="public" virt="non-virtual"><scope>utilizador</scope><name>estado</name></member>

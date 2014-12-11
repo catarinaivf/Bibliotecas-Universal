@@ -157,6 +157,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>O programa verifica se o ID de utilizador existe e, se sim, procese às edições das informações.</p>
+<p>SEe o utilizador estava eliminado, e possivel editado e ele volta ao estado 1, significando que volta a estar disponivel </p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -182,6 +184,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>verifica de o ID de utilizador existe</p>
+<p>Procura pelos utilizadores existentes, pois se o estado estiver a 2 significa que ja se encontra eliminado.</p>
+<p>Se nao estiver eliminado, altera entao o estado para 2. </p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -216,6 +221,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Para abrir o programa e utilizado "wt": w- para escrever no ficheiro, t- ficheiro de texto</p>
+<p>O programa grava apenas utilizadores com estado diferente de 0, pois caso tal aconteca, os utilizadores nao existem </p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -241,6 +248,10 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Se o utilizador nao pretender inserir um novo utilizador, basta inserir 0 para voltar.</p>
+<p>É feita uma funcao que faz a atribuicao automatica dos ID's de utilizador.</p>
+<p>Verifica se o ID inicial se encontra disponivel verificando o seu estado, se nao estiver, "avança mais um numero" até que encontre um disponivel</p>
+<p>Apos receber as informações, o programa coloca o estado de novos utilizadores a 1 (existente) </p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -275,6 +286,10 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Para abrir o ficheiro é utilizado "rt", que significa r-read e t-ficheiro de texto</p>
+<p>O programa efetua a leitura no ficheito utilizadores.txt e lê as informações de ID's</p>
+<p>de utilizadores que existam.</p>
+<p>Se o estado de algum utilizador for igual a 0 o programa nao o le, pois significa que nao existe </p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -300,6 +315,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Mostrar utilizadores com estado a 1</p>
+<p>Se existirem utilizadores com estado=2, significa que estao eliminados e, como tal, mostra no fim a mensagem "eliminado" . Estes sao apenas mostrados no fim da lista. </p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -317,7 +334,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="struct_u_t_i_l_i_z_a_d_o_r_e_s.html">UTILIZADORES</a> </td>
+          <td class="memname">void UTILIZADORES </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -325,6 +342,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>id's iniciais de utilizadores apresentam estado igual a 0, quando forem utilizados passam a 1 </p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -349,7 +367,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 11 2014 12:42:11 for Biblioteca Universal by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 11 2014 20:11:14 for Biblioteca Universal by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

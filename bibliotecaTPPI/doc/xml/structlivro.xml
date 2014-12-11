@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="5" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="5" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="5" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="5" bodyend="-1"/>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="61" endline="93">inserir_l</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structlivro_1adff70562cca95767369bccf3714e22e9" prot="public" static="no" mutable="no">
@@ -24,12 +24,12 @@
         <argsstring>[60]</argsstring>
         <name>titulo</name>
         <briefdescription>
-        </briefdescription>
+<para>ID do Livro. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="6" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="6" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structlivro_1add9eee69a1a2bf18ad97aa2d57961845" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -37,12 +37,12 @@
         <argsstring>[60]</argsstring>
         <name>autor</name>
         <briefdescription>
-        </briefdescription>
+<para>Titulo. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="7" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="7" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structlivro_1a81b3cc6450c77481974037c3222cb9ff" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -50,12 +50,12 @@
         <argsstring>[10]</argsstring>
         <name>gen</name>
         <briefdescription>
-        </briefdescription>
+<para>Autor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="8" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="8" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="8" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="8" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structlivro_1a876d08c1d21086e4fd228744da10d028" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -63,12 +63,12 @@
         <argsstring></argsstring>
         <name>estado</name>
         <briefdescription>
-        </briefdescription>
+<para>Genero. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="9" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="9" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="9" bodyend="-1"/>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="13" endline="36">ler_l</referencedby>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="61" endline="93">inserir_l</referencedby>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="95" endline="121">editar_l</referencedby>
@@ -80,7 +80,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="4" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="3" bodyend="10"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="4" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="3" bodyend="10"/>
     <listofallmembers>
       <member refid="structlivro_1add9eee69a1a2bf18ad97aa2d57961845" prot="public" virt="non-virtual"><scope>livro</scope><name>autor</name></member>
       <member refid="structlivro_1a876d08c1d21086e4fd228744da10d028" prot="public" virt="non-virtual"><scope>livro</scope><name>estado</name></member>

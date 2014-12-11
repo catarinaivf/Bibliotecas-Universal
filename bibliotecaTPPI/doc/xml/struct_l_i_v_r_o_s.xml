@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="3" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="3" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="3" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="3" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_l_i_v_r_o_s_1a5273ad9b6cc5de9aa63db51e74d2e950" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="4" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="4" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="4" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="4" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_l_i_v_r_o_s_1a7343f3b439e393d55096dfa02214fd4a" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="5" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="5" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="5" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="5" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_l_i_v_r_o_s_1a81b3cc6450c77481974037c3222cb9ff" prot="public" static="no" mutable="no">
         <type>char</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="6" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="6" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="6" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="6" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_l_i_v_r_o_s_1ac9639d5d4181be687dc6d15def280e26" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -66,14 +66,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="7" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="7" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="7" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="7" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="2" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="1" bodyend="8"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="2" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="1" bodyend="8"/>
     <listofallmembers>
       <member refid="struct_l_i_v_r_o_s_1a5273ad9b6cc5de9aa63db51e74d2e950" prot="public" virt="non-virtual"><scope>LIVROS</scope><name>aut</name></member>
       <member refid="struct_l_i_v_r_o_s_1a7343f3b439e393d55096dfa02214fd4a" prot="public" virt="non-virtual"><scope>LIVROS</scope><name>ed</name></member>

@@ -4,15 +4,15 @@
     <compoundname>1.3_menuREQUISICOES.h</compoundname>
     <includedby refid="0_81__menu__principal_8c" local="yes">source/0.1_menu_principal.c</includedby>
     <invincdepgraph>
-      <node id="54">
-        <label>source/1.3_menuREQUISICOES.h</label>
-        <link refid="1.3_menuREQUISICOES.h"/>
-        <childnode refid="55" relation="include">
-        </childnode>
-      </node>
-      <node id="55">
+      <node id="50">
         <label>source/0.1_menu_principal.c</label>
         <link refid="0_81__menu__principal_8c"/>
+      </node>
+      <node id="49">
+        <label>source/1.3_menuREQUISICOES.h</label>
+        <link refid="1.3_menuREQUISICOES.h"/>
+        <childnode refid="50" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structrequisicao" prot="public">requisicao</innerclass>
@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="2" column="9" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="2" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="2" column="9" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="2" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -44,8 +44,8 @@
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="14" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="14" bodyend="40"/>
+<para>&quot;rt&quot; <ndash/>&gt; r- ler, t-ficheiro de texto </para>        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="14" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="14" bodyend="40"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <references refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="11">requisicao::estado</references>
         <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="42" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="42" bodyend="64"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="42" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="42" bodyend="64"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
       </memberdef>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="68" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="68" bodyend="91"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="68" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="68" bodyend="91"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
       </memberdef>
@@ -111,8 +111,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="93" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="93" bodyend="145"/>
-        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="93" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="93" bodyend="145"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <references refid="structrequisicao_1a83bcbbb52167d11b977097b6e3c282c9" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="6">requisicao::id_requisicao</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="13" endline="36">ler_l</references>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="147" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="147" bodyend="177"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="147" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="147" bodyend="177"/>
         <references refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="11">requisicao::estado</references>
         <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
       </memberdef>
@@ -153,16 +153,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="179" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="179" bodyend="223"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="179" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="179" bodyend="223"/>
         <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
         <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="14" endline="40">ler_requisicao</references>
-        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
         <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</references>
         <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="147" endline="177">concluir</references>
         <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="68" endline="91">mostrar_requisicao</references>
         <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="42" endline="64">gravar_requisicao</references>
         <references refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="38" endline="59">gravar_l</references>
-        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="23" endline="58">MENU_PRINCIPAL</referencedby>
+        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="24" endline="59">MENU_PRINCIPAL</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -171,16 +171,16 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a52037c938e3c1b126c6277da5ca689d0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a52037c938e3c1b126c6277da5ca689d0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M<sp/>100<sp/>//<sp/>Numero<sp/>máximo<sp/>de<sp/>requisições<sp/>possiveis</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4" refid="structrequisicao" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="6" refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" kindref="member">id_uti_r</ref>,<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>variavel<sp/>da<sp/>identidade<sp/>do<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" kindref="member">id_uti_r</ref>,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>id_liv_r,</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>id_requisicao;</highlight></codeline>
-<codeline lineno="9" refid="structrequisicao_1aa943485cb21e39e8c25250f36453db59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>titulo_r[60],</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nome_r[60];</highlight></codeline>
-<codeline lineno="11" refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>6<sp/>variavel<sp/>do<sp/>estado<sp/>0=livra<sp/>1=ocupado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structrequisicao_1aa943485cb21e39e8c25250f36453db59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>titulo_r[60],<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nome_r[60];<sp/></highlight></codeline>
+<codeline lineno="11" refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>;<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">}<ref refid="structrequisicao" kindref="compound">requisicao</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" kindref="member">ler_requisicao</ref><sp/>(<ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>*z)</highlight><highlight class="comment">//funcao<sp/>para<sp/>ler<sp/>arquivo<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
@@ -188,7 +188,7 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*r;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/>k=0;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(r=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/requisicao.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//r-<sp/>ler,<sp/>t-ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(r=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/requisicao.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
@@ -395,6 +395,6 @@
 <codeline lineno="223"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/1.3_menuREQUISICOES.h"/>
   </compounddef>
 </doxygen>

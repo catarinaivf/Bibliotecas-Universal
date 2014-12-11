@@ -52,19 +52,41 @@ source/1.1_menuUTILIZADORES.h \-
 .SH "Function Documentation"
 .PP 
 .SS "int editar_u (\fButilizador\fP *x)"
-
+O programa verifica se o ID de utilizador existe e, se sim, procese às edições das informações\&.
+.PP
+SEe o utilizador estava eliminado, e possivel editado e ele volta ao estado 1, significando que volta a estar disponivel 
 .SS "int eliminar_u (\fButilizador\fP *x)"
-
+verifica de o ID de utilizador existe
+.PP
+Procura pelos utilizadores existentes, pois se o estado estiver a 2 significa que ja se encontra eliminado\&.
+.PP
+Se nao estiver eliminado, altera entao o estado para 2\&. 
 .SS "void gravar_u (\fButilizador\fP *x)"
-
+Para abrir o programa e utilizado 'wt': w- para escrever no ficheiro, t- ficheiro de texto
+.PP
+O programa grava apenas utilizadores com estado diferente de 0, pois caso tal aconteca, os utilizadores nao existem 
 .SS "void inserir_u (\fButilizador\fP *x)"
-
+Se o utilizador nao pretender inserir um novo utilizador, basta inserir 0 para voltar\&.
+.PP
+É feita uma funcao que faz a atribuicao automatica dos ID's de utilizador\&.
+.PP
+Verifica se o ID inicial se encontra disponivel verificando o seu estado, se nao estiver, 'avança mais um numero' até que encontre um disponivel
+.PP
+Apos receber as informações, o programa coloca o estado de novos utilizadores a 1 (existente) 
 .SS "void ler_u (\fButilizador\fP *x)"
-
+Para abrir o ficheiro é utilizado 'rt', que significa r-read e t-ficheiro de texto
+.PP
+O programa efetua a leitura no ficheito utilizadores\&.txt e lê as informações de ID's
+.PP
+de utilizadores que existam\&.
+.PP
+Se o estado de algum utilizador for igual a 0 o programa nao o le, pois significa que nao existe 
 .SS "void mostrar_u (\fButilizador\fP *x)"
-
-.SS "void \fBUTILIZADORES\fP (void)"
-
+Mostrar utilizadores com estado a 1
+.PP
+Se existirem utilizadores com estado=2, significa que estao eliminados e, como tal, mostra no fim a mensagem 'eliminado' \&. Estes sao apenas mostrados no fim da lista\&. 
+.SS "void UTILIZADORES (void)"
+id's iniciais de utilizadores apresentam estado igual a 0, quando forem utilizados passam a 1 
 .SH "Author"
 .PP 
 Generated automatically by Doxygen for Biblioteca Universal from the source code\&.

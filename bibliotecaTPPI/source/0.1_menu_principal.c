@@ -1,3 +1,4 @@
+
 #include<stdio.h>                   //contains printf,scanf etc
 #include<conio.h>                   //contains delay(),getch(),gotoxy(),etc.
 #include<stdlib.h>
@@ -6,7 +7,7 @@
 #include<dos.h>                     //contains _dos_getdate
 #include<time.h>
 //lista das bibliotecas principais
-void limpa_ecra(){ 	
+void limpa_ecra(){ 	/// Função utilizada para limpar o ecrã. Assim, sempre que necessário, basta chamar limpa_ecra()
 	system ("cls"); 
 }
 
@@ -20,7 +21,7 @@ void limpa_ecra(){
 
 #define RETURNTIME 15
 
-void MENU_PRINCIPAL(){
+void MENU_PRINCIPAL(){ /// Estrutura global do programa BIBLIOTECATIC
 int op;//variavel opcao
 	do{
 	//parte visual do menu*inicio

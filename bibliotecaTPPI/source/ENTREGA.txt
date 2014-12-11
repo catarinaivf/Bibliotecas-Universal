@@ -1,7 +1,0 @@
-Entrega do trabalho: 11/12/14
-
-- Relatório (completar/modificar)
-- Software: git +zip
-- Documentação: (doxy) zip
-- Redmine (calendário, wiki...)
-- Website (?)

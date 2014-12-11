@@ -89,23 +89,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">1.2_menuLIVROS.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="1_82__menu_l_i_v_r_o_s_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="1_82__menu_l_i_v_r_o_s_8h.html#a52037c938e3c1b126c6277da5ca689d0">    1</a></span>&#160;<span class="preprocessor">#define M 100</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<a href="1_82__menu_l_i_v_r_o_s_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="1_82__menu_l_i_v_r_o_s_8h.html#a52037c938e3c1b126c6277da5ca689d0">    1</a></span>&#160;<span class="preprocessor">#define M 100 </span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="structlivro.html">    3</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structlivro.html#a06dd325b1ebe2325328d3d76fae3823a">    5</a></span>&#160;<span class="keywordtype">long</span> <span class="keywordtype">int</span> <a class="code" href="structlivro.html#a06dd325b1ebe2325328d3d76fae3823a">id_liv</a>;   <span class="comment">// 1 variavel da identidade do livro</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="structlivro.html#adff70562cca95767369bccf3714e22e9">    6</a></span>&#160;<span class="keywordtype">char</span> titulo[60],  <span class="comment">// 2 variavel do titulo </span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;     autor[60]; <span class="comment">// 4 variavel autora</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structlivro.html#a81b3cc6450c77481974037c3222cb9ff">    8</a></span>&#160;<span class="keywordtype">char</span> gen[10];   <span class="comment">// 3 variavel genero</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structlivro.html#a876d08c1d21086e4fd228744da10d028">    9</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="structlivro.html#a876d08c1d21086e4fd228744da10d028">estado</a>;   <span class="comment">// 6 variavel do estado 0=livra 1=ocupado</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}<a class="code" href="inicio-adicionarlivro-exemplo_8c.html#acf2dd788f34fdd4228b4b96fa8b62db1">livro</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structlivro.html#a06dd325b1ebe2325328d3d76fae3823a">    5</a></span>&#160;<span class="keywordtype">long</span> <span class="keywordtype">int</span> <a class="code" href="structlivro.html#a06dd325b1ebe2325328d3d76fae3823a">id_liv</a>;   </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="structlivro.html#adff70562cca95767369bccf3714e22e9">    6</a></span>&#160;<span class="keywordtype">char</span> titulo[60],  </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;     autor[60]; </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structlivro.html#a81b3cc6450c77481974037c3222cb9ff">    8</a></span>&#160;<span class="keywordtype">char</span> gen[10];   </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structlivro.html#a876d08c1d21086e4fd228744da10d028">    9</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="structlivro.html#a876d08c1d21086e4fd228744da10d028">estado</a>;   <span class="comment">//Estados dos livros : Estado=0 -&gt; Inexistente; Estado=1 -&gt; Existente e disponivel; Estado=2 -&gt; Eliminado; Estado=3 -&gt; Requisitado</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}<a class="code" href="structlivro.html">livro</a>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="1_82__menu_l_i_v_r_o_s_8h.html#aec15f06157938329587cc93e4fb812ab">   13</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="1_82__menu_l_i_v_r_o_s_8h.html#aec15f06157938329587cc93e4fb812ab">ler_l</a> (<a class="code" href="structlivro.html">livro</a> *y)<span class="comment">//funcao para ler arquivo utilizador</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    FILE *l;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> n,k=0;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (!(l=fopen(<span class="stringliteral">&quot;arquivos/livro.txt&quot;</span>,<span class="stringliteral">&quot;rt&quot;</span>))) <span class="comment">// r- ler o ficheiro, t- ficheiro de texto</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (!(l=fopen(<span class="stringliteral">&quot;arquivos/livro.txt&quot;</span>,<span class="stringliteral">&quot;rt&quot;</span>))) <span class="comment">//r- ler o ficheiro, t- ficheiro de texto</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        printf(<span class="stringliteral">&quot;O programa nao conseguiu abrir o arquivo (Prima ENTER para sair)&quot;</span>);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        getch();</div>
@@ -114,14 +114,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">for</span>(n=1;n&lt;=<a class="code" href="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#af146485306ae74a2edf18636300fd107">NR</a>;n++)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        k = fscanf(l,<span class="stringliteral">&quot;%ld\n&quot;</span>,&amp;y[n].id_liv);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span>(k==1){ <span class="comment">// apresenta apena o que o programa consegue ler</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span>(k==1){ </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            fscanf(l,<span class="stringliteral">&quot;%s\n&quot;</span>,&amp;y[n].titulo);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            fscanf(l,<span class="stringliteral">&quot;%s\n&quot;</span>,&amp;y[n].gen);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            fscanf(l,<span class="stringliteral">&quot;%s\n&quot;</span>,&amp;y[n].autor);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            fscanf(l,<span class="stringliteral">&quot;%d\n\n&quot;</span>,&amp;y[n].estado);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            y[n].<a class="code" href="structlivro.html#a876d08c1d21086e4fd228744da10d028">estado</a>=0;  <span class="comment">// nao e efetuada a leitura de livros com o estado a 0</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            y[n].<a class="code" href="structlivro.html#a876d08c1d21086e4fd228744da10d028">estado</a>=0;  </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    fclose(l);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
@@ -279,7 +279,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">int</span> op; <span class="comment">// variável a &quot;entrar&quot; - op</span></div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">int</span> n;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <a class="code" href="structlivro.html">livro</a> y;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <a class="code" href="structlivro.html">livro</a> <a class="code" href="inicio-estruturas_8c.html#a870a36959aefbacb87f69453cb403504">liv</a>[<a class="code" href="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#af146485306ae74a2edf18636300fd107">NR</a>];</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <a class="code" href="structlivro.html">livro</a> liv[<a class="code" href="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#af146485306ae74a2edf18636300fd107">NR</a>];</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">for</span>(n=0;n&lt;<a class="code" href="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#af146485306ae74a2edf18636300fd107">NR</a>;n++)</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        liv[n].estado=0;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="1_82__menu_l_i_v_r_o_s_8h.html#aec15f06157938329587cc93e4fb812ab">ler_l</a>(&amp;y);</div>
@@ -367,22 +367,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_af8eb970526c202f594da1c16355fa43a"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#af8eb970526c202f594da1c16355fa43a">eliminar_l</a></div><div class="ttdeci">int eliminar_l(livro *y)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:123</div></div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_acd34e57b816a8b1b99d4aad0510c72a3"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#acd34e57b816a8b1b99d4aad0510c72a3">editar_l</a></div><div class="ttdeci">int editar_l(livro *y)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:95</div></div>
-<div class="ttc" id="structlivro_html_a876d08c1d21086e4fd228744da10d028"><div class="ttname"><a href="structlivro.html#a876d08c1d21086e4fd228744da10d028">livro::estado</a></div><div class="ttdeci">int estado</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:9</div></div>
+<div class="ttc" id="structlivro_html_a876d08c1d21086e4fd228744da10d028"><div class="ttname"><a href="structlivro.html#a876d08c1d21086e4fd228744da10d028">livro::estado</a></div><div class="ttdeci">int estado</div><div class="ttdoc">Genero. </div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:9</div></div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_a11485b72bfb78f02f72edab1d00cb0d5"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#a11485b72bfb78f02f72edab1d00cb0d5">inserir_l</a></div><div class="ttdeci">void inserir_l(livro *y)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:61</div></div>
 <div class="ttc" id="structlivro_html_a06dd325b1ebe2325328d3d76fae3823a"><div class="ttname"><a href="structlivro.html#a06dd325b1ebe2325328d3d76fae3823a">livro::id_liv</a></div><div class="ttdeci">long int id_liv</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:5</div></div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_a41a1c98261117fbe5e6f0ebbcec5f9ac"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#a41a1c98261117fbe5e6f0ebbcec5f9ac">mostrar_l</a></div><div class="ttdeci">void mostrar_l(livro *y)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:153</div></div>
-<div class="ttc" id="inicio-adicionarlivro-exemplo_8c_html_acf2dd788f34fdd4228b4b96fa8b62db1"><div class="ttname"><a href="inicio-adicionarlivro-exemplo_8c.html#acf2dd788f34fdd4228b4b96fa8b62db1">livro</a></div><div class="ttdeci">adicionar livro()</div><div class="ttdef"><b>Definition:</b> inicio-adicionarlivro-exemplo.c:5</div></div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_a1c91cb4dfb1278efa275317e94b76790"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#a1c91cb4dfb1278efa275317e94b76790">gravar_l</a></div><div class="ttdeci">void gravar_l(livro *y)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:38</div></div>
-<div class="ttc" id="0_81__menu__principal_8c_html_a575708342c73863481c539939d5bd21e"><div class="ttname"><a href="0_81__menu__principal_8c.html#a575708342c73863481c539939d5bd21e">limpa_ecra</a></div><div class="ttdeci">void limpa_ecra()</div><div class="ttdef"><b>Definition:</b> 0.1_menu_principal.c:9</div></div>
+<div class="ttc" id="0_81__menu__principal_8c_html_a575708342c73863481c539939d5bd21e"><div class="ttname"><a href="0_81__menu__principal_8c.html#a575708342c73863481c539939d5bd21e">limpa_ecra</a></div><div class="ttdeci">void limpa_ecra()</div><div class="ttdef"><b>Definition:</b> 0.1_menu_principal.c:10</div></div>
 <div class="ttc" id="structlivro_html"><div class="ttname"><a href="structlivro.html">livro</a></div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:3</div></div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_aec15f06157938329587cc93e4fb812ab"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#aec15f06157938329587cc93e4fb812ab">ler_l</a></div><div class="ttdeci">void ler_l(livro *y)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:13</div></div>
-<div class="ttc" id="inicio-estruturas_8c_html_a870a36959aefbacb87f69453cb403504"><div class="ttname"><a href="inicio-estruturas_8c.html#a870a36959aefbacb87f69453cb403504">liv</a></div><div class="ttdeci">struct LIVRO liv</div><div class="ttdef"><b>Definition:</b> inicio-estruturas.c:10</div></div>
 <div class="ttc" id="1_82__menu_l_i_v_r_o_s_8h_html_a4e85258e55525e765829f28c4911eb9e"><div class="ttname"><a href="1_82__menu_l_i_v_r_o_s_8h.html#a4e85258e55525e765829f28c4911eb9e">LIVROS</a></div><div class="ttdeci">void LIVROS(void)</div><div class="ttdef"><b>Definition:</b> 1.2_menuLIVROS.h:187</div></div>
 <div class="ttc" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_html_af146485306ae74a2edf18636300fd107"><div class="ttname"><a href="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#af146485306ae74a2edf18636300fd107">NR</a></div><div class="ttdeci">#define NR</div><div class="ttdef"><b>Definition:</b> 1.1_menuUTILIZADORES.h:1</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 11 2014 12:42:10 for Biblioteca Universal by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 11 2014 20:11:14 for Biblioteca Universal by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

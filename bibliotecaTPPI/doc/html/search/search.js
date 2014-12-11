@@ -9,9 +9,9 @@ var indexSectionsWithContent =
 {
   0: "01acdefgilmnoprtuv",
   1: "lru",
-  2: "01ipr",
+  2: "01pr",
   3: "cegilmrtu",
-  4: "adegilmntu",
+  4: "adegimnt",
   5: "cfilmnoprv"
 };
 

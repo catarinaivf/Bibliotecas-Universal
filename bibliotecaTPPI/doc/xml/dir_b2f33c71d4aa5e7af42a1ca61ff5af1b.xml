@@ -7,14 +7,12 @@
     <innerfile refid="1_82__menu_l_i_v_r_o_s_8h">1.2_menuLIVROS.h</innerfile>
     <innerfile refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h">1.3_menuREQUISICOES.h</innerfile>
     <innerfile refid="1_84__menu_g_e_s_t_a_o_8h">1.4_menuGESTAO.h</innerfile>
-    <innerfile refid="inicio-adicionarlivro-exemplo_8c">inicio-adicionarlivro-exemplo.c</innerfile>
-    <innerfile refid="inicio-estruturas_8c">inicio-estruturas.c</innerfile>
     <innerfile refid="_projeto1__private_8h">Projeto1_private.h</innerfile>
     <innerfile refid="relogio_8h">relogio.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/"/>
   </compounddef>
 </doxygen>

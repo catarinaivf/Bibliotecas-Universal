@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="5" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="10" bodyend="-1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="5" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="10" bodyend="-1"/>
         <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
       </memberdef>
       <memberdef kind="variable" id="inicio-estruturas_8c_1ac541981d405041be6da1b089d395b4ef" prot="public" static="no" mutable="no">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="20" column="1"/>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c" line="20" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -61,6 +61,6 @@
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c"/>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/bibliotecaTPPI/source/inicio-estruturas.c"/>
   </compounddef>
 </doxygen>

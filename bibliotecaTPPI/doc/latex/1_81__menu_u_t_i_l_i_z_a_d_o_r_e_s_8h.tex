@@ -51,7 +51,9 @@ void \hyperlink{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a10969cc094da713694ed847af
 \item[{{\bf utilizador} $\ast$}]{x}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a41f3d76f47e2459f90c909db59a958b5}
+O programa verifica se o I\+D de utilizador existe e, se sim, procese às edições das informações.
 
+S\+Ee o utilizador estava eliminado, e possivel editado e ele volta ao estado 1, significando que volta a estar disponivel 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -69,7 +71,11 @@ Here is the caller graph for this function\+:\nopagebreak
 \item[{{\bf utilizador} $\ast$}]{x}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_aa8434c82c844e4d6f4dceae0a9ec11b6}
+verifica de o I\+D de utilizador existe
 
+Procura pelos utilizadores existentes, pois se o estado estiver a 2 significa que ja se encontra eliminado.
+
+Se nao estiver eliminado, altera entao o estado para 2. 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -98,7 +104,9 @@ Here is the caller graph for this function\+:\nopagebreak
 \item[{{\bf utilizador} $\ast$}]{x}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_aa717e0d2578028ffbf423f03a3942186}
+Para abrir o programa e utilizado \char`\"{}wt\char`\"{}\+: w-\/ para escrever no ficheiro, t-\/ ficheiro de texto
 
+O programa grava apenas utilizadores com estado diferente de 0, pois caso tal aconteca, os utilizadores nao existem 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -116,7 +124,13 @@ Here is the caller graph for this function\+:\nopagebreak
 \item[{{\bf utilizador} $\ast$}]{x}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a5e68fd833522d40a62009b56c8f2c37f}
+Se o utilizador nao pretender inserir um novo utilizador, basta inserir 0 para voltar.
 
+É feita uma funcao que faz a atribuicao automatica dos I\+D's de utilizador.
+
+Verifica se o I\+D inicial se encontra disponivel verificando o seu estado, se nao estiver, \char`\"{}avança mais um numero\char`\"{} até que encontre um disponivel
+
+Apos receber as informações, o programa coloca o estado de novos utilizadores a 1 (existente) 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -145,7 +159,13 @@ Here is the caller graph for this function\+:\nopagebreak
 \item[{{\bf utilizador} $\ast$}]{x}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a0ec030ae5d28bb3d4afa78c75f244667}
+Para abrir o ficheiro é utilizado \char`\"{}rt\char`\"{}, que significa r-\/read e t-\/ficheiro de texto
 
+O programa efetua a leitura no ficheito utilizadores.\+txt e lê as informações de I\+D's
+
+de utilizadores que existam.
+
+Se o estado de algum utilizador for igual a 0 o programa nao o le, pois significa que nao existe 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -163,7 +183,9 @@ Here is the caller graph for this function\+:\nopagebreak
 \item[{{\bf utilizador} $\ast$}]{x}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a92ee6313ede592851e9f8756f184960f}
+Mostrar utilizadores com estado a 1
 
+Se existirem utilizadores com estado=2, significa que estao eliminados e, como tal, mostra no fim a mensagem \char`\"{}eliminado\char`\"{} . Estes sao apenas mostrados no fim da lista. 
 
 Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
@@ -176,12 +198,12 @@ Here is the caller graph for this function\+:\nopagebreak
 
 \hypertarget{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a10969cc094da713694ed847af267c9c0}{\index{1.\+1\+\_\+menu\+U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S.\+h@{1.\+1\+\_\+menu\+U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S.\+h}!U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S@{U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S}}
 \index{U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S@{U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S}!1.\+1\+\_\+menu\+U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S.\+h@{1.\+1\+\_\+menu\+U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S.\+h}}
-\subsubsection[{U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S} (
+\subsubsection[{U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S}]{\setlength{\rightskip}{0pt plus 5cm}void U\+T\+I\+L\+I\+Z\+A\+D\+O\+R\+E\+S (
 \begin{DoxyParamCaption}
 \item[{void}]{}
 \end{DoxyParamCaption}
 )}}\label{1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_a10969cc094da713694ed847af267c9c0}
-
+id's iniciais de utilizadores apresentam estado igual a 0, quando forem utilizados passam a 1 
 
 Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
