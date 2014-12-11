@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="time_8c" kind="file">
+    <compoundname>time.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">conio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">ctype.h</includes>
+    <includes local="no">dos.h</includes>
+    <includes local="no">time.h</includes>
+    <incdepgraph>
+      <node id="160">
+        <label>stdlib.h</label>
+      </node>
+      <node id="159">
+        <label>conio.h</label>
+      </node>
+      <node id="161">
+        <label>string.h</label>
+      </node>
+      <node id="164">
+        <label>time.h</label>
+      </node>
+      <node id="163">
+        <label>dos.h</label>
+      </node>
+      <node id="162">
+        <label>ctype.h</label>
+      </node>
+      <node id="158">
+        <label>stdio.h</label>
+      </node>
+      <node id="157">
+        <label>source/functions/time.c</label>
+        <link refid="time.c"/>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="time_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c" line="9" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c" bodystart="9" bodyend="15"/>
+        <references refid="time_8c_1ac86d3169260f5cacd0f792743957b054" compoundref="time_8c" startline="16" endline="19">mainmenu</references>
+      </memberdef>
+      <memberdef kind="function" id="time_8c_1ac86d3169260f5cacd0f792743957b054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mainmenu</definition>
+        <argsstring>()</argsstring>
+        <name>mainmenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c" line="16" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c" bodystart="16" bodyend="19"/>
+        <references refid="time_8c_1ad2c584e6472d5514c2fa94aea1697bb7" compoundref="time_8c" startline="20" endline="27">t</references>
+        <referencedby refid="time_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="time_8c" startline="9" endline="15">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="time_8c_1ad2c584e6472d5514c2fa94aea1697bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int t</definition>
+        <argsstring>(void)</argsstring>
+        <name>t</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c" line="20" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c" bodystart="20" bodyend="27"/>
+        <referencedby refid="time_8c_1ac86d3169260f5cacd0f792743957b054" compoundref="time_8c" startline="16" endline="19">mainmenu</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//list<sp/>of<sp/>header<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>printf,scanf<sp/>etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;conio.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>delay(),getch(),gotoxy(),etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>strcmp(),strcpy(),strlen(),etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;ctype.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>toupper(),<sp/>tolower(),etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;dos.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>_dos_getdate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="time_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="time_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="time_8c_1ac86d3169260f5cacd0f792743957b054" kindref="member">mainmenu</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16" refid="time_8c_1ac86d3169260f5cacd0f792743957b054" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="time_8c_1ac86d3169260f5cacd0f792743957b054" kindref="member">mainmenu</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="time_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20" refid="time_8c_1ad2c584e6472d5514c2fa94aea1697bb7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="time_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//for<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">time_t<sp/><ref refid="time_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">time(&amp;t);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">printf(</highlight><highlight class="stringliteral">&quot;Date<sp/>and<sp/>time:%s\n&quot;</highlight><highlight class="normal">,ctime(&amp;t));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0<sp/>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//End<sp/>of<sp/>program</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/time.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" kind="file">
+    <compoundname>1.3_menuREQUISICOES.h</compoundname>
+    <includedby refid="0_81__menu__principal_8c" local="yes">source/0.1_menu_principal.c</includedby>
+    <invincdepgraph>
+      <node id="54">
+        <label>source/1.3_menuREQUISICOES.h</label>
+        <link refid="1.3_menuREQUISICOES.h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>source/0.1_menu_principal.c</label>
+        <link refid="0_81__menu__principal_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structrequisicao" prot="public">requisicao</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a52037c938e3c1b126c6277da5ca689d0" prot="public" static="no">
+        <name>M</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="2" column="9" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_requisicao</definition>
+        <argsstring>(requisicao *z)</argsstring>
+        <name>ler_requisicao</name>
+        <param>
+          <type><ref refid="structrequisicao" kindref="compound">requisicao</ref> *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="14" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="14" bodyend="40"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="11">requisicao::estado</references>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gravar_requisicao</definition>
+        <argsstring>(requisicao *z)</argsstring>
+        <name>gravar_requisicao</name>
+        <param>
+          <type><ref refid="structrequisicao" kindref="compound">requisicao</ref> *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="42" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="42" bodyend="64"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_requisicao</definition>
+        <argsstring>(requisicao *z)</argsstring>
+        <name>mostrar_requisicao</name>
+        <param>
+          <type><ref refid="structrequisicao" kindref="compound">requisicao</ref> *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="68" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="68" bodyend="91"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inserir</definition>
+        <argsstring>(requisicao *z, livro *y, utilizador *x)</argsstring>
+        <name>inserir</name>
+        <param>
+          <type><ref refid="structrequisicao" kindref="compound">requisicao</ref> *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="93" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="93" bodyend="145"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="structrequisicao_1a83bcbbb52167d11b977097b6e3c282c9" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="6">requisicao::id_requisicao</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="13" endline="36">ler_l</references>
+        <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
+        <references refid="structrequisicao_1af636ce6e374d3e55eeb00565c29faf01" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="6">requisicao::id_liv_r</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="14" endline="38">ler_u</references>
+        <references refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="6">requisicao::id_uti_r</references>
+        <references refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="11">requisicao::estado</references>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int concluir</definition>
+        <argsstring>(requisicao *z)</argsstring>
+        <name>concluir</name>
+        <param>
+          <type><ref refid="structrequisicao" kindref="compound">requisicao</ref> *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="147" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="147" bodyend="177"/>
+        <references refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="11">requisicao::estado</references>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void REQUISICOES</definition>
+        <argsstring>()</argsstring>
+        <name>REQUISICOES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="179" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="179" bodyend="223"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="14" endline="40">ler_requisicao</references>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</references>
+        <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="147" endline="177">concluir</references>
+        <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="68" endline="91">mostrar_requisicao</references>
+        <references refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="42" endline="64">gravar_requisicao</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="38" endline="59">gravar_l</references>
+        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="23" endline="58">MENU_PRINCIPAL</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a52037c938e3c1b126c6277da5ca689d0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>M<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="structrequisicao" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" kindref="member">id_uti_r</ref>,<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>variavel<sp/>da<sp/>identidade<sp/>do<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>id_liv_r,</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>id_requisicao;</highlight></codeline>
+<codeline lineno="9" refid="structrequisicao_1aa943485cb21e39e8c25250f36453db59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>titulo_r[60],</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nome_r[60];</highlight></codeline>
+<codeline lineno="11" refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>6<sp/>variavel<sp/>do<sp/>estado<sp/>0=livra<sp/>1=ocupado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}<ref refid="structrequisicao" kindref="compound">requisicao</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" kindref="member">ler_requisicao</ref><sp/>(<ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>*z)</highlight><highlight class="comment">//funcao<sp/>para<sp/>ler<sp/>arquivo<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*r;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/>k=0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(r=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/requisicao.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//r-<sp/>ler,<sp/>t-ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k=fscanf(r,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,&amp;z[n].id_requisicao);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(k==1)<sp/>{<sp/></highlight><highlight class="comment">//<sp/>apenas<sp/>le<sp/>os<sp/>ficheiros<sp/>que<sp/>existem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(r,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,&amp;z[n].id_uti_r);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(r,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;z[n].nome_r);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(r,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,&amp;z[n].id_liv_r);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(r,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;z[n].titulo_r);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(r,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,&amp;z[n].estado);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z[n].<ref refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(r);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" kindref="member">gravar_requisicao</ref><sp/>(<ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>*z)</highlight><highlight class="comment">//funcao<sp/>para<sp/>guardar<sp/>arquivo<sp/>livro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*r;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(r=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/requisicao.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;wt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//<sp/>w-escrever,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].estado==1||z[n].estado==2){<sp/></highlight><highlight class="comment">//<sp/>guarda<sp/>nas<sp/>requisicoes<sp/>os<sp/>livros<sp/>com<sp/>estados<sp/>a<sp/>1<sp/>e<sp/>a<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(r,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,z[n].id_requisicao);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(r,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,z[n].id_uti_r);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(r,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,z[n].nome_r);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(r,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,z[n].id_liv_r);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(r,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,z[n].titulo_r);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(r,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,z[n].estado);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(r);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" kindref="member">mostrar_requisicao</ref>(<ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>*z)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>LISTA<sp/>DE<sp/>REQUISICOES<sp/><sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].estado==1)<sp/></highlight><highlight class="comment">//<sp/>com<sp/>estado<sp/>a<sp/>1,<sp/>significa<sp/>que<sp/>esta<sp/>pendente,<sp/>&quot;a<sp/>pessoa<sp/>ainda<sp/>possui<sp/>o<sp/>livro&quot;,<sp/>requisicao<sp/>ativa</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>da<sp/>Requisicao:<sp/>%ld\n%ld<sp/>:<sp/>%s<sp/>---<sp/>%ld<sp/>:<sp/>%s\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].estado==2)<sp/></highlight><highlight class="comment">//<sp/>se<sp/>estado<sp/>for<sp/>igual<sp/>a<sp/>2,<sp/>significa<sp/>que<sp/>a<sp/>requisicao<sp/>ja<sp/>foi<sp/>concluida</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>da<sp/>Requisicao:<sp/>%ld\n%ld<sp/>:<sp/>%s<sp/>---<sp/>%ld<sp/>:<sp/>%s<sp/>---<sp/>Concluido\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nListagem<sp/>Concluida<sp/>(Prima<sp/>ENTER<sp/>para<sp/>Continuar)&quot;</highlight><highlight class="normal">);getch();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" kindref="member">inserir</ref>(<ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>*z,<sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/>*y,<sp/><ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x){</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,m;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inser;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>NOVA<sp/>REQUISICAO<sp/><sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n(Para<sp/>continuar<sp/>=<sp/>1<sp/>|<sp/>Para<sp/>voltar<sp/>=<sp/>0):<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%ld%*c&quot;</highlight><highlight class="normal">,&amp;inser);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inser==0)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++){</highlight><highlight class="comment">//funcao<sp/>para<sp/>verificar<sp/>validade<sp/>do<sp/>ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].id_requisicao!=n){</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inser=n;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].estado<sp/>!=<sp/>1<sp/>&amp;&amp;<sp/>z[n].estado<sp/>!=<sp/>2)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z[n].<ref refid="structrequisicao_1a83bcbbb52167d11b977097b6e3c282c9" kindref="member">id_requisicao</ref>=inser;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nID<sp/>do<sp/>Livro(0=voltar):<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;m);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>scanf(&quot;%[^\n]s&quot;,x[n].nome_uti);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inser==0)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" kindref="member">ler_l</ref>(y);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[m].id_liv<sp/>==<sp/>m){<sp/></highlight><highlight class="comment">//<sp/>verifica<sp/>o<sp/>ID<sp/>do<sp/>livro<sp/>e<sp/>mostra<sp/>o<sp/>seu<sp/>titulo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nTitulo:<sp/>%s&quot;</highlight><highlight class="normal">,y[m].titulo);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[m].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=3;<sp/></highlight><highlight class="comment">//<sp/>coloca<sp/>o<sp/>estado<sp/>do<sp/>livro<sp/>a<sp/>3,<sp/>significando<sp/>que<sp/>se<sp/>encontra<sp/>requisitado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z[n].<ref refid="structrequisicao_1af636ce6e374d3e55eeb00565c29faf01" kindref="member">id_liv_r</ref>=m;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(z[n].titulo_r,y[m].titulo);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>Utilizador(0=voltar):<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;m);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inser==0)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" kindref="member">ler_u</ref>(x);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[m].id_uti==m){</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z[n].<ref refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" kindref="member">id_uti_r</ref>=m;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(z[n].nome_r,x[m].nome_uti);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z[n].<ref refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=1;<sp/></highlight><highlight class="comment">//<sp/>estado<sp/>da<sp/>requisicao<sp/>a<sp/>1,<sp/>significa<sp/>que<sp/>esta<sp/>ativa,<sp/>ou<sp/>pendente</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>Inserido<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Nao<sp/>foi<sp/>possivel<sp/>Inserir&quot;</highlight><highlight class="normal">);<sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" kindref="member">concluir</ref>(<ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>*z)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>confere;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eli;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Numero<sp/>da<sp/>requisicao<sp/>a<sp/>concluir:<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%ld&quot;</highlight><highlight class="normal">,&amp;n);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].id_requisicao==n){</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>da<sp/>Requicicao:<sp/>%ld\n%ld<sp/>:<sp/>%s<sp/>---<sp/>%ld<sp/>:<sp/>%s\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(z[n].estado!=2)<sp/></highlight><highlight class="comment">//<sp/>verifica<sp/>se<sp/>o<sp/>livo<sp/>ja<sp/>se<sp/>encontra<sp/>requisitado<sp/>ou<sp/>nao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nQuer<sp/>mesmo<sp/>eliminar?<sp/>(Sim<sp/>=<sp/>S<sp/>|<sp/>Nao<sp/>=<sp/>N)&quot;</highlight><highlight class="normal">);confere=getch();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(confere!=</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>confere!=</highlight><highlight class="charliteral">&apos;s&apos;</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z[n].<ref refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=2;<sp/></highlight><highlight class="comment">//<sp/>coloca<sp/>o<sp/>estado<sp/>da<sp/>requisicao<sp/>a<sp/>2,<sp/>significando<sp/>que<sp/>a<sp/>requisicao<sp/>foi<sp/>concluida</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>concluida<sp/>com<sp/>sucesso<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nFoi<sp/>concluido&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(0);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Numero<sp/>nao<sp/>Encontrado<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" kindref="member">REQUISICOES</ref>(){</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op_REQUISICOES;</highlight><highlight class="comment">//variavel<sp/>opcao<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//parte<sp/>visual<sp/>do<sp/>menu*inicio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>x;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/>y;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>z;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structrequisicao" kindref="compound">requisicao</ref><sp/>req[<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>];</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=0;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>req[n].estado=0;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>uti[<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>];</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=0;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uti[n].estado=0;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" kindref="member">ler_requisicao</ref>(&amp;z);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>REQUISICOES<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>1.<sp/>FAZER<sp/>REQUISICAO&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>2.<sp/>CONCLUIR<sp/>REQUISICAO&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>3.<sp/>LISTA<sp/>REQUISICOES&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>0.<sp/>VOLTAR&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\t\t\t:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//*fim</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;op_REQUISICOES);</highlight><highlight class="comment">//veja<sp/>a<sp/>opcao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(op_REQUISICOES)<sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" kindref="member">inserir</ref>(&amp;z,&amp;y,&amp;x);<sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" kindref="member">concluir</ref>(&amp;z);</highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" kindref="member">mostrar_requisicao</ref>(&amp;z);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" kindref="member">gravar_requisicao</ref>(&amp;z);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" kindref="member">gravar_l</ref>(&amp;y);<sp/></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\a\n\n\tInseriu<sp/>mal<sp/>opcao!Insira<sp/>outra<sp/>vez:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;op_REQUISICOES);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(1);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.3_menuREQUISICOES.h"/>
+  </compounddef>
+</doxygen>

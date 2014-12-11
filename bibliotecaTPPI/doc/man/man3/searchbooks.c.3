@@ -1,0 +1,134 @@
+.TH "source/functions/searchbooks.c" 3 "Thu Dec 11 2014" "Version 1" "Biblioteca Universal" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+source/functions/searchbooks.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include <conio\&.h>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include <string\&.h>\fP
+.br
+\fC#include <ctype\&.h>\fP
+.br
+\fC#include <dos\&.h>\fP
+.br
+\fC#include <time\&.h>\fP
+.br
+
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBmeroDate\fP"
+.br
+.ti -1c
+.RI "struct \fBbooks\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBRETURNTIME\fP   15"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBdelay\fP (unsigned int mseconds)"
+.br
+.ti -1c
+.RI "int \fBmain\fP ()"
+.br
+.ti -1c
+.RI "void \fBsearchbooks\fP ()"
+.br
+.ti -1c
+.RI "void \fBreturnfunc\fP (void)"
+.br
+.ti -1c
+.RI "int \fBgetdata\fP ()"
+.br
+.ti -1c
+.RI "int \fBcheckid\fP (int \fBt\fP)"
+.br
+.ti -1c
+.RI "int \fBt\fP (void)"
+.br
+.ti -1c
+.RI "void \fBissuerecord\fP ()"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "char \fBcatagories\fP [][15] ={'Computer','Electronics','Electrical','Civil','Mechnnical','Architecture'}"
+.br
+.ti -1c
+.RI "FILE * \fBfp\fP"
+.br
+.ti -1c
+.RI "FILE * \fBft\fP"
+.br
+.ti -1c
+.RI "FILE * \fBfs\fP"
+.br
+.ti -1c
+.RI "int \fBs\fP"
+.br
+.ti -1c
+.RI "char \fBfindbook\fP"
+.br
+.ti -1c
+.RI "struct \fBbooks\fP \fBa\fP"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define RETURNTIME   15"
+
+.SH "Function Documentation"
+.PP 
+.SS "int checkid (intt)"
+
+.SS "void delay (unsigned intmseconds)"
+
+.SS "int getdata ()"
+
+.SS "void issuerecord ()"
+
+.SS "int main ()"
+
+.SS "void returnfunc (void)"
+
+.SS "void searchbooks ()"
+
+.SS "int t (void)"
+
+.SH "Variable Documentation"
+.PP 
+.SS "struct \fBbooks\fP a"
+
+.SS "char catagories[][15] ={'Computer','Electronics','Electrical','Civil','Mechnnical','Architecture'}"
+
+.SS "char findbook"
+
+.SS "FILE* fp"
+
+.SS "FILE * fs"
+
+.SS "FILE * ft"
+
+.SS "int s"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Biblioteca Universal from the source code\&.

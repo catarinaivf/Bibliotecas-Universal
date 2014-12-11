@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="inicio-adicionarlivro-exemplo_8c" kind="file">
+    <compoundname>inicio-adicionarlivro-exemplo.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="58">
+        <label>source/inicio-adicionarlivro-exemplo.c</label>
+        <link refid="inicio-adicionarlivro-exemplo.c"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="inicio-adicionarlivro-exemplo_8c_1acf2dd788f34fdd4228b4b96fa8b62db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>adicionar</type>
+        <definition>adicionar livro</definition>
+        <argsstring>()</argsstring>
+        <name>livro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-adicionarlivro-exemplo.c" line="5" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-adicionarlivro-exemplo.c" bodystart="5" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>guardar<sp/>dados<sp/>num<sp/>ficheiro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="inicio-adicionarlivro-exemplo_8c_1acf2dd788f34fdd4228b4b96fa8b62db1" refkind="member"><highlight class="normal">adicionar<sp/><ref refid="inicio-adicionarlivro-exemplo_8c_1acf2dd788f34fdd4228b4b96fa8b62db1" kindref="member">livro</ref><sp/>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/>pFile;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>pFile<sp/>=<sp/>fopen<sp/>(</highlight><highlight class="stringliteral">&quot;livrosBib.txt&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;at+&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>at+<sp/>-&gt;<sp/>t<sp/>-<sp/>para<sp/>guardar<sp/>a<sp/>informação<sp/>num<sp/>ficheiro<sp/>txt<sp/>;<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/>a+<sp/>-&gt;<sp/>adicionar/atualização:<sp/>Abre<sp/>um<sp/>arquivo<sp/>para<sp/>atualização<sp/>(tanto<sp/>para<sp/>entrada<sp/>e<sp/>saída),<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/><sp/>com<sp/>todas<sp/>as<sp/>operações<sp/>de<sp/>saída<sp/>de<sp/>gravação<sp/>de<sp/>dados<sp/>no<sp/>final<sp/>do<sp/>arquivo.<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>Operações<sp/>de<sp/>reposicionamento<sp/>afeta<sp/>as<sp/>operações<sp/>de<sp/>entrada<sp/>próximos,<sp/>mas<sp/>as<sp/>operações<sp/>de<sp/>saída<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/>movem<sp/>a<sp/>posição<sp/>de<sp/>volta<sp/>para<sp/>o<sp/>final<sp/>do<sp/>arquivo.<sp/>O<sp/>arquivo<sp/>é criado<sp/>se<sp/>ele<sp/>não<sp/>existe.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pfile!=NULL)<sp/></highlight><highlight class="comment">//<sp/>se<sp/>abrir<sp/>ficheiro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fputs<sp/>(</highlight><highlight class="stringliteral">&quot;fopen<sp/>example&quot;</highlight><highlight class="normal">,pFile);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose<sp/>(pFile);<sp/></highlight><highlight class="comment">//<sp/>Fecha<sp/>o<sp/>arquivo<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-adicionarlivro-exemplo.c"/>
+  </compounddef>
+</doxygen>

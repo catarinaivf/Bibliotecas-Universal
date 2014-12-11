@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="editbooks_8c" kind="file">
+    <compoundname>editbooks.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">conio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">ctype.h</includes>
+    <includes local="no">dos.h</includes>
+    <includes local="no">time.h</includes>
+    <incdepgraph>
+      <node id="133">
+        <label>stdlib.h</label>
+      </node>
+      <node id="132">
+        <label>conio.h</label>
+      </node>
+      <node id="134">
+        <label>string.h</label>
+      </node>
+      <node id="137">
+        <label>time.h</label>
+      </node>
+      <node id="130">
+        <label>source/functions/editbooks.c</label>
+        <link refid="editbooks.c"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>dos.h</label>
+      </node>
+      <node id="135">
+        <label>ctype.h</label>
+      </node>
+      <node id="131">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structmero_date" prot="public">meroDate</innerclass>
+    <innerclass refid="structbooks" prot="public">books</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="editbooks_8c_1a56169c6a67c401a6efc300fb4ec07935" prot="public" static="no">
+        <name>RETURNTIME</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="11" column="9" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="editbooks_8c_1a7c77b525b078f0ae3abfa21e4714ef32" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char catagories[][15]</definition>
+        <argsstring>[][15]</argsstring>
+        <name>catagories</name>
+        <initializer>={&quot;Computer&quot;,&quot;Electronics&quot;,&quot;Electrical&quot;,&quot;Civil&quot;,&quot;Mechnnical&quot;,&quot;Architecture&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="13" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="13" bodyend="-1"/>
+        <referencedby refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="editbooks_8c" startline="132" endline="159">getdata</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" prot="public" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* fp</definition>
+        <argsstring></argsstring>
+        <name>fp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="21" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="21" bodyend="-1"/>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" compoundref="editbooks_8c" startline="160" endline="167">checkid</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="editbooks_8c_1a9252836444296500f89915f6566531c7" prot="public" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE * ft</definition>
+        <argsstring></argsstring>
+        <name>ft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="21" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editbooks_8c_1a109c77d181d71ef67f8c0a5e5efeabae" prot="public" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE * fs</definition>
+        <argsstring></argsstring>
+        <name>fs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="21" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editbooks_8c_1a339d22b3e442946380f98ed19e320db2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="24" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="24" bodyend="-1"/>
+        <referencedby refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="editbooks_8c" startline="132" endline="159">getdata</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="editbooks_8c_1a0c1d002cdcee981d82e3971337165624" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char findbook</definition>
+        <argsstring></argsstring>
+        <name>findbook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="25" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structbooks" kindref="compound">books</ref></type>
+        <definition>struct books a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="25" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="46" bodyend="-1"/>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" compoundref="editbooks_8c" startline="121" endline="131">returnfunc</referencedby>
+        <referencedby refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="editbooks_8c" startline="132" endline="159">getdata</referencedby>
+        <referencedby refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" compoundref="editbooks_8c" startline="160" endline="167">checkid</referencedby>
+        <referencedby refid="editbooks_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="editbooks_8c" startline="177" endline="183">issuerecord</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="editbooks_8c_1a9e7cc9f16fb9cb7de4698c16cd748f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delay</definition>
+        <argsstring>(unsigned int mseconds)</argsstring>
+        <name>delay</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>mseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="15" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="47" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="47" bodyend="54"/>
+        <references refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</references>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1aec621104368111fbf674efe26dcd570e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void viewbooks</definition>
+        <argsstring>(void)</argsstring>
+        <name>viewbooks</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="55" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="55" bodyend="79"/>
+        <references refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" compoundref="editbooks_8c" startline="21">fp</references>
+        <references refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" compoundref="editbooks_8c" startline="46">a</references>
+        <references refid="structbooks_1a48e71daf5632ed64d2ae931391d43854" compoundref="addbook_8c" startline="36">books::cat</references>
+        <references refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" compoundref="addbook_8c" startline="28">books::id</references>
+        <references refid="structbooks_1a399913f362e281ef4dc15e393d33642b" compoundref="addbook_8c" startline="30">books::name</references>
+        <references refid="structbooks_1a90759739feb83da85334478c78abe027" compoundref="addbook_8c" startline="31">books::Author</references>
+        <references refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" compoundref="addbook_8c" startline="32">books::quantity</references>
+        <references refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" compoundref="addbook_8c" startline="33">books::Price</references>
+        <references refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" compoundref="addbook_8c" startline="35">books::rackno</references>
+        <references refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" compoundref="editbooks_8c" startline="121" endline="131">returnfunc</references>
+        <referencedby refid="editbooks_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="editbooks_8c" startline="47" endline="54">main</referencedby>
+        <referencedby refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" compoundref="editbooks_8c" startline="121" endline="131">returnfunc</referencedby>
+        <referencedby refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="editbooks_8c" startline="132" endline="159">getdata</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void editbooks</definition>
+        <argsstring>(void)</argsstring>
+        <name>editbooks</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="80" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="80" bodyend="120"/>
+        <references refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" compoundref="editbooks_8c" startline="21">fp</references>
+        <references refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" compoundref="editbooks_8c" startline="46">a</references>
+        <references refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" compoundref="editbooks_8c" startline="160" endline="167">checkid</references>
+        <references refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" compoundref="addbook_8c" startline="28">books::id</references>
+        <references refid="structbooks_1a399913f362e281ef4dc15e393d33642b" compoundref="addbook_8c" startline="30">books::name</references>
+        <references refid="structbooks_1a90759739feb83da85334478c78abe027" compoundref="addbook_8c" startline="31">books::Author</references>
+        <references refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" compoundref="addbook_8c" startline="32">books::quantity</references>
+        <references refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" compoundref="addbook_8c" startline="33">books::Price</references>
+        <references refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" compoundref="addbook_8c" startline="35">books::rackno</references>
+        <references refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" compoundref="editbooks_8c" startline="121" endline="131">returnfunc</references>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void returnfunc</definition>
+        <argsstring>(void)</argsstring>
+        <name>returnfunc</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="121" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="121" bodyend="131"/>
+        <references refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" compoundref="editbooks_8c" startline="46">a</references>
+        <references refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</references>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int getdata</definition>
+        <argsstring>()</argsstring>
+        <name>getdata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="132" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="132" bodyend="159"/>
+        <references refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" compoundref="editbooks_8c" startline="168" endline="175">t</references>
+        <references refid="editbooks_8c_1a7c77b525b078f0ae3abfa21e4714ef32" compoundref="editbooks_8c" startline="13">catagories</references>
+        <references refid="editbooks_8c_1a339d22b3e442946380f98ed19e320db2" compoundref="editbooks_8c" startline="24">s</references>
+        <references refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" compoundref="editbooks_8c" startline="160" endline="167">checkid</references>
+        <references refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</references>
+        <references refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" compoundref="editbooks_8c" startline="46">a</references>
+        <references refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" compoundref="addbook_8c" startline="28">books::id</references>
+        <references refid="structbooks_1a399913f362e281ef4dc15e393d33642b" compoundref="addbook_8c" startline="30">books::name</references>
+        <references refid="structbooks_1a90759739feb83da85334478c78abe027" compoundref="addbook_8c" startline="31">books::Author</references>
+        <references refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" compoundref="addbook_8c" startline="32">books::quantity</references>
+        <references refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" compoundref="addbook_8c" startline="33">books::Price</references>
+        <references refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" compoundref="addbook_8c" startline="35">books::rackno</references>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int checkid</definition>
+        <argsstring>(int t)</argsstring>
+        <name>checkid</name>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="160" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="160" bodyend="167"/>
+        <references refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" compoundref="editbooks_8c" startline="21">fp</references>
+        <references refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" compoundref="editbooks_8c" startline="46">a</references>
+        <references refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" compoundref="addbook_8c" startline="28">books::id</references>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="editbooks_8c" startline="132" endline="159">getdata</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int t</definition>
+        <argsstring>(void)</argsstring>
+        <name>t</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="168" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="168" bodyend="175"/>
+        <referencedby refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="editbooks_8c" startline="132" endline="159">getdata</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="editbooks_8c_1a0fee581ebb6bf1853b8313408d85a462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void issuerecord</definition>
+        <argsstring>()</argsstring>
+        <name>issuerecord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" line="177" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c" bodystart="177" bodyend="183"/>
+        <references refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" compoundref="editbooks_8c" startline="46">a</references>
+        <references refid="structbooks_1adad902f541b3380ae89b050332193778" compoundref="addbook_8c" startline="29">books::stname</references>
+        <references refid="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" compoundref="addbook_8c" startline="37">books::issued</references>
+        <references refid="structmero_date_1aa1e1f98f915215f8f5ba21493e27c0d5" compoundref="addbook_8c" startline="24">meroDate::dd</references>
+        <references refid="structmero_date_1a34c26acca324499b464752be283dc36f" compoundref="addbook_8c" startline="24">meroDate::mm</references>
+        <references refid="structmero_date_1a12edb164c258a960c65807e655466072" compoundref="addbook_8c" startline="24">meroDate::yy</references>
+        <references refid="structbooks_1adea367e45aa32968b0c8a5fd72781e22" compoundref="addbook_8c" startline="38">books::duedate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//list<sp/>of<sp/>header<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdio.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>printf,scanf<sp/>etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;conio.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>delay(),getch(),gotoxy(),etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>strcmp(),strcpy(),strlen(),etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;ctype.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>toupper(),<sp/>tolower(),etc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;dos.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//contains<sp/>_dos_getdate</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//#include&lt;bios.h&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//contains<sp/><sp/>show_mouse();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="editbooks_8c_1a56169c6a67c401a6efc300fb4ec07935" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RETURNTIME<sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="editbooks_8c_1a7c77b525b078f0ae3abfa21e4714ef32" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a7c77b525b078f0ae3abfa21e4714ef32" kindref="member">catagories</ref>[][15]={</highlight><highlight class="stringliteral">&quot;Computer&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Electronics&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Electrical&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Civil&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Mechnnical&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Architecture&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="editbooks_8c_1a9e7cc9f16fb9cb7de4698c16cd748f15" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a9e7cc9f16fb9cb7de4698c16cd748f15" kindref="member">delay</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mseconds)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>clock_t<sp/>goal<sp/>=<sp/>mseconds<sp/>+<sp/>clock();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(goal<sp/>&gt;<sp/>clock());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//list<sp/>of<sp/>global<sp/>files<sp/>that<sp/>can<sp/>be<sp/>acceed<sp/>form<sp/>anywhere<sp/>in<sp/>program</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="editbooks_8c_1a9252836444296500f89915f6566531c7" refkind="member"><highlight class="normal">FILE<sp/>*<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>,*<ref refid="editbooks_8c_1a9252836444296500f89915f6566531c7" kindref="member">ft</ref>,*<ref refid="editbooks_8c_1a109c77d181d71ef67f8c0a5e5efeabae" kindref="member">fs</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//list<sp/>of<sp/>global<sp/>variable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="editbooks_8c_1a339d22b3e442946380f98ed19e320db2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a339d22b3e442946380f98ed19e320db2" kindref="member">s</ref>;</highlight></codeline>
+<codeline lineno="25" refid="editbooks_8c_1a0c1d002cdcee981d82e3971337165624" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a0c1d002cdcee981d82e3971337165624" kindref="member">findbook</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structmero_date" kindref="compound">meroDate</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structmero_date_1a34c26acca324499b464752be283dc36f" kindref="member">mm</ref>,<ref refid="structmero_date_1aa1e1f98f915215f8f5ba21493e27c0d5" kindref="member">dd</ref>,<ref refid="structmero_date_1a12edb164c258a960c65807e655466072" kindref="member">yy</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structbooks" kindref="compound">books</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structbooks_1adad902f541b3380ae89b050332193778" kindref="member">stname</ref>[20];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structbooks_1a399913f362e281ef4dc15e393d33642b" kindref="member">name</ref>[20];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structbooks_1a90759739feb83da85334478c78abe027" kindref="member">Author</ref>[20];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" kindref="member">quantity</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" kindref="member">Price</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structbooks_1ad43c3812e6d13e0518d9f8b8f463ffcf" kindref="member">count</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" kindref="member">rackno</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structbooks_1a48e71daf5632ed64d2ae931391d43854" kindref="member">cat</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structmero_date" kindref="compound">meroDate</ref><sp/><ref refid="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" kindref="member">issued</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structmero_date" kindref="compound">meroDate</ref><sp/><ref refid="structbooks_1adea367e45aa32968b0c8a5fd72781e22" kindref="member">duedate</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46" refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structbooks" kindref="compound">books</ref><sp/><ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>;</highlight></codeline>
+<codeline lineno="47" refid="editbooks_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" kindref="member">viewbooks</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55" refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" kindref="member">viewbooks</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><sp/></highlight><highlight class="comment">//show<sp/>the<sp/>list<sp/>of<sp/>book<sp/>persists<sp/>in<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0,j;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;*********************************Book<sp/>List*****************************&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>CATEGORY<sp/><sp/><sp/><sp/><sp/>ID<sp/><sp/><sp/><sp/>BOOK<sp/>NAME<sp/><sp/><sp/><sp/><sp/>AUTHOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/>QTY<sp/><sp/><sp/><sp/><sp/>PRICE<sp/><sp/><sp/><sp/><sp/>RackNo<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>j=4;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>=fopen(</highlight><highlight class="stringliteral">&quot;Bibek.dat&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fread(&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>,</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>),1,<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>)==1)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a48e71daf5632ed64d2ae931391d43854" kindref="member">cat</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a399913f362e281ef4dc15e393d33642b" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a90759739feb83da85334478c78abe027" kindref="member">Author</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" kindref="member">quantity</ref>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%.2f&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" kindref="member">Price</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" kindref="member">rackno</ref>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>j++;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>i=i+<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" kindref="member">quantity</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Total<sp/>Books<sp/>=%d&quot;</highlight><highlight class="normal">,i);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>fclose(<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" kindref="member">returnfunc</ref>();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80" refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" kindref="member">editbooks</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/><sp/></highlight><highlight class="comment">//edit<sp/>information<sp/>about<sp/>book</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c=0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d,e;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;****Edit<sp/>Books<sp/>Section****&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>another=</highlight><highlight class="charliteral">&apos;y&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(another==</highlight><highlight class="charliteral">&apos;y&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>Book<sp/>Id<sp/>to<sp/>be<sp/>edited:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;d);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>=fopen(</highlight><highlight class="stringliteral">&quot;Bibek.dat&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rb+&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fread(&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>,</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>),1,<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>)==1)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" kindref="member">checkid</ref>(d)==0)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>book<sp/>is<sp/>availble&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>Book<sp/>ID:%d&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>new<sp/>name:&quot;</highlight><highlight class="normal">);scanf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a399913f362e281ef4dc15e393d33642b" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>new<sp/>Author:&quot;</highlight><highlight class="normal">);scanf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a90759739feb83da85334478c78abe027" kindref="member">Author</ref>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>new<sp/>quantity:&quot;</highlight><highlight class="normal">);scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" kindref="member">quantity</ref>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>new<sp/>price:&quot;</highlight><highlight class="normal">);scanf(</highlight><highlight class="stringliteral">&quot;%f&quot;</highlight><highlight class="normal">,&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" kindref="member">Price</ref>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>new<sp/>rackno:&quot;</highlight><highlight class="normal">);scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" kindref="member">rackno</ref>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>record<sp/>is<sp/>modified&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fseek(<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>,ftell(<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>)-</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>),0);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite(&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>,</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>),1,<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c=1;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c==0)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;No<sp/>record<sp/>found&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Modify<sp/>another<sp/>Record?(Y/N)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdin);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>another=getch()<sp/>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" kindref="member">returnfunc</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121" refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a5f1a78950f642816c28be65ece8a6fd4" kindref="member">returnfunc</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Press<sp/>ENTER<sp/>to<sp/>return<sp/>to<sp/>main<sp/>menu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>:</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(getch()==13)<sp/></highlight><highlight class="comment">//allow<sp/>only<sp/>use<sp/>of<sp/>enter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" kindref="member">viewbooks</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132" refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ade6cb0a481589cced84a39dda479dac1" kindref="member">getdata</ref>()</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Enter<sp/>the<sp/>Information<sp/>Below&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Category:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a7c77b525b078f0ae3abfa21e4714ef32" kindref="member">catagories</ref>[<ref refid="editbooks_8c_1a339d22b3e442946380f98ed19e320db2" kindref="member">s</ref>-1]);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Book<sp/>ID:\t&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;t);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" kindref="member">checkid</ref>(t)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\aThe<sp/>book<sp/>id<sp/>already<sp/>exists\a&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" kindref="member">viewbooks</ref>();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" kindref="member">id</ref>=<ref refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Book<sp/>Name:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a399913f362e281ef4dc15e393d33642b" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Author:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a90759739feb83da85334478c78abe027" kindref="member">Author</ref>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Quantity:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" kindref="member">quantity</ref>);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Price:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%f&quot;</highlight><highlight class="normal">,&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" kindref="member">Price</ref>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Rack<sp/>No:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" kindref="member">rackno</ref>);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160" refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ac97e5b2a05cae72e584da9ce021d4d89" kindref="member">checkid</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>)<sp/><sp/></highlight><highlight class="comment">//check<sp/>whether<sp/>the<sp/>book<sp/>is<sp/>exist<sp/>in<sp/>library<sp/>or<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>rewind(<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fread(&amp;<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>,</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>),1,<ref refid="editbooks_8c_1aa065f30aa9f5f9a42132c82c787ee70b" kindref="member">fp</ref>)==1)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" kindref="member">id</ref>==t)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/><sp/></highlight><highlight class="comment">//returns<sp/>0<sp/>if<sp/>book<sp/>exits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;<sp/></highlight><highlight class="comment">//return<sp/>1<sp/>if<sp/>it<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168" refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//for<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">time_t<sp/><ref refid="editbooks_8c_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">time(&amp;t);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">printf(</highlight><highlight class="stringliteral">&quot;Date<sp/>and<sp/>time:%s\n&quot;</highlight><highlight class="normal">,ctime(&amp;t));</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0<sp/>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="editbooks_8c_1a0fee581ebb6bf1853b8313408d85a462" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="editbooks_8c_1a0fee581ebb6bf1853b8313408d85a462" kindref="member">issuerecord</ref>()<sp/><sp/></highlight><highlight class="comment">//display<sp/>issued<sp/>book&apos;s<sp/>information</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;The<sp/>Book<sp/>has<sp/>taken<sp/>by<sp/>Mr.<sp/>%s&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1adad902f541b3380ae89b050332193778" kindref="member">stname</ref>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Issued<sp/>Date:%d-%d-%d&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" kindref="member">issued</ref>.<ref refid="structmero_date_1aa1e1f98f915215f8f5ba21493e27c0d5" kindref="member">dd</ref>,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" kindref="member">issued</ref>.<ref refid="structmero_date_1a34c26acca324499b464752be283dc36f" kindref="member">mm</ref>,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" kindref="member">issued</ref>.<ref refid="structmero_date_1a12edb164c258a960c65807e655466072" kindref="member">yy</ref>);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Returning<sp/>Date:%d-%d-%d&quot;</highlight><highlight class="normal">,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1adea367e45aa32968b0c8a5fd72781e22" kindref="member">duedate</ref>.<ref refid="structmero_date_1aa1e1f98f915215f8f5ba21493e27c0d5" kindref="member">dd</ref>,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1adea367e45aa32968b0c8a5fd72781e22" kindref="member">duedate</ref>.<ref refid="structmero_date_1a34c26acca324499b464752be283dc36f" kindref="member">mm</ref>,<ref refid="editbooks_8c_1a4313115797586607cfb9f7b2b1b70e0b" kindref="member">a</ref>.<ref refid="structbooks_1adea367e45aa32968b0c8a5fd72781e22" kindref="member">duedate</ref>.<ref refid="structmero_date_1a12edb164c258a960c65807e655466072" kindref="member">yy</ref>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">//End<sp/>of<sp/>program</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/editbooks.c"/>
+  </compounddef>
+</doxygen>

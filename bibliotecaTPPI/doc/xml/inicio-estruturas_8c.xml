@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="inicio-estruturas_8c" kind="file">
+    <compoundname>inicio-estruturas.c</compoundname>
+    <innerclass refid="struct_l_i_v_r_o_s" prot="public">LIVROS</innerclass>
+    <innerclass refid="struct_u_t_i_l_i_z_a_d_o_r_e_s" prot="public">UTILIZADORES</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="inicio-estruturas_8c_1a870a36959aefbacb87f69453cb403504" prot="public" static="no" mutable="no">
+        <type>struct LIVRO</type>
+        <definition>struct LIVRO liv</definition>
+        <argsstring></argsstring>
+        <name>liv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="5" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="10" bodyend="-1"/>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="inicio-estruturas_8c_1ac541981d405041be6da1b089d395b4ef" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s" kindref="compound">UTILIZADORES</ref></type>
+        <definition>struct UTILIZADORES ut</definition>
+        <argsstring></argsstring>
+        <name>ut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="struct_l_i_v_r_o_s" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_l_i_v_r_o_s" kindref="compound">LIVROS</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="struct_l_i_v_r_o_s_1ab8164aa01854c06df11e1e1f22d32f22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_l_i_v_r_o_s_1ab8164aa01854c06df11e1e1f22d32f22" kindref="member">tit</ref>[20];</highlight></codeline>
+<codeline lineno="4" refid="struct_l_i_v_r_o_s_1a5273ad9b6cc5de9aa63db51e74d2e950" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_l_i_v_r_o_s_1a5273ad9b6cc5de9aa63db51e74d2e950" kindref="member">aut</ref>[16];</highlight></codeline>
+<codeline lineno="5" refid="struct_l_i_v_r_o_s_1a7343f3b439e393d55096dfa02214fd4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_l_i_v_r_o_s_1a7343f3b439e393d55096dfa02214fd4a" kindref="member">ed</ref>[10];</highlight></codeline>
+<codeline lineno="6" refid="struct_l_i_v_r_o_s_1a81b3cc6450c77481974037c3222cb9ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_l_i_v_r_o_s_1a81b3cc6450c77481974037c3222cb9ff" kindref="member">gen</ref>[10];</highlight></codeline>
+<codeline lineno="7" refid="struct_l_i_v_r_o_s_1ac9639d5d4181be687dc6d15def280e26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_l_i_v_r_o_s_1ac9639d5d4181be687dc6d15def280e26" kindref="member">idl</ref>[4];</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="inicio-estruturas_8c_1a870a36959aefbacb87f69453cb403504" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">LIVRO<sp/><ref refid="inicio-estruturas_8c_1a870a36959aefbacb87f69453cb403504" kindref="member">liv</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_u_t_i_l_i_z_a_d_o_r_e_s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s" kindref="compound">UTILIZADORES</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a9ccb3b1009c0baf8e49e38488c83732a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a9ccb3b1009c0baf8e49e38488c83732a" kindref="member">nome</ref>[20];</highlight></codeline>
+<codeline lineno="15" refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a028f83b677cad53aa15461fe81de4962" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a028f83b677cad53aa15461fe81de4962" kindref="member">dn</ref><sp/>[8];</highlight></codeline>
+<codeline lineno="16" refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a423ca1da39ebd30724400f2fb097c2ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a423ca1da39ebd30724400f2fb097c2ea" kindref="member">tele</ref>[9];</highlight></codeline>
+<codeline lineno="17" refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1acc4eee01753a98abe33ff84932394203" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1acc4eee01753a98abe33ff84932394203" kindref="member">mail</ref>[20];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s" kindref="compound">UTILIZADORES</ref><sp/><ref refid="inicio-estruturas_8c_1ac541981d405041be6da1b089d395b4ef" kindref="member">ut</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c"/>
+  </compounddef>
+</doxygen>

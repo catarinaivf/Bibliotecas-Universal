@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="structmero_date" kind="struct" prot="public">
+    <compoundname>meroDate</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmero_date_1a34c26acca324499b464752be283dc36f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int mm</definition>
+        <argsstring></argsstring>
+        <name>mm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="24" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="24" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="addbook_8c" startline="137" endline="143">issuerecord</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structmero_date_1aa1e1f98f915215f8f5ba21493e27c0d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dd</definition>
+        <argsstring></argsstring>
+        <name>dd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="24" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="24" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="addbook_8c" startline="137" endline="143">issuerecord</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structmero_date_1a12edb164c258a960c65807e655466072" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int yy</definition>
+        <argsstring></argsstring>
+        <name>yy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="24" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="24" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="addbook_8c" startline="137" endline="143">issuerecord</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="23" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structmero_date_1aa1e1f98f915215f8f5ba21493e27c0d5" prot="public" virt="non-virtual"><scope>meroDate</scope><name>dd</name></member>
+      <member refid="structmero_date_1a34c26acca324499b464752be283dc36f" prot="public" virt="non-virtual"><scope>meroDate</scope><name>mm</name></member>
+      <member refid="structmero_date_1a12edb164c258a960c65807e655466072" prot="public" virt="non-virtual"><scope>meroDate</scope><name>yy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

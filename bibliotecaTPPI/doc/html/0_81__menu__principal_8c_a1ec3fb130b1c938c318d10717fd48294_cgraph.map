@@ -1,0 +1,24 @@
+<map id="MENU_PRINCIPAL" name="MENU_PRINCIPAL">
+<area shape="rect" id="node2" href="$0_81__menu__principal_8c.html#a575708342c73863481c539939d5bd21e" title="limpa_ecra" alt="" coords="529,375,615,402"/>
+<area shape="rect" id="node3" href="$relogio_8h.html#ad2c584e6472d5514c2fa94aea1697bb7" title="t" alt="" coords="225,172,264,199"/>
+<area shape="rect" id="node4" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#a10969cc094da713694ed847af267c9c0" title="UTILIZADORES" alt="" coords="188,223,301,250"/>
+<area shape="rect" id="node11" href="$1_82__menu_l_i_v_r_o_s_8h.html#a4e85258e55525e765829f28c4911eb9e" title="LIVROS" alt="" coords="210,527,279,554"/>
+<area shape="rect" id="node18" href="$1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h.html#a275551bc2bce83499661b17afc255a7f" title="REQUISICOES" alt="" coords="189,806,300,832"/>
+<area shape="rect" id="node5" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#a0ec030ae5d28bb3d4afa78c75f244667" title="ler_u" alt="" coords="547,603,597,630"/>
+<area shape="rect" id="node6" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#a5e68fd833522d40a62009b56c8f2c37f" title="inserir_u" alt="" coords="380,248,451,275"/>
+<area shape="rect" id="node7" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#aa8434c82c844e4d6f4dceae0a9ec11b6" title="eliminar_u" alt="" coords="375,299,456,326"/>
+<area shape="rect" id="node8" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#a41f3d76f47e2459f90c909db59a958b5" title="editar_u" alt="" coords="381,46,449,72"/>
+<area shape="rect" id="node9" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#a92ee6313ede592851e9f8756f184960f" title="mostrar_u" alt="" coords="375,96,455,123"/>
+<area shape="rect" id="node10" href="$1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h.html#aa717e0d2578028ffbf423f03a3942186" title="gravar_u" alt="" coords="380,147,451,174"/>
+<area shape="rect" id="node12" href="$1_82__menu_l_i_v_r_o_s_8h.html#aec15f06157938329587cc93e4fb812ab" title="ler_l" alt="" coords="549,806,595,832"/>
+<area shape="rect" id="node13" href="$1_82__menu_l_i_v_r_o_s_8h.html#a11485b72bfb78f02f72edab1d00cb0d5" title="inserir_l" alt="" coords="382,502,449,528"/>
+<area shape="rect" id="node14" href="$1_82__menu_l_i_v_r_o_s_8h.html#af8eb970526c202f594da1c16355fa43a" title="eliminar_l" alt="" coords="377,603,454,630"/>
+<area shape="rect" id="node15" href="$1_82__menu_l_i_v_r_o_s_8h.html#acd34e57b816a8b1b99d4aad0510c72a3" title="editar_l" alt="" coords="383,552,447,579"/>
+<area shape="rect" id="node16" href="$1_82__menu_l_i_v_r_o_s_8h.html#a41a1c98261117fbe5e6f0ebbcec5f9ac" title="mostrar_l" alt="" coords="377,350,453,376"/>
+<area shape="rect" id="node17" href="$1_82__menu_l_i_v_r_o_s_8h.html#a1c91cb4dfb1278efa275317e94b76790" title="gravar_l" alt="" coords="382,654,449,680"/>
+<area shape="rect" id="node19" href="$1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h.html#aa92ddaa747cc2f928f3b575451029b81" title="ler_requisicao" alt="" coords="364,907,467,934"/>
+<area shape="rect" id="node20" href="$1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h.html#ade32c575baa0abf818afa59bd549c3a1" title="inserir" alt="" coords="387,755,444,782"/>
+<area shape="rect" id="node21" href="$1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h.html#ac632d93f27a41f93bffd78a6ae645d2c" title="concluir" alt="" coords="382,958,449,984"/>
+<area shape="rect" id="node22" href="$1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h.html#a4694e29d3ee0e145dc50e3501a9f9ed9" title="mostrar_requisicao" alt="" coords="349,1008,481,1035"/>
+<area shape="rect" id="node23" href="$1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h.html#aa741215de254443a223930c052088a61" title="gravar_requisicao" alt="" coords="354,856,477,883"/>
+</map>

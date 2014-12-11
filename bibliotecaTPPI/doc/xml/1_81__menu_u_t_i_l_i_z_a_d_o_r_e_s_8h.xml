@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" kind="file">
+    <compoundname>1.1_menuUTILIZADORES.h</compoundname>
+    <includedby refid="0_81__menu__principal_8c" local="yes">source/0.1_menu_principal.c</includedby>
+    <invincdepgraph>
+      <node id="49">
+        <label>source/0.1_menu_principal.c</label>
+        <link refid="0_81__menu__principal_8c"/>
+      </node>
+      <node id="48">
+        <label>source/1.1_menuUTILIZADORES.h</label>
+        <link refid="1.1_menuUTILIZADORES.h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structutilizador" prot="public">utilizador</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" prot="public" static="no">
+        <name>NR</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="1" column="9" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="1" bodyend="-1"/>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="14" endline="38">ler_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa717e0d2578028ffbf423f03a3942186" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="40" endline="63">gravar_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="65" endline="97">inserir_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a92ee6313ede592851e9f8756f184960f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="158" endline="181">mostrar_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="13" endline="36">ler_l</referencedby>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="38" endline="59">gravar_l</referencedby>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="61" endline="93">inserir_l</referencedby>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="153" endline="185">mostrar_l</referencedby>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="14" endline="40">ler_requisicao</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa741215de254443a223930c052088a61" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="42" endline="64">gravar_requisicao</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a4694e29d3ee0e145dc50e3501a9f9ed9" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="68" endline="91">mostrar_requisicao</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_u</definition>
+        <argsstring>(utilizador *x)</argsstring>
+        <name>ler_u</name>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="14" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="14" bodyend="38"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="9">utilizador::estado</references>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa717e0d2578028ffbf423f03a3942186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gravar_u</definition>
+        <argsstring>(utilizador *x)</argsstring>
+        <name>gravar_u</name>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="40" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="40" bodyend="63"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inserir_u</definition>
+        <argsstring>(utilizador *x)</argsstring>
+        <name>inserir_u</name>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="65" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="65" bodyend="97"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="structutilizador_1ade1e35363a9e73ac0443d514809a2ed2" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="5">utilizador::id_uti</references>
+        <references refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="9">utilizador::estado</references>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int editar_u</definition>
+        <argsstring>(utilizador *x)</argsstring>
+        <name>editar_u</name>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="99" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="99" bodyend="127"/>
+        <references refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="9">utilizador::estado</references>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa8434c82c844e4d6f4dceae0a9ec11b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int eliminar_u</definition>
+        <argsstring>(utilizador *x)</argsstring>
+        <name>eliminar_u</name>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="129" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="129" bodyend="156"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <references refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="9">utilizador::estado</references>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a92ee6313ede592851e9f8756f184960f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_u</definition>
+        <argsstring>(utilizador *x)</argsstring>
+        <name>mostrar_u</name>
+        <param>
+          <type><ref refid="structutilizador" kindref="compound">utilizador</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="158" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="158" bodyend="181"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="183" endline="233">UTILIZADORES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UTILIZADORES</definition>
+        <argsstring>(void)</argsstring>
+        <name>UTILIZADORES</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="183" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="183" bodyend="233"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="14" endline="38">ler_u</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="65" endline="97">inserir_u</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa8434c82c844e4d6f4dceae0a9ec11b6" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="129" endline="156">eliminar_u</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="99" endline="127">editar_u</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a92ee6313ede592851e9f8756f184960f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="158" endline="181">mostrar_u</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa717e0d2578028ffbf423f03a3942186" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="40" endline="63">gravar_u</references>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="9" endline="11">limpa_ecra</references>
+        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="23" endline="58">MENU_PRINCIPAL</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" refkind="member"><highlight class="preprocessor">#define<sp/>NR<sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="structutilizador" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="structutilizador_1ade1e35363a9e73ac0443d514809a2ed2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structutilizador_1ade1e35363a9e73ac0443d514809a2ed2" kindref="member">id_uti</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>variavel<sp/>da<sp/>identidade<sp/>do<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="structutilizador_1a9073385a3e289a31c348400685f9ec30" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>nome_uti[60],</highlight><highlight class="comment">//<sp/>2<sp/>variavel<sp/>do<sp/>nome<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1acc4eee01753a98abe33ff84932394203" kindref="member">mail</ref>[60];<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>4<sp/>variavel<sp/>correio<sp/>electronico</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="structutilizador_1aaee503890dbae4a98b7f7be5fd927cb0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a028f83b677cad53aa15461fe81de4962" kindref="member">dn</ref>[10];<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3<sp/>variavel<sp/>data<sp/>nascimento</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structutilizador_1ac061470c693046faeb6b26265dff592f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structutilizador_1ac061470c693046faeb6b26265dff592f" kindref="member">tele</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>5<sp/>variavel<sp/>contacto<sp/>telefonico</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>estado;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>6<sp/>variavel<sp/>do<sp/>estado<sp/>0=livra<sp/>1=ocupado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}<ref refid="structutilizador" kindref="compound">utilizador</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" kindref="member">ler_u</ref><sp/>(<ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x)</highlight><highlight class="comment">//funcao<sp/>para<sp/>ler<sp/>arquivo<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*u;<sp/></highlight><highlight class="comment">//<sp/>*u-<sp/>ponteiro<sp/>para<sp/>o<sp/>ficheiro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/>k=0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(u=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/utilizador.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//<sp/>r-<sp/>para<sp/>ler,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k<sp/>=<sp/>fscanf(u,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,&amp;x[n].id_uti);<sp/><sp/></highlight><highlight class="comment">//<sp/>u,<sp/>ficheiro,<sp/>leitura<sp/>do<sp/>id<sp/>de<sp/>utilizacao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(k<sp/>==<sp/>1){<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>serve<sp/>para<sp/>ler<sp/>apenas<sp/>os<sp/>ficheiros<sp/>existentes,<sp/>para<sp/>evitar<sp/>leitura<sp/>de<sp/>&quot;lixo&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(u,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;x[n].nome_uti);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(u,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;x[n].dn);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(u,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;x[n].mail);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(u,</highlight><highlight class="stringliteral">&quot;%d\n&quot;</highlight><highlight class="normal">,&amp;x[n].tele);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(u,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,&amp;x[n].estado);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x[n].<ref refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>se<sp/>estado<sp/>igual<sp/>a<sp/>0,<sp/>nao<sp/>faz<sp/>nada</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(u);<sp/></highlight><highlight class="comment">//<sp/>fechar<sp/>o<sp/>ficheiro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa717e0d2578028ffbf423f03a3942186" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa717e0d2578028ffbf423f03a3942186" kindref="member">gravar_u</ref><sp/>(<ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x)</highlight><highlight class="comment">//funcao<sp/>para<sp/>guardar<sp/>arquivo<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*u;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(u=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/utilizador.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;wt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//<sp/>w-<sp/>para<sp/>escrever<sp/>no<sp/>ficheiro,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].estado<sp/>!=<sp/>0){<sp/></highlight><highlight class="comment">//<sp/>graa<sp/>apenas<sp/>utilizadores<sp/>com<sp/>estado<sp/>diferente<sp/>de<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(u,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,x[n].id_uti);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(u,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,x[n].nome_uti);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(u,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,x[n].dn);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(u,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,x[n].mail);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(u,</highlight><highlight class="stringliteral">&quot;%d\n&quot;</highlight><highlight class="normal">,x[n].tele);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(u,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,x[n].estado);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(u);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" kindref="member">inserir_u</ref>(<ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x)</highlight><highlight class="comment">//funcao<sp/>para<sp/>adicionar<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inser;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>ADICIONAR<sp/>NOVO<sp/>UTILIZADOR<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n<sp/>(Para<sp/>continuar<sp/>=<sp/>1<sp/>|<sp/>Para<sp/>voltar<sp/>=<sp/>0):<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%ld%*c&quot;</highlight><highlight class="normal">,&amp;inser);<sp/></highlight><highlight class="comment">//<sp/>vai<sp/>verificar<sp/>se<sp/>quer<sp/>continuar<sp/>ou<sp/>nao</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inser==0)<sp/></highlight><highlight class="comment">//<sp/>se<sp/>for<sp/>0,<sp/>significa<sp/>que<sp/>o<sp/>utilizador<sp/>quer<sp/>voltar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++){</highlight><highlight class="comment">//funcao<sp/>para<sp/>verificar<sp/>validade<sp/>do<sp/>ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].id_uti!=n){<sp/></highlight><highlight class="comment">//<sp/>programa<sp/>atribui<sp/>o<sp/>proprio<sp/>ID<sp/><sp/>de<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inser=n;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].estado!=1&amp;&amp;x[n].estado!=2)<sp/></highlight><highlight class="comment">//<sp/>para<sp/>verificar<sp/>se<sp/>nao<sp/>existe<sp/>nada<sp/>no<sp/>espaco<sp/>ocupado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x[n].<ref refid="structutilizador_1ade1e35363a9e73ac0443d514809a2ed2" kindref="member">id_uti</ref>=inser;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nNome(nome_apelido):<sp/>&quot;</highlight><highlight class="normal">);<sp/>gets(x[n].nome_uti);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>scanf(&quot;%[^\n]s&quot;,x[n].nome_uti);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nData<sp/>de<sp/>nascimento(DD/MM/AAAA):<sp/>&quot;</highlight><highlight class="normal">);<sp/>gets(x[n].dn);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nMail:<sp/>&quot;</highlight><highlight class="normal">);<sp/>gets(x[n].mail);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nNumero<sp/>de<sp/>telemovel/telefone:<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;x[n].tele);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x[n].<ref refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=1;<sp/></highlight><highlight class="comment">//<sp/>coloca<sp/>o<sp/>estado<sp/>de<sp/>novos<sp/>utilizadores<sp/>a<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>Inserido<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>Continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Nao<sp/>foi<sp/>possivel<sp/>Inserir&quot;</highlight><highlight class="normal">);<sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" kindref="member">editar_u</ref>(<ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x)</highlight><highlight class="comment">//funcao<sp/>para<sp/>editar<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>confere;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>EDITAR<sp/>UTILIZADOR<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ID<sp/>do<sp/>utilizador<sp/>a<sp/>editar:<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%ld&quot;</highlight><highlight class="normal">,&amp;n);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].id_uti==n)<sp/></highlight><highlight class="comment">//<sp/>verificar<sp/>se<sp/>o<sp/>ID<sp/>de<sp/>utilizador<sp/>existe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>utilizador:<sp/>%ld\nNome:<sp/>%s\nData<sp/>de<sp/>nascimento:<sp/>%s\nMail:<sp/>%s\nNumero<sp/>de<sp/>telemovel/telefone:<sp/>%d\n\n&quot;</highlight><highlight class="normal">,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdin);<sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%s--&gt;&quot;</highlight><highlight class="normal">,x[n].nome_uti);<sp/>gets(x[n].nome_uti);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>scanf(&quot;%[^\n]s&quot;,x[n].nome_uti);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%s--&gt;&quot;</highlight><highlight class="normal">,x[n].dn);<sp/>gets(x[n].dn);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%s--&gt;&quot;</highlight><highlight class="normal">,x[n].mail);<sp/>gets(x[n].mail);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%d--&gt;&quot;</highlight><highlight class="normal">,x[n].tele);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;x[n].tele);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].estado==2){<sp/></highlight><highlight class="comment">//<sp/>se<sp/>o<sp/>utilizador<sp/>estava<sp/>eliminado,<sp/>e<sp/>possivel<sp/>editado<sp/>e<sp/>ele<sp/>volta<sp/>ao<sp/>estado<sp/>1,<sp/>significando<sp/>que<sp/>volta<sp/>a<sp/>estar<sp/>disponivel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x[n].<ref refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=1;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>renovado<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>alterado<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Numero<sp/>nao<sp/>Encontrado<sp/>(Prima<sp/>ENTER<sp/>para<sp/>Continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa8434c82c844e4d6f4dceae0a9ec11b6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa8434c82c844e4d6f4dceae0a9ec11b6" kindref="member">eliminar_u</ref>(<ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>confere;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>ELIMINAR<sp/>UTILIZADOR<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ID<sp/>do<sp/>utilizador<sp/>a<sp/>Eliminar:<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;n);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].id_uti==n){<sp/></highlight><highlight class="comment">//<sp/>verifica<sp/>de<sp/>o<sp/>ID<sp/>de<sp/>utilizador<sp/>existe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>utilizador:<sp/>%ld\nNome:<sp/>%s\nData<sp/>de<sp/>nascimento:<sp/>%s\nMail:<sp/>%s\nNumero<sp/>de<sp/>telemovel/telefone:<sp/>%d\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nQuer<sp/>mesmo<sp/>eliminar?<sp/>(S<sp/>=<sp/>Sim<sp/>|<sp/>N<sp/>=<sp/>Nao)&quot;</highlight><highlight class="normal">);confere=getch();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].estado!=2){<sp/></highlight><highlight class="comment">//<sp/>procura<sp/>pelos<sp/>utilizadores<sp/>existentes,<sp/>pois<sp/>se<sp/>o<sp/>estado<sp/>estiver<sp/>a<sp/>2<sp/>significa<sp/>que<sp/>ja<sp/>se<sp/>encontra<sp/>eliminado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(confere!=</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>confere!=</highlight><highlight class="charliteral">&apos;s&apos;</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x[n].<ref refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=2;<sp/></highlight><highlight class="comment">//coloca<sp/>o<sp/>estado<sp/>para<sp/>2-eliminado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>eliminado<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nFoi<sp/>eliminado&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(0);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Numero<sp/>nao<sp/>Encontrado<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a92ee6313ede592851e9f8756f184960f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a92ee6313ede592851e9f8756f184960f" kindref="member">mostrar_u</ref>(<ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>*x)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>LISTA<sp/>DE<sp/>UTILIZADORES<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].estado==1)<sp/></highlight><highlight class="comment">//para<sp/>mostrar<sp/>utilizadores<sp/>com<sp/>estado<sp/>a<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>de<sp/>utilizador:<sp/>%ld\nNome:<sp/>%s\nData<sp/>de<sp/>nascimento:<sp/>%s\nMail:<sp/>%s\nNumero<sp/>de<sp/>telemovel/telefone:<sp/>%d\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x[n].estado==2)<sp/></highlight><highlight class="comment">//<sp/>mostra<sp/>utilizadores<sp/>com<sp/>estado<sp/>a<sp/>2,<sp/>mostrando<sp/>no<sp/>fim<sp/>a<sp/>mensagem<sp/>&quot;eliminado&quot;<sp/>.<sp/>estes<sp/>sao<sp/>apenas<sp/>mostrados<sp/>no<sp/>fim<sp/>da<sp/>lista</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>de<sp/>utilizador:<sp/>%ld\nNome:<sp/>%s\nData<sp/>de<sp/>nascimento:<sp/>%s\nMail:<sp/>%s\nNumero<sp/>de<sp/>telemovel/telefone:<sp/>%d\nEliminado\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,x[n].id_uti,x[n].nome_uti,x[n].dn,x[n].mail,x[n].tele);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nListagem<sp/>Concluida<sp/>(Prima<sp/>ENTER<sp/>para<sp/>Continuar)&quot;</highlight><highlight class="normal">);getch();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a10969cc094da713694ed847af267c9c0" kindref="member">UTILIZADORES</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight><highlight class="comment">//<sp/>menu<sp/>UTILIZADORES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op;<sp/></highlight><highlight class="comment">//<sp/>variavel<sp/>a<sp/>&quot;entrar&quot;<sp/>-<sp/>op</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>x;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structutilizador" kindref="compound">utilizador</ref><sp/>uti[<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>];<sp/></highlight><highlight class="comment">//<sp/>vetor<sp/>do<sp/>tamanho<sp/>dos<sp/>utilizadores.<sp/>NR<sp/>definido<sp/>como<sp/>100-<sp/>possibilidade<sp/>de<sp/>registo<sp/>de<sp/>100<sp/>utilizadores</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=0;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uti[n].estado=0;<sp/></highlight><highlight class="comment">//<sp/>id&apos;s<sp/>iniciais<sp/>de<sp/>utilizadores<sp/>a<sp/>0,<sp/>quando<sp/>forem<sp/>utilizados<sp/>e<sp/>que<sp/>passam<sp/>a<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" kindref="member">ler_u</ref>(&amp;x);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//limpa<sp/>o<sp/>ecrã <sp/><sp/><sp/><sp/><sp/><sp/><sp/>//parte<sp/>visual<sp/>do<sp/>menu*inicio
+<sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>UTILIZADORES<sp/><sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>1.<sp/>ADICIONAR<sp/>NOVO<sp/>UTILIZADOR&quot;);
+<sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>2.<sp/>APAGAR<sp/>UTILIZADOR&quot;);
+<sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>3.<sp/>EDITAR<sp/>UTILIZADOR&quot;);
+<sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>4.<sp/>LISTA&quot;);
+<sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>0.<sp/>VOLTAR&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\t\t\t:&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//*fim
+<sp/><sp/><sp/><sp/><sp/>scanf(&quot;%d&quot;,<sp/>&amp;op);<sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>switch(op){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>1:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inserir_u(&amp;x);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>2:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eliminar_u(&amp;x);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>3:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>editar_u(&amp;x);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>4:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mostrar_u(&amp;x);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>0:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gravar_u(&amp;x);return;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>default:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\a\n\n\tInseriu<sp/>mal<sp/>opcao!Insira<sp/>outra<sp/>vez:<sp/>&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(&quot;%d&quot;,<sp/>&amp;op);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>limpa_ecra();
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/>}while<sp/>(op<sp/>!=0);
+<sp/><sp/><sp/>
+}
+
+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//parte<sp/>visual<sp/>do<sp/>menu*inicio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>UTILIZADORES<sp/><sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>1.<sp/>ADICIONAR<sp/>NOVO<sp/>UTILIZADOR&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>2.<sp/>APAGAR<sp/>UTILIZADOR&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>3.<sp/>EDITAR<sp/>UTILIZADOR&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>4.<sp/>LISTA&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>0.<sp/>VOLTAR&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\t\t\t:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//*fim</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;op);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(op){</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" kindref="member">inserir_u</ref>(&amp;x);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa8434c82c844e4d6f4dceae0a9ec11b6" kindref="member">eliminar_u</ref>(&amp;x);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" kindref="member">editar_u</ref>(&amp;x);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a92ee6313ede592851e9f8756f184960f" kindref="member">mostrar_u</ref>(&amp;x);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa717e0d2578028ffbf423f03a3942186" kindref="member">gravar_u</ref>(&amp;x);</highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\a\n\n\tInseriu<sp/>mal<sp/>opcao!Insira<sp/>outra<sp/>vez:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;op);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(op<sp/>!=0);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h"/>
+  </compounddef>
+</doxygen>

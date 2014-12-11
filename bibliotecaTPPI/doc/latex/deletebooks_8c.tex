@@ -1,0 +1,211 @@
+\hypertarget{deletebooks_8c}{\section{source/functions/deletebooks.c File Reference}
+\label{deletebooks_8c}\index{source/functions/deletebooks.\+c@{source/functions/deletebooks.\+c}}
+}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$conio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$ctype.\+h$>$}\\*
+{\ttfamily \#include $<$dos.\+h$>$}\\*
+{\ttfamily \#include $<$time.\+h$>$}\\*
+Include dependency graph for deletebooks.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{deletebooks_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structmero_date}{mero\+Date}
+\item 
+struct \hyperlink{structbooks}{books}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{deletebooks_8c_a56169c6a67c401a6efc300fb4ec07935}{R\+E\+T\+U\+R\+N\+T\+I\+M\+E}~15
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{deletebooks_8c_a9e7cc9f16fb9cb7de4698c16cd748f15}{delay} (unsigned int mseconds)
+\item 
+int \hyperlink{deletebooks_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\item 
+void \hyperlink{deletebooks_8c_a0cc10ae4ed1bfa2426269b01fc332c20}{deletebooks} ()
+\item 
+void \hyperlink{deletebooks_8c_a5f1a78950f642816c28be65ece8a6fd4}{returnfunc} (void)
+\item 
+int \hyperlink{deletebooks_8c_ade6cb0a481589cced84a39dda479dac1}{getdata} ()
+\item 
+int \hyperlink{deletebooks_8c_ac97e5b2a05cae72e584da9ce021d4d89}{checkid} (int \hyperlink{relogio_8h_ad2c584e6472d5514c2fa94aea1697bb7}{t})
+\item 
+int \hyperlink{deletebooks_8c_ad2c584e6472d5514c2fa94aea1697bb7}{t} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{deletebooks_8c_a7c77b525b078f0ae3abfa21e4714ef32}{catagories} \mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]} =\{\char`\"{}Computer\char`\"{},\char`\"{}Electronics\char`\"{},\char`\"{}Electrical\char`\"{},\char`\"{}Civil\char`\"{},\char`\"{}Mechnnical\char`\"{},\char`\"{}Architecture\char`\"{}\}
+\item 
+F\+I\+L\+E $\ast$ \hyperlink{deletebooks_8c_aa065f30aa9f5f9a42132c82c787ee70b}{fp}
+\item 
+F\+I\+L\+E $\ast$ \hyperlink{deletebooks_8c_a9252836444296500f89915f6566531c7}{ft}
+\item 
+F\+I\+L\+E $\ast$ \hyperlink{deletebooks_8c_a109c77d181d71ef67f8c0a5e5efeabae}{fs}
+\item 
+int \hyperlink{deletebooks_8c_a339d22b3e442946380f98ed19e320db2}{s}
+\item 
+char \hyperlink{deletebooks_8c_a0c1d002cdcee981d82e3971337165624}{findbook}
+\item 
+struct \hyperlink{structbooks}{books} \hyperlink{deletebooks_8c_a4313115797586607cfb9f7b2b1b70e0b}{a}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{deletebooks_8c_a56169c6a67c401a6efc300fb4ec07935}{\index{deletebooks.\+c@{deletebooks.\+c}!R\+E\+T\+U\+R\+N\+T\+I\+M\+E@{R\+E\+T\+U\+R\+N\+T\+I\+M\+E}}
+\index{R\+E\+T\+U\+R\+N\+T\+I\+M\+E@{R\+E\+T\+U\+R\+N\+T\+I\+M\+E}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{R\+E\+T\+U\+R\+N\+T\+I\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\+E\+T\+U\+R\+N\+T\+I\+M\+E~15}}\label{deletebooks_8c_a56169c6a67c401a6efc300fb4ec07935}
+
+
+\subsection{Function Documentation}
+\hypertarget{deletebooks_8c_ac97e5b2a05cae72e584da9ce021d4d89}{\index{deletebooks.\+c@{deletebooks.\+c}!checkid@{checkid}}
+\index{checkid@{checkid}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{checkid}]{\setlength{\rightskip}{0pt plus 5cm}int checkid (
+\begin{DoxyParamCaption}
+\item[{int}]{t}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_ac97e5b2a05cae72e584da9ce021d4d89}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{deletebooks_8c_ac97e5b2a05cae72e584da9ce021d4d89_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{deletebooks_8c_a9e7cc9f16fb9cb7de4698c16cd748f15}{\index{deletebooks.\+c@{deletebooks.\+c}!delay@{delay}}
+\index{delay@{delay}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{delay}]{\setlength{\rightskip}{0pt plus 5cm}void delay (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{mseconds}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_a9e7cc9f16fb9cb7de4698c16cd748f15}
+\hypertarget{deletebooks_8c_a0cc10ae4ed1bfa2426269b01fc332c20}{\index{deletebooks.\+c@{deletebooks.\+c}!deletebooks@{deletebooks}}
+\index{deletebooks@{deletebooks}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{deletebooks}]{\setlength{\rightskip}{0pt plus 5cm}void deletebooks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_a0cc10ae4ed1bfa2426269b01fc332c20}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{deletebooks_8c_a0cc10ae4ed1bfa2426269b01fc332c20_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{deletebooks_8c_ade6cb0a481589cced84a39dda479dac1}{\index{deletebooks.\+c@{deletebooks.\+c}!getdata@{getdata}}
+\index{getdata@{getdata}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{getdata}]{\setlength{\rightskip}{0pt plus 5cm}int getdata (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_ade6cb0a481589cced84a39dda479dac1}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{deletebooks_8c_ade6cb0a481589cced84a39dda479dac1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{deletebooks_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{\index{deletebooks.\+c@{deletebooks.\+c}!main@{main}}
+\index{main@{main}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{deletebooks_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{deletebooks_8c_a5f1a78950f642816c28be65ece8a6fd4}{\index{deletebooks.\+c@{deletebooks.\+c}!returnfunc@{returnfunc}}
+\index{returnfunc@{returnfunc}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{returnfunc}]{\setlength{\rightskip}{0pt plus 5cm}void returnfunc (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_a5f1a78950f642816c28be65ece8a6fd4}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{deletebooks_8c_a5f1a78950f642816c28be65ece8a6fd4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{deletebooks_8c_ad2c584e6472d5514c2fa94aea1697bb7}{\index{deletebooks.\+c@{deletebooks.\+c}!t@{t}}
+\index{t@{t}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{t}]{\setlength{\rightskip}{0pt plus 5cm}int t (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{deletebooks_8c_ad2c584e6472d5514c2fa94aea1697bb7}
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{deletebooks_8c_ad2c584e6472d5514c2fa94aea1697bb7_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{deletebooks_8c_a4313115797586607cfb9f7b2b1b70e0b}{\index{deletebooks.\+c@{deletebooks.\+c}!a@{a}}
+\index{a@{a}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{a}]{\setlength{\rightskip}{0pt plus 5cm}struct {\bf books} a}}\label{deletebooks_8c_a4313115797586607cfb9f7b2b1b70e0b}
+\hypertarget{deletebooks_8c_a7c77b525b078f0ae3abfa21e4714ef32}{\index{deletebooks.\+c@{deletebooks.\+c}!catagories@{catagories}}
+\index{catagories@{catagories}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{catagories}]{\setlength{\rightskip}{0pt plus 5cm}char catagories\mbox{[}$\,$\mbox{]}\mbox{[}15\mbox{]} =\{\char`\"{}Computer\char`\"{},\char`\"{}Electronics\char`\"{},\char`\"{}Electrical\char`\"{},\char`\"{}Civil\char`\"{},\char`\"{}Mechnnical\char`\"{},\char`\"{}Architecture\char`\"{}\}}}\label{deletebooks_8c_a7c77b525b078f0ae3abfa21e4714ef32}
+\hypertarget{deletebooks_8c_a0c1d002cdcee981d82e3971337165624}{\index{deletebooks.\+c@{deletebooks.\+c}!findbook@{findbook}}
+\index{findbook@{findbook}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{findbook}]{\setlength{\rightskip}{0pt plus 5cm}char findbook}}\label{deletebooks_8c_a0c1d002cdcee981d82e3971337165624}
+\hypertarget{deletebooks_8c_aa065f30aa9f5f9a42132c82c787ee70b}{\index{deletebooks.\+c@{deletebooks.\+c}!fp@{fp}}
+\index{fp@{fp}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{fp}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+L\+E$\ast$ fp}}\label{deletebooks_8c_aa065f30aa9f5f9a42132c82c787ee70b}
+\hypertarget{deletebooks_8c_a109c77d181d71ef67f8c0a5e5efeabae}{\index{deletebooks.\+c@{deletebooks.\+c}!fs@{fs}}
+\index{fs@{fs}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{fs}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+L\+E $\ast$ fs}}\label{deletebooks_8c_a109c77d181d71ef67f8c0a5e5efeabae}
+\hypertarget{deletebooks_8c_a9252836444296500f89915f6566531c7}{\index{deletebooks.\+c@{deletebooks.\+c}!ft@{ft}}
+\index{ft@{ft}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{ft}]{\setlength{\rightskip}{0pt plus 5cm}F\+I\+L\+E $\ast$ ft}}\label{deletebooks_8c_a9252836444296500f89915f6566531c7}
+\hypertarget{deletebooks_8c_a339d22b3e442946380f98ed19e320db2}{\index{deletebooks.\+c@{deletebooks.\+c}!s@{s}}
+\index{s@{s}!deletebooks.\+c@{deletebooks.\+c}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}int s}}\label{deletebooks_8c_a339d22b3e442946380f98ed19e320db2}

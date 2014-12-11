@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="struct_u_t_i_l_i_z_a_d_o_r_e_s" kind="struct" prot="public">
+    <compoundname>UTILIZADORES</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a9ccb3b1009c0baf8e49e38488c83732a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nome[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="14" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a028f83b677cad53aa15461fe81de4962" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dn[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>dn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="15" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a423ca1da39ebd30724400f2fb097c2ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tele[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>tele</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="16" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_t_i_l_i_z_a_d_o_r_e_s_1acc4eee01753a98abe33ff84932394203" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char mail[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>mail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="17" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" line="13" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/inicio-estruturas.c" bodystart="12" bodyend="18"/>
+    <listofallmembers>
+      <member refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a028f83b677cad53aa15461fe81de4962" prot="public" virt="non-virtual"><scope>UTILIZADORES</scope><name>dn</name></member>
+      <member refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1acc4eee01753a98abe33ff84932394203" prot="public" virt="non-virtual"><scope>UTILIZADORES</scope><name>mail</name></member>
+      <member refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a9ccb3b1009c0baf8e49e38488c83732a" prot="public" virt="non-virtual"><scope>UTILIZADORES</scope><name>nome</name></member>
+      <member refid="struct_u_t_i_l_i_z_a_d_o_r_e_s_1a423ca1da39ebd30724400f2fb097c2ea" prot="public" virt="non-virtual"><scope>UTILIZADORES</scope><name>tele</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

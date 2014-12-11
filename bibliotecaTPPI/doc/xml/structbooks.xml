@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="structbooks" kind="struct" prot="public">
+    <compoundname>books</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="28" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="28" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="addbook_8c" startline="85" endline="112">getdata</referencedby>
+        <referencedby refid="addbook_8c_1ac97e5b2a05cae72e584da9ce021d4d89" compoundref="addbook_8c" startline="113" endline="120">checkid</referencedby>
+        <referencedby refid="deletebooks_8c_1a0cc10ae4ed1bfa2426269b01fc332c20" compoundref="deletebooks_8c" startline="56" endline="118">deletebooks</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+        <referencedby refid="searchbooks_8c_1aef186e1741e8496c65b1d7adab051bd3" compoundref="searchbooks_8c" startline="56" endline="142">searchbooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1adad902f541b3380ae89b050332193778" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char stname</definition>
+        <argsstring>[20]</argsstring>
+        <name>stname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="29" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="29" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="addbook_8c" startline="137" endline="143">issuerecord</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1a399913f362e281ef4dc15e393d33642b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char name</definition>
+        <argsstring>[20]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="30" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="30" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="addbook_8c" startline="85" endline="112">getdata</referencedby>
+        <referencedby refid="deletebooks_8c_1a0cc10ae4ed1bfa2426269b01fc332c20" compoundref="deletebooks_8c" startline="56" endline="118">deletebooks</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+        <referencedby refid="searchbooks_8c_1aef186e1741e8496c65b1d7adab051bd3" compoundref="searchbooks_8c" startline="56" endline="142">searchbooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1a90759739feb83da85334478c78abe027" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Author</definition>
+        <argsstring>[20]</argsstring>
+        <name>Author</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="31" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="31" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="addbook_8c" startline="85" endline="112">getdata</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="searchbooks_8c_1aef186e1741e8496c65b1d7adab051bd3" compoundref="searchbooks_8c" startline="56" endline="142">searchbooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int quantity</definition>
+        <argsstring></argsstring>
+        <name>quantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="32" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="32" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="addbook_8c" startline="85" endline="112">getdata</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+        <referencedby refid="searchbooks_8c_1aef186e1741e8496c65b1d7adab051bd3" compoundref="searchbooks_8c" startline="56" endline="142">searchbooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1af97474bf51c3b45301f3e01271baef3b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="33" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="33" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="addbook_8c" startline="85" endline="112">getdata</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="searchbooks_8c_1aef186e1741e8496c65b1d7adab051bd3" compoundref="searchbooks_8c" startline="56" endline="142">searchbooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1ad43c3812e6d13e0518d9f8b8f463ffcf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="34" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int rackno</definition>
+        <argsstring></argsstring>
+        <name>rackno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="35" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="35" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1ade6cb0a481589cced84a39dda479dac1" compoundref="addbook_8c" startline="85" endline="112">getdata</referencedby>
+        <referencedby refid="deletebooks_8c_1a0cc10ae4ed1bfa2426269b01fc332c20" compoundref="deletebooks_8c" startline="56" endline="118">deletebooks</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="editbooks_8c_1ac8b7659f5d4e3a71a0aca5edaf4af981" compoundref="editbooks_8c" startline="80" endline="120">editbooks</referencedby>
+        <referencedby refid="searchbooks_8c_1aef186e1741e8496c65b1d7adab051bd3" compoundref="searchbooks_8c" startline="56" endline="142">searchbooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1a48e71daf5632ed64d2ae931391d43854" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char * cat</definition>
+        <argsstring></argsstring>
+        <name>cat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="36" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="36" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a18861488810750e5256e6374e29dec37" compoundref="addbook_8c" startline="50" endline="83">addbooks</referencedby>
+        <referencedby refid="editbooks_8c_1aec621104368111fbf674efe26dcd570e" compoundref="editbooks_8c" startline="55" endline="79">viewbooks</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structmero_date" kindref="compound">meroDate</ref></type>
+        <definition>struct meroDate issued</definition>
+        <argsstring></argsstring>
+        <name>issued</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="36" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="37" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="addbook_8c" startline="137" endline="143">issuerecord</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structbooks_1adea367e45aa32968b0c8a5fd72781e22" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structmero_date" kindref="compound">meroDate</ref></type>
+        <definition>struct meroDate duedate</definition>
+        <argsstring></argsstring>
+        <name>duedate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="36" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="38" bodyend="-1"/>
+        <referencedby refid="addbook_8c_1a0fee581ebb6bf1853b8313408d85a462" compoundref="addbook_8c" startline="137" endline="143">issuerecord</referencedby>
+        <referencedby refid="requisicoes_8c_1a7e9f4508b92221853ad5eb6264769d8c" compoundref="requisicoes_8c" startline="56" endline="247">issuebooks</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="17">
+        <label>meroDate</label>
+        <link refid="structmero_date"/>
+      </node>
+      <node id="16">
+        <label>books</label>
+        <link refid="structbooks"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>duedate</edgelabel>
+          <edgelabel>issued</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" line="27" column="1" bodyfile="C:/Users/lev/Documents/bibliotecaTPPI/source/functions/addbook.c" bodystart="26" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structbooks_1a90759739feb83da85334478c78abe027" prot="public" virt="non-virtual"><scope>books</scope><name>Author</name></member>
+      <member refid="structbooks_1a48e71daf5632ed64d2ae931391d43854" prot="public" virt="non-virtual"><scope>books</scope><name>cat</name></member>
+      <member refid="structbooks_1ad43c3812e6d13e0518d9f8b8f463ffcf" prot="public" virt="non-virtual"><scope>books</scope><name>count</name></member>
+      <member refid="structbooks_1adea367e45aa32968b0c8a5fd72781e22" prot="public" virt="non-virtual"><scope>books</scope><name>duedate</name></member>
+      <member refid="structbooks_1a7441ef0865bcb3db9b8064dd7375c1ea" prot="public" virt="non-virtual"><scope>books</scope><name>id</name></member>
+      <member refid="structbooks_1a722d044aa88e5133b38d6ac9fb58127e" prot="public" virt="non-virtual"><scope>books</scope><name>issued</name></member>
+      <member refid="structbooks_1a399913f362e281ef4dc15e393d33642b" prot="public" virt="non-virtual"><scope>books</scope><name>name</name></member>
+      <member refid="structbooks_1af97474bf51c3b45301f3e01271baef3b" prot="public" virt="non-virtual"><scope>books</scope><name>Price</name></member>
+      <member refid="structbooks_1ae6969e17e31c17a28dbf801f91acacfb" prot="public" virt="non-virtual"><scope>books</scope><name>quantity</name></member>
+      <member refid="structbooks_1afea1bb3151c33a1c78ae6bd79f8fa754" prot="public" virt="non-virtual"><scope>books</scope><name>rackno</name></member>
+      <member refid="structbooks_1adad902f541b3380ae89b050332193778" prot="public" virt="non-virtual"><scope>books</scope><name>stname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
