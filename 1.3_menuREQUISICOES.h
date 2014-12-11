@@ -150,15 +150,13 @@ int concluir(requisicao *z)
 	int n;
 	int eli;
 	system("cls");
-		printf("\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD  CONCLUIR REQUISICAO  \xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD");
-	printf("\nID da requisicao a concluir: "); scanf("%ld",&eli);
-	for(n=1;n<NR;n++)
-	{
-		if(z[n].id_requisicao==eli){
+	printf("Numero da requisicao a concluir: "); scanf("%ld",&n);
+		if(z[n].id_requisicao==n){
+
+			printf("\n\nID da Requicicao: %ld\n%ld : %s --- %ld : %s\n\n"
+			,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
 			if(z[n].estado!=2)
 			{
-				printf("\n\nID da Requicicao: %ld\n%ld : %s --- %ld : %s\n\n"
-				,z[n].id_requisicao,z[n].id_uti_r,z[n].nome_r,z[n].id_liv_r,z[n].titulo_r);
 				printf("\n\nQuer mesmo eliminar? (Sim = S | Nao = N)");confere=getch();
 	
 				if (confere!='S' && confere!='s')    return(0);
@@ -176,7 +174,6 @@ int concluir(requisicao *z)
 			printf("ERRO! Numero nao Encontrado (Prima ENTER para continuar)");
 			getch(); return(0);
 		}
-	}
 }
 
 void REQUISICOES(){

@@ -8,8 +8,8 @@
 // TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
 //
 1 VERSIONINFO
-FILEVERSION 1,0,0,66
-PRODUCTVERSION 1,0,0,66
+FILEVERSION 1,0,1,68
+PRODUCTVERSION 1,0,1,68
 FILETYPE VFT_APP
 {
   BLOCK "StringFileInfo"
@@ -17,14 +17,14 @@ FILETYPE VFT_APP
     BLOCK "081604E4"
     {
       VALUE "CompanyName", "tic"
-      VALUE "FileVersion", "1.0.0.66"
+      VALUE "FileVersion", "1.0.1.68"
       VALUE "FileDescription", "Developed using the Dev-C++ IDE"
       VALUE "InternalName", ""
       VALUE "LegalCopyright", "tic"
       VALUE "LegalTrademarks", "tic"
       VALUE "OriginalFilename", ""
       VALUE "ProductName", "Biblioteca universal"
-      VALUE "ProductVersion", "1.0.0.66"
+      VALUE "ProductVersion", "1.0.1.68"
     }
   }
   BLOCK "VarFileInfo"
