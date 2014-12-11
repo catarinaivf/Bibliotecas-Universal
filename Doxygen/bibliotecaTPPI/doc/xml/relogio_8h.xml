@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="relogio_8h" kind="file">
+    <compoundname>relogio.h</compoundname>
+    <includedby refid="0_81__menu__principal_8c" local="yes">source/0.1_menu_principal.c</includedby>
+    <invincdepgraph>
+      <node id="56">
+        <label>source/relogio.h</label>
+        <link refid="relogio.h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>source/0.1_menu_principal.c</label>
+        <link refid="0_81__menu__principal_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="relogio_8h_1ad2c584e6472d5514c2fa94aea1697bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int t</definition>
+        <argsstring>(void)</argsstring>
+        <name>t</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/relogio.h" line="1" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/relogio.h" bodystart="1" bodyend="8"/>
+        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="24" endline="59">MENU_PRINCIPAL</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="relogio_8h_1ad2c584e6472d5514c2fa94aea1697bb7" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="relogio_8h_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//para<sp/>tempo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">time_t<sp/><ref refid="relogio_8h_1ad2c584e6472d5514c2fa94aea1697bb7" kindref="member">t</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">time(&amp;t);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">printf(</highlight><highlight class="stringliteral">&quot;Data<sp/>e<sp/>tempo:%s\n&quot;</highlight><highlight class="normal">,ctime(&amp;t));</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0<sp/>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/relogio.h"/>
+  </compounddef>
+</doxygen>

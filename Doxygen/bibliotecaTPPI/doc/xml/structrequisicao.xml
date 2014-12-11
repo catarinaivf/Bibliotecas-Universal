@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="structrequisicao" kind="struct" prot="public">
+    <compoundname>requisicao</compoundname>
+    <includes refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" local="no">1.3_menuREQUISICOES.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int id_uti_r</definition>
+        <argsstring></argsstring>
+        <name>id_uti_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="6" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="6" bodyend="-1"/>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrequisicao_1af636ce6e374d3e55eeb00565c29faf01" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int id_liv_r</definition>
+        <argsstring></argsstring>
+        <name>id_liv_r</name>
+        <briefdescription>
+<para>ID de utilizador, ID de Livro e ID de Requisicao. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="7" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="6" bodyend="-1"/>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrequisicao_1a83bcbbb52167d11b977097b6e3c282c9" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int id_requisicao</definition>
+        <argsstring></argsstring>
+        <name>id_requisicao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="8" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="6" bodyend="-1"/>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structrequisicao_1aa943485cb21e39e8c25250f36453db59" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char titulo_r[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>titulo_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="9" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrequisicao_1a1c7ba6d3e1e3e317652826e28fd517aa" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nome_r[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>nome_r</name>
+        <briefdescription>
+<para>Titulo do livro. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="10" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrequisicao_1a876d08c1d21086e4fd228744da10d028" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+<para>Nome do utilizador. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="11" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1aa92ddaa747cc2f928f3b575451029b81" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="14" endline="40">ler_requisicao</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ac632d93f27a41f93bffd78a6ae645d2c" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="147" endline="177">concluir</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" line="5" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.3_menuREQUISICOES.h" bodystart="4" bodyend="12"/>
+    <listofallmembers>
+      <member refid="structrequisicao_1a876d08c1d21086e4fd228744da10d028" prot="public" virt="non-virtual"><scope>requisicao</scope><name>estado</name></member>
+      <member refid="structrequisicao_1af636ce6e374d3e55eeb00565c29faf01" prot="public" virt="non-virtual"><scope>requisicao</scope><name>id_liv_r</name></member>
+      <member refid="structrequisicao_1a83bcbbb52167d11b977097b6e3c282c9" prot="public" virt="non-virtual"><scope>requisicao</scope><name>id_requisicao</name></member>
+      <member refid="structrequisicao_1a46ba42e509577cf7ad9429d2293ff577" prot="public" virt="non-virtual"><scope>requisicao</scope><name>id_uti_r</name></member>
+      <member refid="structrequisicao_1a1c7ba6d3e1e3e317652826e28fd517aa" prot="public" virt="non-virtual"><scope>requisicao</scope><name>nome_r</name></member>
+      <member refid="structrequisicao_1aa943485cb21e39e8c25250f36453db59" prot="public" virt="non-virtual"><scope>requisicao</scope><name>titulo_r</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

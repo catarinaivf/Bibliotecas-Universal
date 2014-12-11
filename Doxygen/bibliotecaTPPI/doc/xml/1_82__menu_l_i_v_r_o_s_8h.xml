@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="1_82__menu_l_i_v_r_o_s_8h" kind="file">
+    <compoundname>1.2_menuLIVROS.h</compoundname>
+    <includedby refid="0_81__menu__principal_8c" local="yes">source/0.1_menu_principal.c</includedby>
+    <invincdepgraph>
+      <node id="46">
+        <label>source/1.2_menuLIVROS.h</label>
+        <link refid="1.2_menuLIVROS.h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>source/0.1_menu_principal.c</label>
+        <link refid="0_81__menu__principal_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structlivro" prot="public">livro</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="1_82__menu_l_i_v_r_o_s_8h_1a52037c938e3c1b126c6277da5ca689d0" prot="public" static="no">
+        <name>M</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="1" column="9" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ler_l</definition>
+        <argsstring>(livro *y)</argsstring>
+        <name>ler_l</name>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Le apenas informaçoes que existam/estejam guardadas</para><para>nao e efetuada a leitura de livros com o estado a 0, pois estes são inexistentes </para>        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="13" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="13" bodyend="36"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1ade32c575baa0abf818afa59bd549c3a1" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="93" endline="145">inserir</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gravar_l</definition>
+        <argsstring>(livro *y)</argsstring>
+        <name>gravar_l</name>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="38" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="38" bodyend="59"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+        <referencedby refid="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h_1a275551bc2bce83499661b17afc255a7f" compoundref="1_83__menu_r_e_q_u_i_s_i_c_o_e_s_8h" startline="179" endline="223">REQUISICOES</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void inserir_l</definition>
+        <argsstring>(livro *y)</argsstring>
+        <name>inserir_l</name>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="61" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="61" bodyend="93"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="5">livro::id_liv</references>
+        <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int editar_l</definition>
+        <argsstring>(livro *y)</argsstring>
+        <name>editar_l</name>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="95" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="95" bodyend="121"/>
+        <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1af8eb970526c202f594da1c16355fa43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int eliminar_l</definition>
+        <argsstring>(livro *y)</argsstring>
+        <name>eliminar_l</name>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="123" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="123" bodyend="151"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
+        <references refid="structlivro_1a876d08c1d21086e4fd228744da10d028" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="9">livro::estado</references>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostrar_l</definition>
+        <argsstring>(livro *y)</argsstring>
+        <name>mostrar_l</name>
+        <param>
+          <type><ref refid="structlivro" kindref="compound">livro</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="153" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="153" bodyend="185"/>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <referencedby refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="187" endline="235">LIVROS</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LIVROS</definition>
+        <argsstring>(void)</argsstring>
+        <name>LIVROS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" line="187" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h" bodystart="187" bodyend="235"/>
+        <references refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="1">NR</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="13" endline="36">ler_l</references>
+        <references refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" compoundref="0_81__menu__principal_8c" startline="10" endline="12">limpa_ecra</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="61" endline="93">inserir_l</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1af8eb970526c202f594da1c16355fa43a" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="123" endline="151">eliminar_l</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="95" endline="121">editar_l</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="153" endline="185">mostrar_l</references>
+        <references refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" compoundref="1_82__menu_l_i_v_r_o_s_8h" startline="38" endline="59">gravar_l</references>
+        <referencedby refid="0_81__menu__principal_8c_1a1ec3fb130b1c938c318d10717fd48294" compoundref="0_81__menu__principal_8c" startline="24" endline="59">MENU_PRINCIPAL</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="1_82__menu_l_i_v_r_o_s_8h_1a52037c938e3c1b126c6277da5ca689d0" refkind="member"><highlight class="preprocessor">#define<sp/>M<sp/>100<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="structlivro" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" kindref="member">id_liv</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6" refid="structlivro_1adff70562cca95767369bccf3714e22e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>titulo[60],<sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>autor[60];<sp/></highlight></codeline>
+<codeline lineno="8" refid="structlivro_1a81b3cc6450c77481974037c3222cb9ff" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>gen[10];<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="structlivro_1a876d08c1d21086e4fd228744da10d028" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//Estados<sp/>dos<sp/>livros<sp/>:<sp/>Estado=0<sp/>-&gt;<sp/>Inexistente;<sp/>Estado=1<sp/>-&gt;<sp/>Existente<sp/>e<sp/>disponivel;<sp/>Estado=2<sp/>-&gt;<sp/>Eliminado;<sp/>Estado=3<sp/>-&gt;<sp/>Requisitado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}<ref refid="structlivro" kindref="compound">livro</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" kindref="member">ler_l</ref><sp/>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight><highlight class="comment">//funcao<sp/>para<sp/>ler<sp/>arquivo<sp/>utilizador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*l;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,k=0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(l=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/livro.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;rt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//r-<sp/>ler<sp/>o<sp/>ficheiro,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k<sp/>=<sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,&amp;y[n].id_liv);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(k==1){<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;y[n].titulo);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;y[n].gen);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,&amp;y[n].autor);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fscanf(l,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,&amp;y[n].estado);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=0;<sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(l);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" kindref="member">gravar_l</ref><sp/>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight><highlight class="comment">//funcao<sp/>para<sp/>guardar<sp/>arquivo<sp/>livro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*l;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(l=fopen(</highlight><highlight class="stringliteral">&quot;arquivos/livro.txt&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;wt&quot;</highlight><highlight class="normal">)))<sp/></highlight><highlight class="comment">//<sp/>w-<sp/>escrever,<sp/>t-<sp/>ficheiro<sp/>de<sp/>texto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;O<sp/>programa<sp/>nao<sp/>conseguiu<sp/>abrir<sp/>o<sp/>arquivo<sp/>(Prima<sp/>ENTER<sp/>para<sp/>sair)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;=<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado!=0){<sp/></highlight><highlight class="comment">//<sp/>grava<sp/>os<sp/>livros<sp/>que<sp/>tenhao<sp/>o<sp/>estado<sp/>diferente<sp/>de<sp/>0,<sp/>pois<sp/>significa<sp/>que<sp/>existem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(l,</highlight><highlight class="stringliteral">&quot;%ld\n&quot;</highlight><highlight class="normal">,y[n].id_liv);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,y[n].titulo);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,y[n].gen);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(l,</highlight><highlight class="stringliteral">&quot;%s\n&quot;</highlight><highlight class="normal">,y[n].autor);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(l,</highlight><highlight class="stringliteral">&quot;%d\n\n&quot;</highlight><highlight class="normal">,y[n].estado);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(l);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" kindref="member">inserir_l</ref>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight><highlight class="comment">//funcao<sp/>para<sp/>adicionar<sp/>livro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>inser;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>NOVO<sp/>LIVRO<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;(Para<sp/>continuar=1<sp/>|<sp/>Para<sp/>voltar=0):<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%ld%*c&quot;</highlight><highlight class="normal">,&amp;inser);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inser==0)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++){</highlight><highlight class="comment">//funcao<sp/>para<sp/>verificar<sp/>validade<sp/>do<sp/>ID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].id_liv!=n){<sp/></highlight><highlight class="comment">//<sp/>atribuiçao<sp/>automatica<sp/>do<sp/>ID<sp/>de<sp/>livro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inser=n;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado!=1&amp;&amp;y[n].estado!=2&amp;&amp;y[n].estado!=3)<sp/></highlight><highlight class="comment">//<sp/>utiliza<sp/>id&apos;s<sp/>que<sp/>nao<sp/>estejam<sp/>utilizados,<sp/>pois<sp/>caso<sp/>tenham<sp/>os<sp/>estados<sp/>1,<sp/>2<sp/>ou<sp/>3<sp/>significa<sp/>que<sp/>ja<sp/>estao<sp/>utilizados/ocupados</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a06dd325b1ebe2325328d3d76fae3823a" kindref="member">id_liv</ref>=inser;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nTitulo:<sp/>&quot;</highlight><highlight class="normal">);<sp/>gets(y[n].titulo);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>scanf(&quot;%[^\n]s&quot;,x[n].nome_uti);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nGenero:<sp/>&quot;</highlight><highlight class="normal">);<sp/>gets(y[n].gen);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nAutor:<sp/>&quot;</highlight><highlight class="normal">);<sp/>gets(y[n].autor);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=1;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>Inserido<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Nao<sp/>foi<sp/>possivel<sp/>Inserir&quot;</highlight><highlight class="normal">);<sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" kindref="member">editar_l</ref>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight><highlight class="comment">//funcao<sp/>para<sp/>editar<sp/>livro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>confere;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>EDITAR<sp/>LIVRO<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nID<sp/>do<sp/>livro<sp/>a<sp/>editar:<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%ld&quot;</highlight><highlight class="normal">,&amp;n);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].id_liv==n)<sp/></highlight><highlight class="comment">//<sp/>le<sp/>o<sp/>ID<sp/>inserido</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>livro:<sp/>%ld\nTitulo:<sp/>%s\nGenero:<sp/>%s\nAutor:<sp/>%s\n\n&quot;</highlight><highlight class="normal">,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdin);<sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%s--&gt;&quot;</highlight><highlight class="normal">,y[n].titulo);<sp/>gets(y[n].titulo);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>scanf(&quot;%[^\n]s&quot;,x[n].nome_uti);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%s--&gt;&quot;</highlight><highlight class="normal">,y[n].gen);<sp/>gets(y[n].gen);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n%s--&gt;&quot;</highlight><highlight class="normal">,y[n].autor);<sp/>gets(y[n].autor);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado==2){</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=1;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>renovado<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>alterado<sp/>com<sp/>sucesso!<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Numero<sp/>nao<sp/>Encontrado<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="1_82__menu_l_i_v_r_o_s_8h_1af8eb970526c202f594da1c16355fa43a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1af8eb970526c202f594da1c16355fa43a" kindref="member">eliminar_l</ref>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>confere;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>ELIMINAR<sp/>UTILIZADOR<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nID<sp/>do<sp/>livro<sp/>a<sp/>eliminar:<sp/>&quot;</highlight><highlight class="normal">);<sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;n);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].id_liv==n){</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>livro:<sp/>%ld\nTitulo:<sp/>%s\nGenero:<sp/>%s\nAutor:<sp/>%s\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado!=2)<sp/></highlight><highlight class="comment">//<sp/>apenas<sp/>para<sp/>estados<sp/>diferentes<sp/>de<sp/>2,<sp/>pois<sp/>se<sp/>estiverem<sp/>a<sp/>2<sp/>singifica<sp/>que<sp/>ja<sp/>estao<sp/>eliminados</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nQuer<sp/>mesmo<sp/>eliminar?<sp/>(Sim<sp/>=<sp/>S<sp/>|<sp/>Nao<sp/>=<sp/>N)&quot;</highlight><highlight class="normal">);confere=getch();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(confere!=</highlight><highlight class="charliteral">&apos;S&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>confere!=</highlight><highlight class="charliteral">&apos;s&apos;</highlight><highlight class="normal">)<sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y[n].<ref refid="structlivro_1a876d08c1d21086e4fd228744da10d028" kindref="member">estado</ref>=2;<sp/></highlight><highlight class="comment">//<sp/>altera<sp/>o<sp/>estado<sp/>do<sp/>livro<sp/>para<sp/>2,<sp/>singificando<sp/>que<sp/>esta<sp/>eliminado</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nRegisto<sp/>eliminado<sp/>com<sp/>sucesso!<sp/>(Primo<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(1);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nFoi<sp/>eliminado&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(0);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ERRO!<sp/>Numero<sp/>nao<sp/>Encontrado<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getch();<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">(0);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" kindref="member">mostrar_l</ref>(<ref refid="structlivro" kindref="compound">livro</ref><sp/>*y)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado==1)<sp/></highlight><highlight class="comment">//<sp/>mostra<sp/>livros<sp/>com<sp/>estado<sp/>igual<sp/>a<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/>LISTA<sp/>DE<sp/>LIVROS<sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>livro:<sp/>%ld\nTitulo:<sp/>%s\nGenero:<sp/>%s\nAutor:<sp/>%s\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado==3)<sp/></highlight><highlight class="comment">//<sp/>se<sp/>o<sp/>livro<sp/>tiver<sp/>o<sp/>estado<sp/>igual<sp/>a<sp/>3,<sp/>significa<sp/>que<sp/>esta<sp/>requisitado.<sp/>Apresenta<sp/>o<sp/>fim<sp/>a<sp/>informacao<sp/>a<sp/>dizer<sp/>&quot;requisitado&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>livro:<sp/>%ld\nTitulo:<sp/>%s\nGenero:<sp/>%s\nAutor:<sp/>%s\nRequisitado\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=1;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(y[n].estado==2)<sp/></highlight><highlight class="comment">//<sp/>se<sp/>o<sp/>seu<sp/>estado<sp/>for<sp/>2,<sp/>apresenta<sp/>a<sp/>mensagem<sp/>&quot;eliminado&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\nID<sp/>do<sp/>livro:<sp/>%ld\nTitulo:<sp/>%s\nGenero:<sp/>%s\nAutor:<sp/>%s\nEliminado\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,y[n].id_liv,y[n].titulo,y[n].gen,y[n].autor);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\nListagem<sp/>Concluida<sp/>(Prima<sp/>ENTER<sp/>para<sp/>continuar)&quot;</highlight><highlight class="normal">);getch();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a4e85258e55525e765829f28c4911eb9e" kindref="member">LIVROS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){<sp/></highlight><highlight class="comment">//<sp/>menu<sp/>LIVROS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op;<sp/></highlight><highlight class="comment">//<sp/>variável<sp/>a<sp/>&quot;entrar&quot;<sp/>-<sp/>op</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/>y;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structlivro" kindref="compound">livro</ref><sp/>liv[<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>];</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(n=0;n&lt;<ref refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1af146485306ae74a2edf18636300fd107" kindref="member">NR</ref>;n++)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>liv[n].estado=0;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1aec15f06157938329587cc93e4fb812ab" kindref="member">ler_l</ref>(&amp;y);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();<sp/></highlight><highlight class="comment">//limpa<sp/>o<sp/>ecrã <sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//parte<sp/>visual<sp/>do<sp/>menu*inicio
+<sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/><sp/>LIVROS<sp/><sp/><sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>1.<sp/>ADICIONAR<sp/>NOVO<sp/>LIVRO&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>2.<sp/>APAGAR<sp/>LIVRO&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>3.<sp/>EDITAR<sp/>LIVRO&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>4.<sp/>LISTA&quot;);
+<sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\t<sp/>0.<sp/>VOLTAR&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\n\t\t\t:&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//*fim
+<sp/><sp/><sp/><sp/><sp/>scanf(&quot;%d&quot;,<sp/>&amp;op);<sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>switch(op){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>1:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inserir_l(&amp;y);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>2:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eliminar_l(&amp;y);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>3:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>editar_l(&amp;y);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>4:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mostrar_l(&amp;y);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>case<sp/>0:
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gravar_l(&amp;y);return;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>default://se<sp/>nao<sp/>foi<sp/>escolodo<sp/>o<sp/>caso<sp/>certo(pode<sp/>nao<sp/>sair<sp/>daqui)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(&quot;\a\n\n\tInseriu<sp/>mal<sp/>opcao!Insira<sp/>outra<sp/>vez:<sp/>&quot;);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(&quot;%d&quot;,<sp/>&amp;op);
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>limpa_ecra();
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/>}while<sp/>(op<sp/>!=0);
+<sp/><sp/><sp/>
+}
+
+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//parte<sp/>visual<sp/>do<sp/>menu*inicio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD<sp/><sp/><sp/>LIVROS<sp/><sp/><sp/>\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>1.<sp/>ADICIONAR<sp/>NOVO<sp/>LIVRO&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>2.<sp/>APAGAR<sp/>LIVRO&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>3.<sp/>EDITAR<sp/>LIVRO&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>4.<sp/>LISTA&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\t<sp/>0.<sp/>VOLTAR&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\n\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n\t\t\t:&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//*fim</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;op);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(op){</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a11485b72bfb78f02f72edab1d00cb0d5" kindref="member">inserir_l</ref>(&amp;y);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1af8eb970526c202f594da1c16355fa43a" kindref="member">eliminar_l</ref>(&amp;y);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1acd34e57b816a8b1b99d4aad0510c72a3" kindref="member">editar_l</ref>(&amp;y);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a41a1c98261117fbe5e6f0ebbcec5f9ac" kindref="member">mostrar_l</ref>(&amp;y);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="1_82__menu_l_i_v_r_o_s_8h_1a1c91cb4dfb1278efa275317e94b76790" kindref="member">gravar_l</ref>(&amp;y);</highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight><highlight class="comment">//se<sp/>nao<sp/>foi<sp/>escolodo<sp/>o<sp/>caso<sp/>certo(pode<sp/>nao<sp/>sair<sp/>daqui)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\a\n\n\tInseriu<sp/>mal<sp/>opcao!Insira<sp/>outra<sp/>vez:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;op);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="0_81__menu__principal_8c_1a575708342c73863481c539939d5bd21e" kindref="member">limpa_ecra</ref>();</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(op<sp/>!=0);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.2_menuLIVROS.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="structutilizador" kind="struct" prot="public">
+    <compoundname>utilizador</compoundname>
+    <includes refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" local="no">1.1_menuUTILIZADORES.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structutilizador_1ade1e35363a9e73ac0443d514809a2ed2" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int id_uti</definition>
+        <argsstring></argsstring>
+        <name>id_uti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="5" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="5" bodyend="-1"/>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="65" endline="97">inserir_u</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structutilizador_1a9073385a3e289a31c348400685f9ec30" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char nome_uti[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>nome_uti</name>
+        <briefdescription>
+<para>ID do utilizador. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="6" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structutilizador_1a02cac4787c82da8aa24aa640d9f9f4e8" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char mail[60]</definition>
+        <argsstring>[60]</argsstring>
+        <name>mail</name>
+        <briefdescription>
+<para>Nome do Utilizador. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="7" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structutilizador_1aaee503890dbae4a98b7f7be5fd927cb0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dn[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>dn</name>
+        <briefdescription>
+<para>Email do utilizador. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="8" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structutilizador_1ac061470c693046faeb6b26265dff592f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tele</definition>
+        <argsstring></argsstring>
+        <name>tele</name>
+        <briefdescription>
+<para>Data de Nascimento. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="9" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structutilizador_1a876d08c1d21086e4fd228744da10d028" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int estado</definition>
+        <argsstring></argsstring>
+        <name>estado</name>
+        <briefdescription>
+<para>Telefone/Telemóvel. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="10" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a0ec030ae5d28bb3d4afa78c75f244667" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="14" endline="38">ler_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a5e68fd833522d40a62009b56c8f2c37f" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="65" endline="97">inserir_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1a41f3d76f47e2459f90c909db59a958b5" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="99" endline="127">editar_u</referencedby>
+        <referencedby refid="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h_1aa8434c82c844e4d6f4dceae0a9ec11b6" compoundref="1_81__menu_u_t_i_l_i_z_a_d_o_r_e_s_8h" startline="129" endline="156">eliminar_u</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" line="4" column="1" bodyfile="C:/Users/user/Documents/GitHub/Bibliotecas-Universal/Doxygen/bibliotecaTPPI/source/1.1_menuUTILIZADORES.h" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="structutilizador_1aaee503890dbae4a98b7f7be5fd927cb0" prot="public" virt="non-virtual"><scope>utilizador</scope><name>dn</name></member>
+      <member refid="structutilizador_1a876d08c1d21086e4fd228744da10d028" prot="public" virt="non-virtual"><scope>utilizador</scope><name>estado</name></member>
+      <member refid="structutilizador_1ade1e35363a9e73ac0443d514809a2ed2" prot="public" virt="non-virtual"><scope>utilizador</scope><name>id_uti</name></member>
+      <member refid="structutilizador_1a02cac4787c82da8aa24aa640d9f9f4e8" prot="public" virt="non-virtual"><scope>utilizador</scope><name>mail</name></member>
+      <member refid="structutilizador_1a9073385a3e289a31c348400685f9ec30" prot="public" virt="non-virtual"><scope>utilizador</scope><name>nome_uti</name></member>
+      <member refid="structutilizador_1ac061470c693046faeb6b26265dff592f" prot="public" virt="non-virtual"><scope>utilizador</scope><name>tele</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
