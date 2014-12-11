@@ -1,7 +1,10 @@
-Entrega do trabalho: 11/12/14
+Entrega do trabalho: 11/12/1
 
-- Relatório (completar/modificar)
-- Software: git +zip
-- Documentação: (doxy) zip
-- Redmine (calendário, wiki...)
-- Website (?)
+
+
+- Relatório
+- PowerPoint
+- Menus
+- ZIP GIT (contém lá dentro o software(o codigo todo) e também o doxygen
+- WebSite
+- Redmine
